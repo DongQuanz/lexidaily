@@ -1,0 +1,11 @@
+[
+  {
+    "id": "lexidaily_demo",
+    "name": "LexiDaily Original Demo",
+    "sourceType": "CUSTOM",
+    "licenseType": "Original content — included with this project",
+    "isBundled": true,
+    "priority": 0.5,
+    "description": "Original definitions and examples. CEFR and IELTS relevance are editorial estimates. This is not the full NGSL or NAWL corpus."
+  }
+]

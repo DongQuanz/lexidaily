@@ -1,0 +1,32 @@
+[
+  {
+    "rootLexemeId": "analyse",
+    "relatedLexemeId": "analysis",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "analyse",
+    "relatedLexemeId": "analytical",
+    "relation": "ADJECTIVE_FORM"
+  },
+  {
+    "rootLexemeId": "analysis",
+    "relatedLexemeId": "analyse",
+    "relation": "VERB_FORM"
+  },
+  {
+    "rootLexemeId": "significant",
+    "relatedLexemeId": "significance",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "significant",
+    "relatedLexemeId": "significantly",
+    "relation": "ADVERB_FORM"
+  },
+  {
+    "rootLexemeId": "innovation",
+    "relatedLexemeId": "innovative",
+    "relation": "ADJECTIVE_FORM"
+  }
+]

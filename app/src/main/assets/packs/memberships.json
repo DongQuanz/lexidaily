@@ -1,0 +1,814 @@
+[
+  {
+    "packId": "general",
+    "lexemeId": "sustainable"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "mitigate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "biodiversity"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "emission"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "conservation"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "renewable"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "habitat"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "ecosystem"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "pollution"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "scarce"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "deplete"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "resilient"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "adapt"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "preserve"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "consume"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "impact"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "innovation"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "automate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "efficient"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "accessible"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "infrastructure"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "integrate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "reliable"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "privacy"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "digital"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "emerge"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "transform"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "innovative"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "curriculum"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "acquire"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "assess"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "literacy"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "retain"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "motivate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "comprehension"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "discipline"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "collaborate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "feedback"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "significant"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "evidence"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "analyse"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "analysis"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "analytical"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "evaluate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "hypothesis"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "variable"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "objective"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "inevitable"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "significance"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "significantly"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "equity"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "diverse"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "cohesion"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "urbanisation"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "demographic"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "community"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "welfare"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "access"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "prevent"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "nutrition"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "sedentary"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "chronic"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "wellbeing"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "intervention"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "incentive"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "revenue"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "allocate"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "investment"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "productivity"
+  },
+  {
+    "packId": "general",
+    "lexemeId": "fluctuate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "sustainable"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "mitigate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "biodiversity"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "emission"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "conservation"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "renewable"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "habitat"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "ecosystem"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "scarce"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "deplete"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "resilient"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "adapt"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "preserve"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "consume"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "innovation"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "automate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "efficient"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "accessible"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "infrastructure"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "integrate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "privacy"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "emerge"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "transform"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "innovative"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "curriculum"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "acquire"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "assess"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "literacy"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "retain"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "motivate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "comprehension"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "discipline"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "collaborate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "feedback"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "significant"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "evidence"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "analyse"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "analysis"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "analytical"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "evaluate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "hypothesis"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "variable"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "objective"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "inevitable"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "significance"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "significantly"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "equity"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "diverse"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "cohesion"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "urbanisation"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "demographic"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "welfare"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "nutrition"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "sedentary"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "chronic"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "wellbeing"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "intervention"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "incentive"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "revenue"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "allocate"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "investment"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "productivity"
+  },
+  {
+    "packId": "academic",
+    "lexemeId": "fluctuate"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "sustainable"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "mitigate"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "biodiversity"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "emission"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "conservation"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "renewable"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "habitat"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "ecosystem"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "pollution"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "scarce"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "deplete"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "resilient"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "adapt"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "preserve"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "consume"
+  },
+  {
+    "packId": "ielts_environment",
+    "lexemeId": "impact"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "innovation"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "automate"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "efficient"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "accessible"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "infrastructure"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "integrate"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "reliable"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "privacy"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "digital"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "emerge"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "transform"
+  },
+  {
+    "packId": "ielts_technology",
+    "lexemeId": "innovative"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "curriculum"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "acquire"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "assess"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "literacy"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "retain"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "motivate"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "comprehension"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "discipline"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "collaborate"
+  },
+  {
+    "packId": "ielts_education",
+    "lexemeId": "feedback"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "significant"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "evidence"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "analyse"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "analysis"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "analytical"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "evaluate"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "hypothesis"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "variable"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "objective"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "inevitable"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "significance"
+  },
+  {
+    "packId": "ielts_research",
+    "lexemeId": "significantly"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "equity"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "diverse"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "cohesion"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "urbanisation"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "demographic"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "community"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "welfare"
+  },
+  {
+    "packId": "ielts_society",
+    "lexemeId": "access"
+  },
+  {
+    "packId": "ielts_health",
+    "lexemeId": "prevent"
+  },
+  {
+    "packId": "ielts_health",
+    "lexemeId": "nutrition"
+  },
+  {
+    "packId": "ielts_health",
+    "lexemeId": "sedentary"
+  },
+  {
+    "packId": "ielts_health",
+    "lexemeId": "chronic"
+  },
+  {
+    "packId": "ielts_health",
+    "lexemeId": "wellbeing"
+  },
+  {
+    "packId": "ielts_health",
+    "lexemeId": "intervention"
+  },
+  {
+    "packId": "ielts_business",
+    "lexemeId": "incentive"
+  },
+  {
+    "packId": "ielts_business",
+    "lexemeId": "revenue"
+  },
+  {
+    "packId": "ielts_business",
+    "lexemeId": "allocate"
+  },
+  {
+    "packId": "ielts_business",
+    "lexemeId": "investment"
+  },
+  {
+    "packId": "ielts_business",
+    "lexemeId": "productivity"
+  },
+  {
+    "packId": "ielts_business",
+    "lexemeId": "fluctuate"
+  }
+]

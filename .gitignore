@@ -1,0 +1,46 @@
+# Internal project documents and working notes
+/docs/
+/qa/
+/internal/
+/AGENTS.md
+/.codex/
+
+# Local IDE and build state
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+**/build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Generated packages, logs and runtime caches
+*.apk
+*.aab
+*.log
+*.hprof
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Unbundled external source datasets
+data_pipeline/raw/*
+!data_pipeline/raw/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

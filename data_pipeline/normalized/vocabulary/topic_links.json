@@ -1,0 +1,354 @@
+[
+  {
+    "lexemeId": "sustainable",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "sustainable",
+    "topicId": "climate"
+  },
+  {
+    "lexemeId": "sustainable",
+    "topicId": "energy"
+  },
+  {
+    "lexemeId": "mitigate",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "biodiversity",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "emission",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "emission",
+    "topicId": "climate"
+  },
+  {
+    "lexemeId": "emission",
+    "topicId": "energy"
+  },
+  {
+    "lexemeId": "conservation",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "renewable",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "renewable",
+    "topicId": "climate"
+  },
+  {
+    "lexemeId": "renewable",
+    "topicId": "energy"
+  },
+  {
+    "lexemeId": "habitat",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "ecosystem",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "pollution",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "scarce",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "deplete",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "resilient",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "adapt",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "preserve",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "consume",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "impact",
+    "topicId": "environment"
+  },
+  {
+    "lexemeId": "innovation",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "automate",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "efficient",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "accessible",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "infrastructure",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "integrate",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "reliable",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "privacy",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "digital",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "emerge",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "transform",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "innovative",
+    "topicId": "technology"
+  },
+  {
+    "lexemeId": "curriculum",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "acquire",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "assess",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "literacy",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "retain",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "motivate",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "comprehension",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "discipline",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "collaborate",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "feedback",
+    "topicId": "education"
+  },
+  {
+    "lexemeId": "significant",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "significant",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "evidence",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "evidence",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "analyse",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "analyse",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "analysis",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "analysis",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "analytical",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "analytical",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "evaluate",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "evaluate",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "hypothesis",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "hypothesis",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "variable",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "variable",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "objective",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "objective",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "inevitable",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "inevitable",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "significance",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "significance",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "significantly",
+    "topicId": "research"
+  },
+  {
+    "lexemeId": "significantly",
+    "topicId": "science"
+  },
+  {
+    "lexemeId": "equity",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "diverse",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "cohesion",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "urbanisation",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "demographic",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "community",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "welfare",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "access",
+    "topicId": "society"
+  },
+  {
+    "lexemeId": "prevent",
+    "topicId": "health"
+  },
+  {
+    "lexemeId": "nutrition",
+    "topicId": "health"
+  },
+  {
+    "lexemeId": "sedentary",
+    "topicId": "health"
+  },
+  {
+    "lexemeId": "chronic",
+    "topicId": "health"
+  },
+  {
+    "lexemeId": "wellbeing",
+    "topicId": "health"
+  },
+  {
+    "lexemeId": "intervention",
+    "topicId": "health"
+  },
+  {
+    "lexemeId": "incentive",
+    "topicId": "business"
+  },
+  {
+    "lexemeId": "revenue",
+    "topicId": "business"
+  },
+  {
+    "lexemeId": "allocate",
+    "topicId": "business"
+  },
+  {
+    "lexemeId": "investment",
+    "topicId": "business"
+  },
+  {
+    "lexemeId": "productivity",
+    "topicId": "business"
+  },
+  {
+    "lexemeId": "fluctuate",
+    "topicId": "business"
+  }
+]

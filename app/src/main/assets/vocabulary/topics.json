@@ -1,0 +1,130 @@
+[
+  {
+    "id": "education",
+    "name": "Education"
+  },
+  {
+    "id": "environment",
+    "name": "Environment"
+  },
+  {
+    "id": "technology",
+    "name": "Technology"
+  },
+  {
+    "id": "health",
+    "name": "Health"
+  },
+  {
+    "id": "science",
+    "name": "Science"
+  },
+  {
+    "id": "work",
+    "name": "Work"
+  },
+  {
+    "id": "business",
+    "name": "Business"
+  },
+  {
+    "id": "economics",
+    "name": "Economics"
+  },
+  {
+    "id": "society",
+    "name": "Society"
+  },
+  {
+    "id": "government",
+    "name": "Government"
+  },
+  {
+    "id": "crime",
+    "name": "Crime"
+  },
+  {
+    "id": "transport",
+    "name": "Transport"
+  },
+  {
+    "id": "urbanisation",
+    "name": "Urbanisation"
+  },
+  {
+    "id": "housing",
+    "name": "Housing"
+  },
+  {
+    "id": "culture",
+    "name": "Culture"
+  },
+  {
+    "id": "media",
+    "name": "Media"
+  },
+  {
+    "id": "advertising",
+    "name": "Advertising"
+  },
+  {
+    "id": "tourism",
+    "name": "Tourism"
+  },
+  {
+    "id": "food",
+    "name": "Food"
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture"
+  },
+  {
+    "id": "energy",
+    "name": "Energy"
+  },
+  {
+    "id": "climate",
+    "name": "Climate"
+  },
+  {
+    "id": "nature",
+    "name": "Nature"
+  },
+  {
+    "id": "psychology",
+    "name": "Psychology"
+  },
+  {
+    "id": "communication",
+    "name": "Communication"
+  },
+  {
+    "id": "family",
+    "name": "Family"
+  },
+  {
+    "id": "children",
+    "name": "Children"
+  },
+  {
+    "id": "ageing",
+    "name": "Ageing"
+  },
+  {
+    "id": "globalisation",
+    "name": "Globalisation"
+  },
+  {
+    "id": "history",
+    "name": "History"
+  },
+  {
+    "id": "art",
+    "name": "Art"
+  },
+  {
+    "id": "research",
+    "name": "Research"
+  }
+]

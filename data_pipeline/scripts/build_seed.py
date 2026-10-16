@@ -1,0 +1,155 @@
+"""Build original demonstration content; no external lexical corpus is bundled."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / "data_pipeline/normalized"
+# lemma | POS | CEFR | Vietnamese | original definition | original example | IPA | collocations | paraphrase
+DATA = {
+"environment": """
+sustainable|adjective|B2|bền vững|Able to continue without exhausting resources.|The city needs a sustainable transport system.|/səˈsteɪnəbl/|sustainable development;sustainable energy|lasting
+mitigate|verb|C1|giảm nhẹ|To make a harmful effect less severe.|Planting trees can mitigate urban heat.|/ˈmɪtɪɡeɪt/|mitigate risks;mitigate the impact|alleviate
+biodiversity|noun|C1|đa dạng sinh học|The variety of living organisms in an area.|The wetland supports remarkable biodiversity.|/ˌbaɪəʊdaɪˈvɜːsəti/|protect biodiversity;biodiversity loss|biological diversity
+emission|noun|B2|sự phát thải|The release of a substance into the environment.|The factory tracks each emission carefully.|/ɪˈmɪʃn/|carbon emissions;reduce emissions|release
+conservation|noun|B2|sự bảo tồn|The protection of natural resources and living things.|Community conservation protects this forest.|/ˌkɒnsəˈveɪʃn/|wildlife conservation;energy conservation|preservation
+renewable|adjective|B2|có thể tái tạo|Replaced naturally as it is used.|Wind is a renewable source of energy.|/rɪˈnjuːəbl/|renewable energy;renewable resources|replenishable
+habitat|noun|B2|môi trường sống|The natural place where an organism lives.|A healthy habitat provides food and shelter.|/ˈhæbɪtæt/|natural habitat;habitat loss|natural home
+ecosystem|noun|B2|hệ sinh thái|A community of organisms and its physical surroundings.|Pollution can disrupt an entire ecosystem.|/ˈiːkəʊsɪstəm/|marine ecosystem;fragile ecosystem|ecological system
+pollution|noun|B1|sự ô nhiễm|Harmful substances introduced into the environment.|Cleaner buses help reduce air pollution.|/pəˈluːʃn/|air pollution;noise pollution|contamination
+scarce|adjective|C1|khan hiếm|Available only in small amounts.|Clean water becomes scarce during a drought.|/skeəs/|scarce resources;increasingly scarce|limited
+deplete|verb|C1|làm cạn kiệt|To reduce the supply of something substantially.|Heavy irrigation can deplete groundwater.|/dɪˈpliːt/|deplete resources;deplete reserves|use up
+resilient|adjective|C1|có khả năng phục hồi|Able to recover after stress or damage.|Native plants make the garden more resilient.|/rɪˈzɪliənt/|resilient communities;climate resilient|adaptable
+adapt|verb|B2|thích nghi|To change in response to a new situation.|Farmers must adapt to changing rainfall.|/əˈdæpt/|adapt to change;adapt quickly|adjust
+preserve|verb|B2|gìn giữ|To keep something safe from loss or damage.|The project will preserve a coastal forest.|/prɪˈzɜːv/|preserve wildlife;preserve resources|protect
+consume|verb|B2|tiêu thụ|To use a resource or amount of energy.|Older appliances consume more electricity.|/kənˈsjuːm/|consume energy;consume resources|use
+impact|noun|B1|tác động|A strong effect on a person or situation.|The policy has a positive impact on air quality.|/ˈɪmpækt/|environmental impact;significant impact|effect
+""",
+"technology": """
+innovation|noun|B2|sự đổi mới|The creation or introduction of a new useful idea.|This innovation makes batteries easier to recycle.|/ˌɪnəˈveɪʃn/|technological innovation;encourage innovation|new development
+automate|verb|C1|tự động hóa|To make a process operate with little human control.|Small firms can automate repetitive tasks.|/ˈɔːtəmeɪt/|automate processes;automate production|mechanise
+efficient|adjective|B2|hiệu quả|Achieving results with little waste of time or energy.|The new engine is more efficient.|/ɪˈfɪʃnt/|energy efficient;highly efficient|effective with little waste
+accessible|adjective|B2|dễ tiếp cận|Easy for people to reach, enter, or use.|The library makes digital tools accessible.|/əkˈsesəbl/|easily accessible;accessible technology|easy to use
+infrastructure|noun|C1|cơ sở hạ tầng|The basic systems that allow a place to function.|Reliable digital infrastructure supports remote work.|/ˈɪnfrəstrʌktʃə/|digital infrastructure;public infrastructure|basic systems
+integrate|verb|B2|tích hợp|To combine parts into a working whole.|The team will integrate feedback into the design.|/ˈɪntɪɡreɪt/|integrate technology;fully integrate|combine
+reliable|adjective|B1|đáng tin cậy|Working well and able to be trusted.|A reliable connection is essential for online lessons.|/rɪˈlaɪəbl/|reliable data;reliable service|dependable
+privacy|noun|B2|sự riêng tư|Freedom from unwanted access to personal information.|The app gives users control over their privacy.|/ˈprɪvəsi/|protect privacy;data privacy|personal confidentiality
+digital|adjective|B1|thuộc kỹ thuật số|Using information stored as electronic signals.|The school provides digital learning materials.|/ˈdɪdʒɪtl/|digital literacy;digital access|electronic
+emerge|verb|B2|xuất hiện|To become visible or begin to exist.|New opportunities emerge as technology develops.|/ɪˈmɜːdʒ/|emerge gradually;emerging technology|appear
+transform|verb|B2|biến đổi|To change something greatly in form or function.|Better tools can transform daily work.|/trænsˈfɔːm/|transform society;transform the way|reshape
+innovative|adjective|B2|có tính đổi mới|Using original and useful approaches.|The team proposed an innovative design.|/ˈɪnəveɪtɪv/|innovative solution;innovative approach|inventive
+""",
+"education": """
+curriculum|noun|B2|chương trình học|The subjects and content taught in a course.|The curriculum includes practical science projects.|/kəˈrɪkjələm/|school curriculum;develop a curriculum|course programme
+acquire|verb|B2|tiếp thu|To gain knowledge, a skill, or a possession.|Children acquire language through interaction.|/əˈkwaɪə/|acquire skills;acquire knowledge|gain
+assess|verb|B2|đánh giá|To examine something in order to judge it.|Teachers assess progress throughout the course.|/əˈses/|assess performance;assess the impact|evaluate
+literacy|noun|C1|khả năng đọc viết|The ability to read and write effectively.|The programme improves adult literacy.|/ˈlɪtərəsi/|digital literacy;literacy skills|reading and writing ability
+retain|verb|B2|ghi nhớ, giữ lại|To keep something over time.|Regular practice helps learners retain vocabulary.|/rɪˈteɪn/|retain information;retain knowledge|keep
+motivate|verb|B2|tạo động lực|To give someone a reason to act.|Clear goals motivate students to practise.|/ˈməʊtɪveɪt/|motivate learners;highly motivated|encourage
+comprehension|noun|C1|sự hiểu biết|The ability to understand information.|Reading slowly can improve comprehension.|/ˌkɒmprɪˈhenʃn/|reading comprehension;comprehension skills|understanding
+discipline|noun|B2|tính kỷ luật|The ability to follow a plan and control behaviour.|Daily practice builds discipline.|/ˈdɪsəplɪn/|self discipline;academic discipline|self control
+collaborate|verb|C1|cộng tác|To work with others towards a shared result.|Students collaborate on a research project.|/kəˈlæbəreɪt/|collaborate closely;collaborate with peers|work together
+feedback|noun|B2|ý kiến phản hồi|Information given to help improve performance.|Specific feedback helps writers revise their work.|/ˈfiːdbæk/|constructive feedback;provide feedback|response
+""",
+"research": """
+significant|adjective|B2|đáng kể|Large or important enough to deserve attention.|The study found a significant difference.|/sɪɡˈnɪfɪkənt/|significant increase;significant difference|substantial
+evidence|noun|B2|bằng chứng|Information that supports a conclusion.|The team collected evidence before drawing conclusions.|/ˈevɪdəns/|strong evidence;empirical evidence|supporting information
+analyse|verb|B2|phân tích|To study parts of something to understand it.|Researchers analyse the results carefully.|/ˈænəlaɪz/|analyse data;analyse results|examine
+analysis|noun|B2|sự phân tích|A detailed examination of information.|The analysis revealed an unexpected pattern.|/əˈnæləsɪs/|data analysis;detailed analysis|examination
+analytical|adjective|C1|có tính phân tích|Using careful examination and reasoning.|The task requires analytical thinking.|/ˌænəˈlɪtɪkl/|analytical skills;analytical approach|systematic
+evaluate|verb|B2|thẩm định|To judge the quality or value of something.|We evaluate each method against the same criteria.|/ɪˈvæljueɪt/|evaluate effectiveness;evaluate outcomes|assess
+hypothesis|noun|C1|giả thuyết|A proposed explanation that can be tested.|The experiment tests a simple hypothesis.|/haɪˈpɒθəsɪs/|test a hypothesis;form a hypothesis|testable explanation
+variable|noun|B2|biến số|A factor that can change in a study.|Temperature is an important variable in this experiment.|/ˈveəriəbl/|independent variable;control a variable|changing factor
+objective|adjective|B2|khách quan|Based on facts rather than personal preferences.|A clear rubric helps make assessment objective.|/əbˈdʒektɪv/|objective assessment;objective evidence|impartial
+inevitable|adjective|B2|không thể tránh khỏi|Certain to happen and impossible to prevent.|Some uncertainty is inevitable in research.|/ɪnˈevɪtəbl/|almost inevitable;inevitable consequence|unavoidable
+significance|noun|C1|tầm quan trọng|The importance or meaning of something.|The findings have practical significance.|/sɪɡˈnɪfɪkəns/|practical significance;statistical significance|importance
+significantly|adverb|B2|một cách đáng kể|To a degree that is important or noticeable.|The revised method performed significantly better.|/sɪɡˈnɪfɪkəntli/|increase significantly;significantly different|considerably
+""",
+"society": """
+equity|noun|C1|sự công bằng|Fair treatment that considers different needs.|The policy aims to improve equity in education.|/ˈekwəti/|social equity;promote equity|fairness
+diverse|adjective|B2|đa dạng|Including many different kinds of people or things.|The neighbourhood has a diverse population.|/daɪˈvɜːs/|diverse backgrounds;diverse communities|varied
+cohesion|noun|C1|sự gắn kết|The strength of the connections within a group.|Shared public spaces can support social cohesion.|/kəʊˈhiːʒn/|social cohesion;community cohesion|unity
+urbanisation|noun|C1|đô thị hóa|The growth of towns and cities as people move there.|Rapid urbanisation increases demand for housing.|/ˌɜːbənaɪˈzeɪʃn/|rapid urbanisation;urbanisation rate|urban growth
+demographic|adjective|C1|thuộc nhân khẩu học|Related to the characteristics of a population.|Demographic change affects public services.|/ˌdeməˈɡræfɪk/|demographic change;demographic trends|population related
+community|noun|B1|cộng đồng|People connected by a place or shared interest.|The community created a public garden.|/kəˈmjuːnəti/|local community;community support|local group
+welfare|noun|B2|phúc lợi|The health and well-being of people.|Public services support community welfare.|/ˈwelfeə/|social welfare;public welfare|well-being
+access|noun|B1|khả năng tiếp cận|The opportunity or ability to use something.|Equal access to education benefits society.|/ˈækses/|equal access;access to services|opportunity to use
+""",
+"health": """
+prevent|verb|B1|ngăn ngừa|To stop something from happening.|Regular exercise can prevent some health problems.|/prɪˈvent/|prevent disease;prevent injury|stop from happening
+nutrition|noun|B2|dinh dưỡng|The process of obtaining nutrients from food.|Good nutrition supports recovery.|/njuˈtrɪʃn/|balanced nutrition;nutrition education|nourishment
+sedentary|adjective|C1|ít vận động|Involving long periods of sitting.|A sedentary routine can affect physical health.|/ˈsedntri/|sedentary lifestyle;sedentary work|inactive
+chronic|adjective|C1|mạn tính|Continuing for a long time or recurring often.|The clinic helps people manage chronic pain.|/ˈkrɒnɪk/|chronic disease;chronic pain|long lasting
+wellbeing|noun|B2|sức khỏe và trạng thái hạnh phúc|The state of feeling healthy and content.|Green spaces support mental wellbeing.|/ˌwelˈbiːɪŋ/|mental wellbeing;improve wellbeing|wellness
+intervention|noun|C1|biện pháp can thiệp|An action intended to improve a situation.|Early intervention can improve patient outcomes.|/ˌɪntəˈvenʃn/|early intervention;effective intervention|targeted action
+""",
+"business": """
+incentive|noun|C1|động lực khuyến khích|Something that encourages a person to act.|The grant provides an incentive to save energy.|/ɪnˈsentɪv/|financial incentive;provide an incentive|encouragement
+revenue|noun|B2|doanh thu|Money received by an organisation from its activities.|The company invested part of its revenue in training.|/ˈrevənjuː/|annual revenue;generate revenue|income
+allocate|verb|C1|phân bổ|To assign resources for a particular purpose.|The council will allocate funds to public transport.|/ˈæləkeɪt/|allocate resources;allocate funding|assign
+investment|noun|B2|sự đầu tư|The use of money or effort for a future benefit.|Investment in skills can raise productivity.|/ɪnˈvestmənt/|long term investment;public investment|commitment of resources
+productivity|noun|C1|năng suất|The amount produced relative to resources used.|Better equipment can improve productivity.|/ˌprɒdʌkˈtɪvəti/|increase productivity;labour productivity|output efficiency
+fluctuate|verb|C1|dao động|To rise and fall rather than stay steady.|Energy prices fluctuate throughout the year.|/ˈflʌktʃueɪt/|fluctuate widely;fluctuate over time|vary
+"""
+}
+TAXONOMY = "Education Environment Technology Health Science Work Business Economics Society Government Crime Transport Urbanisation Housing Culture Media Advertising Tourism Food Agriculture Energy Climate Nature Psychology Communication Family Children Ageing Globalisation History Art Research".split()
+
+def write(relative, data):
+    for root in (OUT, ROOT / "app/src/main/assets"):
+        path = root / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+def build():
+    lexemes, senses, pronunciations, links, collocations, paraphrases, occurrences = [], [], [], [], [], [], []
+    for topic, content in DATA.items():
+        for row in content.strip().splitlines():
+            lemma, pos, cefr, vi, definition, example, ipa, colloc, synonym = row.split('|')
+            sid = f"{lemma}_{pos}_01"
+            academic = .8 if cefr == "C1" or topic == "research" else .6 if cefr == "B2" else .3
+            lexemes.append(dict(id=lemma, lemma=lemma, academicScore=academic,
+                ieltsRelevanceScore=round(academic * .8 + .15, 2), productivePriority=.8,
+                difficultyScore=.7 if cefr == "C1" else .4, lexicalDataSource="lexidaily_demo",
+                cefrSource="LexiDaily editorial estimate (not EVP)", frequencySource="Not ranked"))
+            senses.append(dict(id=sid, lexemeId=lemma, partOfSpeech=pos, definitionEn=definition,
+                meaningVi=vi, cefrLevel=cefr, register="academic" if academic >= .8 else "neutral",
+                exampleEn=example, exampleVi="", commonError="Learn this sense with its collocations; near synonyms may differ in use."))
+            pronunciations.append(dict(senseId=sid, ipaBr=ipa))
+            topics = [topic] + (["science"] if topic == "research" else []) + (["climate", "energy"] if topic == "environment" and lemma in ("renewable", "emission", "sustainable") else [])
+            links.extend(dict(lexemeId=lemma, topicId=t) for t in topics)
+            collocations.extend(dict(id=f"{sid}_{i}", senseId=sid, text=c) for i, c in enumerate(colloc.split(';')))
+            paraphrases.append(dict(senseId=sid, text=synonym, relationType="NEAR_SYNONYM"))
+            for skill in ("Reading", "Writing"):
+                occurrences.append(dict(id=f"demo_{lemma}_{skill.lower()}", lexemeId=lemma, senseId=sid,
+                    sourcePackId="lexidaily_demo", skill=skill, topic=topic,
+                    sourceLocator="Original editorial demonstration; not an IELTS test occurrence", occurrenceCount=1))
+    families = [dict(rootLexemeId=root, relatedLexemeId=related, relation=relation) for root, related, relation in (
+        ("analyse", "analysis", "NOUN_FORM"), ("analyse", "analytical", "ADJECTIVE_FORM"),
+        ("analysis", "analyse", "VERB_FORM"), ("significant", "significance", "NOUN_FORM"),
+        ("significant", "significantly", "ADVERB_FORM"), ("innovation", "innovative", "ADJECTIVE_FORM"))]
+    sources = [dict(id="lexidaily_demo", name="LexiDaily Original Demo", sourceType="CUSTOM",
+        licenseType="Original content — included with this project", isBundled=True, priority=.5,
+        description="Original definitions and examples. CEFR and IELTS relevance are editorial estimates. This is not the full NGSL or NAWL corpus.")]
+    catalog = [dict(id="ngsl", name="NGSL", sourceType="OPEN_WORDLIST", licenseType="External dataset — not bundled", isBundled=False,
+        description="Compatible source slot; import a licensed, validated wordlist to populate."),
+        dict(id="nawl", name="NAWL", sourceType="OPEN_WORDLIST", licenseType="External dataset — not bundled", isBundled=False,
+        description="Compatible academic wordlist slot; no NAWL membership is asserted by the demo.")]
+    packs = [dict(id="general", name="General English · Demo", description="Original vocabulary for everyday and academic contexts."),
+        dict(id="academic", name="Academic Core · Demo", description="Editorial academic selection, not the full NAWL list.")]
+    pack_words = [dict(packId="general", lexemeId=w['id']) for w in lexemes]
+    pack_words += [dict(packId="academic", lexemeId=w['id']) for w in lexemes if w['academicScore'] >= .6]
+    for topic in DATA:
+        packs.append(dict(id=f"ielts_{topic}", name=f"{topic.title()} · IELTS Demo", description="Topic practice using original material; relevance is heuristic."))
+        pack_words += [dict(packId=f"ielts_{topic}", lexemeId=link['lexemeId']) for link in links if link['topicId'] == topic]
+    for name, data in (("lexemes", lexemes), ("senses", senses), ("pronunciations", pronunciations),
+        ("collocations", collocations), ("word_families", families), ("paraphrases", paraphrases),
+        ("topics", [dict(id=t.lower(), name=t) for t in TAXONOMY]), ("topic_links", links)):
+        write(f"vocabulary/{name}.json", data)
+    write("sources/demo.json", sources)
+    write("sources/ngsl.json", catalog[:1]); write("sources/nawl.json", catalog[1:])
+    write("sources/occurrences.json", occurrences)
+    write("packs/general.json", packs[:1]); write("packs/academic.json", packs[1:2]); write("packs/ielts_topics.json", packs[2:])
+    write("packs/memberships.json", pack_words)
+    write("manifest.json", dict(version=1, lexemes=len(lexemes), description="Original demonstration seed"))
+    print(f"Built {len(lexemes)} lexemes, {len(senses)} senses, {len(occurrences)} editorial source links.")
+
+if __name__ == '__main__': build()

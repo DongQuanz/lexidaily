@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "demo_sustainable_reading",
+    "lexemeId": "sustainable",
+    "senseId": "sustainable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_sustainable_writing",
+    "lexemeId": "sustainable",
+    "senseId": "sustainable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_mitigate_reading",
+    "lexemeId": "mitigate",
+    "senseId": "mitigate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_mitigate_writing",
+    "lexemeId": "mitigate",
+    "senseId": "mitigate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_biodiversity_reading",
+    "lexemeId": "biodiversity",
+    "senseId": "biodiversity_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_biodiversity_writing",
+    "lexemeId": "biodiversity",
+    "senseId": "biodiversity_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_emission_reading",
+    "lexemeId": "emission",
+    "senseId": "emission_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_emission_writing",
+    "lexemeId": "emission",
+    "senseId": "emission_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_conservation_reading",
+    "lexemeId": "conservation",
+    "senseId": "conservation_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_conservation_writing",
+    "lexemeId": "conservation",
+    "senseId": "conservation_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_renewable_reading",
+    "lexemeId": "renewable",
+    "senseId": "renewable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_renewable_writing",
+    "lexemeId": "renewable",
+    "senseId": "renewable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_habitat_reading",
+    "lexemeId": "habitat",
+    "senseId": "habitat_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_habitat_writing",
+    "lexemeId": "habitat",
+    "senseId": "habitat_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_ecosystem_reading",
+    "lexemeId": "ecosystem",
+    "senseId": "ecosystem_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_ecosystem_writing",
+    "lexemeId": "ecosystem",
+    "senseId": "ecosystem_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_pollution_reading",
+    "lexemeId": "pollution",
+    "senseId": "pollution_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_pollution_writing",
+    "lexemeId": "pollution",
+    "senseId": "pollution_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_scarce_reading",
+    "lexemeId": "scarce",
+    "senseId": "scarce_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_scarce_writing",
+    "lexemeId": "scarce",
+    "senseId": "scarce_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_deplete_reading",
+    "lexemeId": "deplete",
+    "senseId": "deplete_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_deplete_writing",
+    "lexemeId": "deplete",
+    "senseId": "deplete_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_resilient_reading",
+    "lexemeId": "resilient",
+    "senseId": "resilient_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_resilient_writing",
+    "lexemeId": "resilient",
+    "senseId": "resilient_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_adapt_reading",
+    "lexemeId": "adapt",
+    "senseId": "adapt_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_adapt_writing",
+    "lexemeId": "adapt",
+    "senseId": "adapt_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_preserve_reading",
+    "lexemeId": "preserve",
+    "senseId": "preserve_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_preserve_writing",
+    "lexemeId": "preserve",
+    "senseId": "preserve_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_consume_reading",
+    "lexemeId": "consume",
+    "senseId": "consume_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_consume_writing",
+    "lexemeId": "consume",
+    "senseId": "consume_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_impact_reading",
+    "lexemeId": "impact",
+    "senseId": "impact_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_impact_writing",
+    "lexemeId": "impact",
+    "senseId": "impact_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "environment",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_innovation_reading",
+    "lexemeId": "innovation",
+    "senseId": "innovation_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_innovation_writing",
+    "lexemeId": "innovation",
+    "senseId": "innovation_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_automate_reading",
+    "lexemeId": "automate",
+    "senseId": "automate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_automate_writing",
+    "lexemeId": "automate",
+    "senseId": "automate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_efficient_reading",
+    "lexemeId": "efficient",
+    "senseId": "efficient_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_efficient_writing",
+    "lexemeId": "efficient",
+    "senseId": "efficient_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_accessible_reading",
+    "lexemeId": "accessible",
+    "senseId": "accessible_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_accessible_writing",
+    "lexemeId": "accessible",
+    "senseId": "accessible_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_infrastructure_reading",
+    "lexemeId": "infrastructure",
+    "senseId": "infrastructure_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_infrastructure_writing",
+    "lexemeId": "infrastructure",
+    "senseId": "infrastructure_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_integrate_reading",
+    "lexemeId": "integrate",
+    "senseId": "integrate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_integrate_writing",
+    "lexemeId": "integrate",
+    "senseId": "integrate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_reliable_reading",
+    "lexemeId": "reliable",
+    "senseId": "reliable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_reliable_writing",
+    "lexemeId": "reliable",
+    "senseId": "reliable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_privacy_reading",
+    "lexemeId": "privacy",
+    "senseId": "privacy_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_privacy_writing",
+    "lexemeId": "privacy",
+    "senseId": "privacy_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_digital_reading",
+    "lexemeId": "digital",
+    "senseId": "digital_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_digital_writing",
+    "lexemeId": "digital",
+    "senseId": "digital_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_emerge_reading",
+    "lexemeId": "emerge",
+    "senseId": "emerge_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_emerge_writing",
+    "lexemeId": "emerge",
+    "senseId": "emerge_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_transform_reading",
+    "lexemeId": "transform",
+    "senseId": "transform_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_transform_writing",
+    "lexemeId": "transform",
+    "senseId": "transform_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_innovative_reading",
+    "lexemeId": "innovative",
+    "senseId": "innovative_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_innovative_writing",
+    "lexemeId": "innovative",
+    "senseId": "innovative_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "technology",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_curriculum_reading",
+    "lexemeId": "curriculum",
+    "senseId": "curriculum_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_curriculum_writing",
+    "lexemeId": "curriculum",
+    "senseId": "curriculum_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_acquire_reading",
+    "lexemeId": "acquire",
+    "senseId": "acquire_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_acquire_writing",
+    "lexemeId": "acquire",
+    "senseId": "acquire_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_assess_reading",
+    "lexemeId": "assess",
+    "senseId": "assess_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_assess_writing",
+    "lexemeId": "assess",
+    "senseId": "assess_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_literacy_reading",
+    "lexemeId": "literacy",
+    "senseId": "literacy_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_literacy_writing",
+    "lexemeId": "literacy",
+    "senseId": "literacy_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_retain_reading",
+    "lexemeId": "retain",
+    "senseId": "retain_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_retain_writing",
+    "lexemeId": "retain",
+    "senseId": "retain_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_motivate_reading",
+    "lexemeId": "motivate",
+    "senseId": "motivate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_motivate_writing",
+    "lexemeId": "motivate",
+    "senseId": "motivate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_comprehension_reading",
+    "lexemeId": "comprehension",
+    "senseId": "comprehension_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_comprehension_writing",
+    "lexemeId": "comprehension",
+    "senseId": "comprehension_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_discipline_reading",
+    "lexemeId": "discipline",
+    "senseId": "discipline_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_discipline_writing",
+    "lexemeId": "discipline",
+    "senseId": "discipline_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_collaborate_reading",
+    "lexemeId": "collaborate",
+    "senseId": "collaborate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_collaborate_writing",
+    "lexemeId": "collaborate",
+    "senseId": "collaborate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_feedback_reading",
+    "lexemeId": "feedback",
+    "senseId": "feedback_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_feedback_writing",
+    "lexemeId": "feedback",
+    "senseId": "feedback_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "education",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_significant_reading",
+    "lexemeId": "significant",
+    "senseId": "significant_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_significant_writing",
+    "lexemeId": "significant",
+    "senseId": "significant_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_evidence_reading",
+    "lexemeId": "evidence",
+    "senseId": "evidence_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_evidence_writing",
+    "lexemeId": "evidence",
+    "senseId": "evidence_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_analyse_reading",
+    "lexemeId": "analyse",
+    "senseId": "analyse_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_analyse_writing",
+    "lexemeId": "analyse",
+    "senseId": "analyse_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_analysis_reading",
+    "lexemeId": "analysis",
+    "senseId": "analysis_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_analysis_writing",
+    "lexemeId": "analysis",
+    "senseId": "analysis_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_analytical_reading",
+    "lexemeId": "analytical",
+    "senseId": "analytical_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_analytical_writing",
+    "lexemeId": "analytical",
+    "senseId": "analytical_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_evaluate_reading",
+    "lexemeId": "evaluate",
+    "senseId": "evaluate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_evaluate_writing",
+    "lexemeId": "evaluate",
+    "senseId": "evaluate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_hypothesis_reading",
+    "lexemeId": "hypothesis",
+    "senseId": "hypothesis_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_hypothesis_writing",
+    "lexemeId": "hypothesis",
+    "senseId": "hypothesis_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_variable_reading",
+    "lexemeId": "variable",
+    "senseId": "variable_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_variable_writing",
+    "lexemeId": "variable",
+    "senseId": "variable_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_objective_reading",
+    "lexemeId": "objective",
+    "senseId": "objective_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_objective_writing",
+    "lexemeId": "objective",
+    "senseId": "objective_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_inevitable_reading",
+    "lexemeId": "inevitable",
+    "senseId": "inevitable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_inevitable_writing",
+    "lexemeId": "inevitable",
+    "senseId": "inevitable_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_significance_reading",
+    "lexemeId": "significance",
+    "senseId": "significance_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_significance_writing",
+    "lexemeId": "significance",
+    "senseId": "significance_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_significantly_reading",
+    "lexemeId": "significantly",
+    "senseId": "significantly_adverb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_significantly_writing",
+    "lexemeId": "significantly",
+    "senseId": "significantly_adverb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "research",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_equity_reading",
+    "lexemeId": "equity",
+    "senseId": "equity_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_equity_writing",
+    "lexemeId": "equity",
+    "senseId": "equity_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_diverse_reading",
+    "lexemeId": "diverse",
+    "senseId": "diverse_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_diverse_writing",
+    "lexemeId": "diverse",
+    "senseId": "diverse_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_cohesion_reading",
+    "lexemeId": "cohesion",
+    "senseId": "cohesion_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_cohesion_writing",
+    "lexemeId": "cohesion",
+    "senseId": "cohesion_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_urbanisation_reading",
+    "lexemeId": "urbanisation",
+    "senseId": "urbanisation_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_urbanisation_writing",
+    "lexemeId": "urbanisation",
+    "senseId": "urbanisation_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_demographic_reading",
+    "lexemeId": "demographic",
+    "senseId": "demographic_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_demographic_writing",
+    "lexemeId": "demographic",
+    "senseId": "demographic_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_community_reading",
+    "lexemeId": "community",
+    "senseId": "community_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_community_writing",
+    "lexemeId": "community",
+    "senseId": "community_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_welfare_reading",
+    "lexemeId": "welfare",
+    "senseId": "welfare_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_welfare_writing",
+    "lexemeId": "welfare",
+    "senseId": "welfare_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_access_reading",
+    "lexemeId": "access",
+    "senseId": "access_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_access_writing",
+    "lexemeId": "access",
+    "senseId": "access_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "society",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_prevent_reading",
+    "lexemeId": "prevent",
+    "senseId": "prevent_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_prevent_writing",
+    "lexemeId": "prevent",
+    "senseId": "prevent_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_nutrition_reading",
+    "lexemeId": "nutrition",
+    "senseId": "nutrition_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_nutrition_writing",
+    "lexemeId": "nutrition",
+    "senseId": "nutrition_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_sedentary_reading",
+    "lexemeId": "sedentary",
+    "senseId": "sedentary_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_sedentary_writing",
+    "lexemeId": "sedentary",
+    "senseId": "sedentary_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_chronic_reading",
+    "lexemeId": "chronic",
+    "senseId": "chronic_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_chronic_writing",
+    "lexemeId": "chronic",
+    "senseId": "chronic_adjective_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_wellbeing_reading",
+    "lexemeId": "wellbeing",
+    "senseId": "wellbeing_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_wellbeing_writing",
+    "lexemeId": "wellbeing",
+    "senseId": "wellbeing_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_intervention_reading",
+    "lexemeId": "intervention",
+    "senseId": "intervention_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_intervention_writing",
+    "lexemeId": "intervention",
+    "senseId": "intervention_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "health",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_incentive_reading",
+    "lexemeId": "incentive",
+    "senseId": "incentive_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_incentive_writing",
+    "lexemeId": "incentive",
+    "senseId": "incentive_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_revenue_reading",
+    "lexemeId": "revenue",
+    "senseId": "revenue_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_revenue_writing",
+    "lexemeId": "revenue",
+    "senseId": "revenue_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_allocate_reading",
+    "lexemeId": "allocate",
+    "senseId": "allocate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_allocate_writing",
+    "lexemeId": "allocate",
+    "senseId": "allocate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_investment_reading",
+    "lexemeId": "investment",
+    "senseId": "investment_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_investment_writing",
+    "lexemeId": "investment",
+    "senseId": "investment_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_productivity_reading",
+    "lexemeId": "productivity",
+    "senseId": "productivity_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_productivity_writing",
+    "lexemeId": "productivity",
+    "senseId": "productivity_noun_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_fluctuate_reading",
+    "lexemeId": "fluctuate",
+    "senseId": "fluctuate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Reading",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  },
+  {
+    "id": "demo_fluctuate_writing",
+    "lexemeId": "fluctuate",
+    "senseId": "fluctuate_verb_01",
+    "sourcePackId": "lexidaily_demo",
+    "skill": "Writing",
+    "topic": "business",
+    "sourceLocator": "Original editorial demonstration; not an IELTS test occurrence",
+    "occurrenceCount": 1
+  }
+]

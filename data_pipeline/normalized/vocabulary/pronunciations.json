@@ -1,0 +1,282 @@
+[
+  {
+    "senseId": "sustainable_adjective_01",
+    "ipaBr": "/səˈsteɪnəbl/"
+  },
+  {
+    "senseId": "mitigate_verb_01",
+    "ipaBr": "/ˈmɪtɪɡeɪt/"
+  },
+  {
+    "senseId": "biodiversity_noun_01",
+    "ipaBr": "/ˌbaɪəʊdaɪˈvɜːsəti/"
+  },
+  {
+    "senseId": "emission_noun_01",
+    "ipaBr": "/ɪˈmɪʃn/"
+  },
+  {
+    "senseId": "conservation_noun_01",
+    "ipaBr": "/ˌkɒnsəˈveɪʃn/"
+  },
+  {
+    "senseId": "renewable_adjective_01",
+    "ipaBr": "/rɪˈnjuːəbl/"
+  },
+  {
+    "senseId": "habitat_noun_01",
+    "ipaBr": "/ˈhæbɪtæt/"
+  },
+  {
+    "senseId": "ecosystem_noun_01",
+    "ipaBr": "/ˈiːkəʊsɪstəm/"
+  },
+  {
+    "senseId": "pollution_noun_01",
+    "ipaBr": "/pəˈluːʃn/"
+  },
+  {
+    "senseId": "scarce_adjective_01",
+    "ipaBr": "/skeəs/"
+  },
+  {
+    "senseId": "deplete_verb_01",
+    "ipaBr": "/dɪˈpliːt/"
+  },
+  {
+    "senseId": "resilient_adjective_01",
+    "ipaBr": "/rɪˈzɪliənt/"
+  },
+  {
+    "senseId": "adapt_verb_01",
+    "ipaBr": "/əˈdæpt/"
+  },
+  {
+    "senseId": "preserve_verb_01",
+    "ipaBr": "/prɪˈzɜːv/"
+  },
+  {
+    "senseId": "consume_verb_01",
+    "ipaBr": "/kənˈsjuːm/"
+  },
+  {
+    "senseId": "impact_noun_01",
+    "ipaBr": "/ˈɪmpækt/"
+  },
+  {
+    "senseId": "innovation_noun_01",
+    "ipaBr": "/ˌɪnəˈveɪʃn/"
+  },
+  {
+    "senseId": "automate_verb_01",
+    "ipaBr": "/ˈɔːtəmeɪt/"
+  },
+  {
+    "senseId": "efficient_adjective_01",
+    "ipaBr": "/ɪˈfɪʃnt/"
+  },
+  {
+    "senseId": "accessible_adjective_01",
+    "ipaBr": "/əkˈsesəbl/"
+  },
+  {
+    "senseId": "infrastructure_noun_01",
+    "ipaBr": "/ˈɪnfrəstrʌktʃə/"
+  },
+  {
+    "senseId": "integrate_verb_01",
+    "ipaBr": "/ˈɪntɪɡreɪt/"
+  },
+  {
+    "senseId": "reliable_adjective_01",
+    "ipaBr": "/rɪˈlaɪəbl/"
+  },
+  {
+    "senseId": "privacy_noun_01",
+    "ipaBr": "/ˈprɪvəsi/"
+  },
+  {
+    "senseId": "digital_adjective_01",
+    "ipaBr": "/ˈdɪdʒɪtl/"
+  },
+  {
+    "senseId": "emerge_verb_01",
+    "ipaBr": "/ɪˈmɜːdʒ/"
+  },
+  {
+    "senseId": "transform_verb_01",
+    "ipaBr": "/trænsˈfɔːm/"
+  },
+  {
+    "senseId": "innovative_adjective_01",
+    "ipaBr": "/ˈɪnəveɪtɪv/"
+  },
+  {
+    "senseId": "curriculum_noun_01",
+    "ipaBr": "/kəˈrɪkjələm/"
+  },
+  {
+    "senseId": "acquire_verb_01",
+    "ipaBr": "/əˈkwaɪə/"
+  },
+  {
+    "senseId": "assess_verb_01",
+    "ipaBr": "/əˈses/"
+  },
+  {
+    "senseId": "literacy_noun_01",
+    "ipaBr": "/ˈlɪtərəsi/"
+  },
+  {
+    "senseId": "retain_verb_01",
+    "ipaBr": "/rɪˈteɪn/"
+  },
+  {
+    "senseId": "motivate_verb_01",
+    "ipaBr": "/ˈməʊtɪveɪt/"
+  },
+  {
+    "senseId": "comprehension_noun_01",
+    "ipaBr": "/ˌkɒmprɪˈhenʃn/"
+  },
+  {
+    "senseId": "discipline_noun_01",
+    "ipaBr": "/ˈdɪsəplɪn/"
+  },
+  {
+    "senseId": "collaborate_verb_01",
+    "ipaBr": "/kəˈlæbəreɪt/"
+  },
+  {
+    "senseId": "feedback_noun_01",
+    "ipaBr": "/ˈfiːdbæk/"
+  },
+  {
+    "senseId": "significant_adjective_01",
+    "ipaBr": "/sɪɡˈnɪfɪkənt/"
+  },
+  {
+    "senseId": "evidence_noun_01",
+    "ipaBr": "/ˈevɪdəns/"
+  },
+  {
+    "senseId": "analyse_verb_01",
+    "ipaBr": "/ˈænəlaɪz/"
+  },
+  {
+    "senseId": "analysis_noun_01",
+    "ipaBr": "/əˈnæləsɪs/"
+  },
+  {
+    "senseId": "analytical_adjective_01",
+    "ipaBr": "/ˌænəˈlɪtɪkl/"
+  },
+  {
+    "senseId": "evaluate_verb_01",
+    "ipaBr": "/ɪˈvæljueɪt/"
+  },
+  {
+    "senseId": "hypothesis_noun_01",
+    "ipaBr": "/haɪˈpɒθəsɪs/"
+  },
+  {
+    "senseId": "variable_noun_01",
+    "ipaBr": "/ˈveəriəbl/"
+  },
+  {
+    "senseId": "objective_adjective_01",
+    "ipaBr": "/əbˈdʒektɪv/"
+  },
+  {
+    "senseId": "inevitable_adjective_01",
+    "ipaBr": "/ɪnˈevɪtəbl/"
+  },
+  {
+    "senseId": "significance_noun_01",
+    "ipaBr": "/sɪɡˈnɪfɪkəns/"
+  },
+  {
+    "senseId": "significantly_adverb_01",
+    "ipaBr": "/sɪɡˈnɪfɪkəntli/"
+  },
+  {
+    "senseId": "equity_noun_01",
+    "ipaBr": "/ˈekwəti/"
+  },
+  {
+    "senseId": "diverse_adjective_01",
+    "ipaBr": "/daɪˈvɜːs/"
+  },
+  {
+    "senseId": "cohesion_noun_01",
+    "ipaBr": "/kəʊˈhiːʒn/"
+  },
+  {
+    "senseId": "urbanisation_noun_01",
+    "ipaBr": "/ˌɜːbənaɪˈzeɪʃn/"
+  },
+  {
+    "senseId": "demographic_adjective_01",
+    "ipaBr": "/ˌdeməˈɡræfɪk/"
+  },
+  {
+    "senseId": "community_noun_01",
+    "ipaBr": "/kəˈmjuːnəti/"
+  },
+  {
+    "senseId": "welfare_noun_01",
+    "ipaBr": "/ˈwelfeə/"
+  },
+  {
+    "senseId": "access_noun_01",
+    "ipaBr": "/ˈækses/"
+  },
+  {
+    "senseId": "prevent_verb_01",
+    "ipaBr": "/prɪˈvent/"
+  },
+  {
+    "senseId": "nutrition_noun_01",
+    "ipaBr": "/njuˈtrɪʃn/"
+  },
+  {
+    "senseId": "sedentary_adjective_01",
+    "ipaBr": "/ˈsedntri/"
+  },
+  {
+    "senseId": "chronic_adjective_01",
+    "ipaBr": "/ˈkrɒnɪk/"
+  },
+  {
+    "senseId": "wellbeing_noun_01",
+    "ipaBr": "/ˌwelˈbiːɪŋ/"
+  },
+  {
+    "senseId": "intervention_noun_01",
+    "ipaBr": "/ˌɪntəˈvenʃn/"
+  },
+  {
+    "senseId": "incentive_noun_01",
+    "ipaBr": "/ɪnˈsentɪv/"
+  },
+  {
+    "senseId": "revenue_noun_01",
+    "ipaBr": "/ˈrevənjuː/"
+  },
+  {
+    "senseId": "allocate_verb_01",
+    "ipaBr": "/ˈæləkeɪt/"
+  },
+  {
+    "senseId": "investment_noun_01",
+    "ipaBr": "/ɪnˈvestmənt/"
+  },
+  {
+    "senseId": "productivity_noun_01",
+    "ipaBr": "/ˌprɒdʌkˈtɪvəti/"
+  },
+  {
+    "senseId": "fluctuate_verb_01",
+    "ipaBr": "/ˈflʌktʃueɪt/"
+  }
+]

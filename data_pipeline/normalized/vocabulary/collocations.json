@@ -1,0 +1,702 @@
+[
+  {
+    "id": "sustainable_adjective_01_0",
+    "senseId": "sustainable_adjective_01",
+    "text": "sustainable development"
+  },
+  {
+    "id": "sustainable_adjective_01_1",
+    "senseId": "sustainable_adjective_01",
+    "text": "sustainable energy"
+  },
+  {
+    "id": "mitigate_verb_01_0",
+    "senseId": "mitigate_verb_01",
+    "text": "mitigate risks"
+  },
+  {
+    "id": "mitigate_verb_01_1",
+    "senseId": "mitigate_verb_01",
+    "text": "mitigate the impact"
+  },
+  {
+    "id": "biodiversity_noun_01_0",
+    "senseId": "biodiversity_noun_01",
+    "text": "protect biodiversity"
+  },
+  {
+    "id": "biodiversity_noun_01_1",
+    "senseId": "biodiversity_noun_01",
+    "text": "biodiversity loss"
+  },
+  {
+    "id": "emission_noun_01_0",
+    "senseId": "emission_noun_01",
+    "text": "carbon emissions"
+  },
+  {
+    "id": "emission_noun_01_1",
+    "senseId": "emission_noun_01",
+    "text": "reduce emissions"
+  },
+  {
+    "id": "conservation_noun_01_0",
+    "senseId": "conservation_noun_01",
+    "text": "wildlife conservation"
+  },
+  {
+    "id": "conservation_noun_01_1",
+    "senseId": "conservation_noun_01",
+    "text": "energy conservation"
+  },
+  {
+    "id": "renewable_adjective_01_0",
+    "senseId": "renewable_adjective_01",
+    "text": "renewable energy"
+  },
+  {
+    "id": "renewable_adjective_01_1",
+    "senseId": "renewable_adjective_01",
+    "text": "renewable resources"
+  },
+  {
+    "id": "habitat_noun_01_0",
+    "senseId": "habitat_noun_01",
+    "text": "natural habitat"
+  },
+  {
+    "id": "habitat_noun_01_1",
+    "senseId": "habitat_noun_01",
+    "text": "habitat loss"
+  },
+  {
+    "id": "ecosystem_noun_01_0",
+    "senseId": "ecosystem_noun_01",
+    "text": "marine ecosystem"
+  },
+  {
+    "id": "ecosystem_noun_01_1",
+    "senseId": "ecosystem_noun_01",
+    "text": "fragile ecosystem"
+  },
+  {
+    "id": "pollution_noun_01_0",
+    "senseId": "pollution_noun_01",
+    "text": "air pollution"
+  },
+  {
+    "id": "pollution_noun_01_1",
+    "senseId": "pollution_noun_01",
+    "text": "noise pollution"
+  },
+  {
+    "id": "scarce_adjective_01_0",
+    "senseId": "scarce_adjective_01",
+    "text": "scarce resources"
+  },
+  {
+    "id": "scarce_adjective_01_1",
+    "senseId": "scarce_adjective_01",
+    "text": "increasingly scarce"
+  },
+  {
+    "id": "deplete_verb_01_0",
+    "senseId": "deplete_verb_01",
+    "text": "deplete resources"
+  },
+  {
+    "id": "deplete_verb_01_1",
+    "senseId": "deplete_verb_01",
+    "text": "deplete reserves"
+  },
+  {
+    "id": "resilient_adjective_01_0",
+    "senseId": "resilient_adjective_01",
+    "text": "resilient communities"
+  },
+  {
+    "id": "resilient_adjective_01_1",
+    "senseId": "resilient_adjective_01",
+    "text": "climate resilient"
+  },
+  {
+    "id": "adapt_verb_01_0",
+    "senseId": "adapt_verb_01",
+    "text": "adapt to change"
+  },
+  {
+    "id": "adapt_verb_01_1",
+    "senseId": "adapt_verb_01",
+    "text": "adapt quickly"
+  },
+  {
+    "id": "preserve_verb_01_0",
+    "senseId": "preserve_verb_01",
+    "text": "preserve wildlife"
+  },
+  {
+    "id": "preserve_verb_01_1",
+    "senseId": "preserve_verb_01",
+    "text": "preserve resources"
+  },
+  {
+    "id": "consume_verb_01_0",
+    "senseId": "consume_verb_01",
+    "text": "consume energy"
+  },
+  {
+    "id": "consume_verb_01_1",
+    "senseId": "consume_verb_01",
+    "text": "consume resources"
+  },
+  {
+    "id": "impact_noun_01_0",
+    "senseId": "impact_noun_01",
+    "text": "environmental impact"
+  },
+  {
+    "id": "impact_noun_01_1",
+    "senseId": "impact_noun_01",
+    "text": "significant impact"
+  },
+  {
+    "id": "innovation_noun_01_0",
+    "senseId": "innovation_noun_01",
+    "text": "technological innovation"
+  },
+  {
+    "id": "innovation_noun_01_1",
+    "senseId": "innovation_noun_01",
+    "text": "encourage innovation"
+  },
+  {
+    "id": "automate_verb_01_0",
+    "senseId": "automate_verb_01",
+    "text": "automate processes"
+  },
+  {
+    "id": "automate_verb_01_1",
+    "senseId": "automate_verb_01",
+    "text": "automate production"
+  },
+  {
+    "id": "efficient_adjective_01_0",
+    "senseId": "efficient_adjective_01",
+    "text": "energy efficient"
+  },
+  {
+    "id": "efficient_adjective_01_1",
+    "senseId": "efficient_adjective_01",
+    "text": "highly efficient"
+  },
+  {
+    "id": "accessible_adjective_01_0",
+    "senseId": "accessible_adjective_01",
+    "text": "easily accessible"
+  },
+  {
+    "id": "accessible_adjective_01_1",
+    "senseId": "accessible_adjective_01",
+    "text": "accessible technology"
+  },
+  {
+    "id": "infrastructure_noun_01_0",
+    "senseId": "infrastructure_noun_01",
+    "text": "digital infrastructure"
+  },
+  {
+    "id": "infrastructure_noun_01_1",
+    "senseId": "infrastructure_noun_01",
+    "text": "public infrastructure"
+  },
+  {
+    "id": "integrate_verb_01_0",
+    "senseId": "integrate_verb_01",
+    "text": "integrate technology"
+  },
+  {
+    "id": "integrate_verb_01_1",
+    "senseId": "integrate_verb_01",
+    "text": "fully integrate"
+  },
+  {
+    "id": "reliable_adjective_01_0",
+    "senseId": "reliable_adjective_01",
+    "text": "reliable data"
+  },
+  {
+    "id": "reliable_adjective_01_1",
+    "senseId": "reliable_adjective_01",
+    "text": "reliable service"
+  },
+  {
+    "id": "privacy_noun_01_0",
+    "senseId": "privacy_noun_01",
+    "text": "protect privacy"
+  },
+  {
+    "id": "privacy_noun_01_1",
+    "senseId": "privacy_noun_01",
+    "text": "data privacy"
+  },
+  {
+    "id": "digital_adjective_01_0",
+    "senseId": "digital_adjective_01",
+    "text": "digital literacy"
+  },
+  {
+    "id": "digital_adjective_01_1",
+    "senseId": "digital_adjective_01",
+    "text": "digital access"
+  },
+  {
+    "id": "emerge_verb_01_0",
+    "senseId": "emerge_verb_01",
+    "text": "emerge gradually"
+  },
+  {
+    "id": "emerge_verb_01_1",
+    "senseId": "emerge_verb_01",
+    "text": "emerging technology"
+  },
+  {
+    "id": "transform_verb_01_0",
+    "senseId": "transform_verb_01",
+    "text": "transform society"
+  },
+  {
+    "id": "transform_verb_01_1",
+    "senseId": "transform_verb_01",
+    "text": "transform the way"
+  },
+  {
+    "id": "innovative_adjective_01_0",
+    "senseId": "innovative_adjective_01",
+    "text": "innovative solution"
+  },
+  {
+    "id": "innovative_adjective_01_1",
+    "senseId": "innovative_adjective_01",
+    "text": "innovative approach"
+  },
+  {
+    "id": "curriculum_noun_01_0",
+    "senseId": "curriculum_noun_01",
+    "text": "school curriculum"
+  },
+  {
+    "id": "curriculum_noun_01_1",
+    "senseId": "curriculum_noun_01",
+    "text": "develop a curriculum"
+  },
+  {
+    "id": "acquire_verb_01_0",
+    "senseId": "acquire_verb_01",
+    "text": "acquire skills"
+  },
+  {
+    "id": "acquire_verb_01_1",
+    "senseId": "acquire_verb_01",
+    "text": "acquire knowledge"
+  },
+  {
+    "id": "assess_verb_01_0",
+    "senseId": "assess_verb_01",
+    "text": "assess performance"
+  },
+  {
+    "id": "assess_verb_01_1",
+    "senseId": "assess_verb_01",
+    "text": "assess the impact"
+  },
+  {
+    "id": "literacy_noun_01_0",
+    "senseId": "literacy_noun_01",
+    "text": "digital literacy"
+  },
+  {
+    "id": "literacy_noun_01_1",
+    "senseId": "literacy_noun_01",
+    "text": "literacy skills"
+  },
+  {
+    "id": "retain_verb_01_0",
+    "senseId": "retain_verb_01",
+    "text": "retain information"
+  },
+  {
+    "id": "retain_verb_01_1",
+    "senseId": "retain_verb_01",
+    "text": "retain knowledge"
+  },
+  {
+    "id": "motivate_verb_01_0",
+    "senseId": "motivate_verb_01",
+    "text": "motivate learners"
+  },
+  {
+    "id": "motivate_verb_01_1",
+    "senseId": "motivate_verb_01",
+    "text": "highly motivated"
+  },
+  {
+    "id": "comprehension_noun_01_0",
+    "senseId": "comprehension_noun_01",
+    "text": "reading comprehension"
+  },
+  {
+    "id": "comprehension_noun_01_1",
+    "senseId": "comprehension_noun_01",
+    "text": "comprehension skills"
+  },
+  {
+    "id": "discipline_noun_01_0",
+    "senseId": "discipline_noun_01",
+    "text": "self discipline"
+  },
+  {
+    "id": "discipline_noun_01_1",
+    "senseId": "discipline_noun_01",
+    "text": "academic discipline"
+  },
+  {
+    "id": "collaborate_verb_01_0",
+    "senseId": "collaborate_verb_01",
+    "text": "collaborate closely"
+  },
+  {
+    "id": "collaborate_verb_01_1",
+    "senseId": "collaborate_verb_01",
+    "text": "collaborate with peers"
+  },
+  {
+    "id": "feedback_noun_01_0",
+    "senseId": "feedback_noun_01",
+    "text": "constructive feedback"
+  },
+  {
+    "id": "feedback_noun_01_1",
+    "senseId": "feedback_noun_01",
+    "text": "provide feedback"
+  },
+  {
+    "id": "significant_adjective_01_0",
+    "senseId": "significant_adjective_01",
+    "text": "significant increase"
+  },
+  {
+    "id": "significant_adjective_01_1",
+    "senseId": "significant_adjective_01",
+    "text": "significant difference"
+  },
+  {
+    "id": "evidence_noun_01_0",
+    "senseId": "evidence_noun_01",
+    "text": "strong evidence"
+  },
+  {
+    "id": "evidence_noun_01_1",
+    "senseId": "evidence_noun_01",
+    "text": "empirical evidence"
+  },
+  {
+    "id": "analyse_verb_01_0",
+    "senseId": "analyse_verb_01",
+    "text": "analyse data"
+  },
+  {
+    "id": "analyse_verb_01_1",
+    "senseId": "analyse_verb_01",
+    "text": "analyse results"
+  },
+  {
+    "id": "analysis_noun_01_0",
+    "senseId": "analysis_noun_01",
+    "text": "data analysis"
+  },
+  {
+    "id": "analysis_noun_01_1",
+    "senseId": "analysis_noun_01",
+    "text": "detailed analysis"
+  },
+  {
+    "id": "analytical_adjective_01_0",
+    "senseId": "analytical_adjective_01",
+    "text": "analytical skills"
+  },
+  {
+    "id": "analytical_adjective_01_1",
+    "senseId": "analytical_adjective_01",
+    "text": "analytical approach"
+  },
+  {
+    "id": "evaluate_verb_01_0",
+    "senseId": "evaluate_verb_01",
+    "text": "evaluate effectiveness"
+  },
+  {
+    "id": "evaluate_verb_01_1",
+    "senseId": "evaluate_verb_01",
+    "text": "evaluate outcomes"
+  },
+  {
+    "id": "hypothesis_noun_01_0",
+    "senseId": "hypothesis_noun_01",
+    "text": "test a hypothesis"
+  },
+  {
+    "id": "hypothesis_noun_01_1",
+    "senseId": "hypothesis_noun_01",
+    "text": "form a hypothesis"
+  },
+  {
+    "id": "variable_noun_01_0",
+    "senseId": "variable_noun_01",
+    "text": "independent variable"
+  },
+  {
+    "id": "variable_noun_01_1",
+    "senseId": "variable_noun_01",
+    "text": "control a variable"
+  },
+  {
+    "id": "objective_adjective_01_0",
+    "senseId": "objective_adjective_01",
+    "text": "objective assessment"
+  },
+  {
+    "id": "objective_adjective_01_1",
+    "senseId": "objective_adjective_01",
+    "text": "objective evidence"
+  },
+  {
+    "id": "inevitable_adjective_01_0",
+    "senseId": "inevitable_adjective_01",
+    "text": "almost inevitable"
+  },
+  {
+    "id": "inevitable_adjective_01_1",
+    "senseId": "inevitable_adjective_01",
+    "text": "inevitable consequence"
+  },
+  {
+    "id": "significance_noun_01_0",
+    "senseId": "significance_noun_01",
+    "text": "practical significance"
+  },
+  {
+    "id": "significance_noun_01_1",
+    "senseId": "significance_noun_01",
+    "text": "statistical significance"
+  },
+  {
+    "id": "significantly_adverb_01_0",
+    "senseId": "significantly_adverb_01",
+    "text": "increase significantly"
+  },
+  {
+    "id": "significantly_adverb_01_1",
+    "senseId": "significantly_adverb_01",
+    "text": "significantly different"
+  },
+  {
+    "id": "equity_noun_01_0",
+    "senseId": "equity_noun_01",
+    "text": "social equity"
+  },
+  {
+    "id": "equity_noun_01_1",
+    "senseId": "equity_noun_01",
+    "text": "promote equity"
+  },
+  {
+    "id": "diverse_adjective_01_0",
+    "senseId": "diverse_adjective_01",
+    "text": "diverse backgrounds"
+  },
+  {
+    "id": "diverse_adjective_01_1",
+    "senseId": "diverse_adjective_01",
+    "text": "diverse communities"
+  },
+  {
+    "id": "cohesion_noun_01_0",
+    "senseId": "cohesion_noun_01",
+    "text": "social cohesion"
+  },
+  {
+    "id": "cohesion_noun_01_1",
+    "senseId": "cohesion_noun_01",
+    "text": "community cohesion"
+  },
+  {
+    "id": "urbanisation_noun_01_0",
+    "senseId": "urbanisation_noun_01",
+    "text": "rapid urbanisation"
+  },
+  {
+    "id": "urbanisation_noun_01_1",
+    "senseId": "urbanisation_noun_01",
+    "text": "urbanisation rate"
+  },
+  {
+    "id": "demographic_adjective_01_0",
+    "senseId": "demographic_adjective_01",
+    "text": "demographic change"
+  },
+  {
+    "id": "demographic_adjective_01_1",
+    "senseId": "demographic_adjective_01",
+    "text": "demographic trends"
+  },
+  {
+    "id": "community_noun_01_0",
+    "senseId": "community_noun_01",
+    "text": "local community"
+  },
+  {
+    "id": "community_noun_01_1",
+    "senseId": "community_noun_01",
+    "text": "community support"
+  },
+  {
+    "id": "welfare_noun_01_0",
+    "senseId": "welfare_noun_01",
+    "text": "social welfare"
+  },
+  {
+    "id": "welfare_noun_01_1",
+    "senseId": "welfare_noun_01",
+    "text": "public welfare"
+  },
+  {
+    "id": "access_noun_01_0",
+    "senseId": "access_noun_01",
+    "text": "equal access"
+  },
+  {
+    "id": "access_noun_01_1",
+    "senseId": "access_noun_01",
+    "text": "access to services"
+  },
+  {
+    "id": "prevent_verb_01_0",
+    "senseId": "prevent_verb_01",
+    "text": "prevent disease"
+  },
+  {
+    "id": "prevent_verb_01_1",
+    "senseId": "prevent_verb_01",
+    "text": "prevent injury"
+  },
+  {
+    "id": "nutrition_noun_01_0",
+    "senseId": "nutrition_noun_01",
+    "text": "balanced nutrition"
+  },
+  {
+    "id": "nutrition_noun_01_1",
+    "senseId": "nutrition_noun_01",
+    "text": "nutrition education"
+  },
+  {
+    "id": "sedentary_adjective_01_0",
+    "senseId": "sedentary_adjective_01",
+    "text": "sedentary lifestyle"
+  },
+  {
+    "id": "sedentary_adjective_01_1",
+    "senseId": "sedentary_adjective_01",
+    "text": "sedentary work"
+  },
+  {
+    "id": "chronic_adjective_01_0",
+    "senseId": "chronic_adjective_01",
+    "text": "chronic disease"
+  },
+  {
+    "id": "chronic_adjective_01_1",
+    "senseId": "chronic_adjective_01",
+    "text": "chronic pain"
+  },
+  {
+    "id": "wellbeing_noun_01_0",
+    "senseId": "wellbeing_noun_01",
+    "text": "mental wellbeing"
+  },
+  {
+    "id": "wellbeing_noun_01_1",
+    "senseId": "wellbeing_noun_01",
+    "text": "improve wellbeing"
+  },
+  {
+    "id": "intervention_noun_01_0",
+    "senseId": "intervention_noun_01",
+    "text": "early intervention"
+  },
+  {
+    "id": "intervention_noun_01_1",
+    "senseId": "intervention_noun_01",
+    "text": "effective intervention"
+  },
+  {
+    "id": "incentive_noun_01_0",
+    "senseId": "incentive_noun_01",
+    "text": "financial incentive"
+  },
+  {
+    "id": "incentive_noun_01_1",
+    "senseId": "incentive_noun_01",
+    "text": "provide an incentive"
+  },
+  {
+    "id": "revenue_noun_01_0",
+    "senseId": "revenue_noun_01",
+    "text": "annual revenue"
+  },
+  {
+    "id": "revenue_noun_01_1",
+    "senseId": "revenue_noun_01",
+    "text": "generate revenue"
+  },
+  {
+    "id": "allocate_verb_01_0",
+    "senseId": "allocate_verb_01",
+    "text": "allocate resources"
+  },
+  {
+    "id": "allocate_verb_01_1",
+    "senseId": "allocate_verb_01",
+    "text": "allocate funding"
+  },
+  {
+    "id": "investment_noun_01_0",
+    "senseId": "investment_noun_01",
+    "text": "long term investment"
+  },
+  {
+    "id": "investment_noun_01_1",
+    "senseId": "investment_noun_01",
+    "text": "public investment"
+  },
+  {
+    "id": "productivity_noun_01_0",
+    "senseId": "productivity_noun_01",
+    "text": "increase productivity"
+  },
+  {
+    "id": "productivity_noun_01_1",
+    "senseId": "productivity_noun_01",
+    "text": "labour productivity"
+  },
+  {
+    "id": "fluctuate_verb_01_0",
+    "senseId": "fluctuate_verb_01",
+    "text": "fluctuate widely"
+  },
+  {
+    "id": "fluctuate_verb_01_1",
+    "senseId": "fluctuate_verb_01",
+    "text": "fluctuate over time"
+  }
+]

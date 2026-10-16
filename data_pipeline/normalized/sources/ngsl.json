@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ngsl",
+    "name": "NGSL",
+    "sourceType": "OPEN_WORDLIST",
+    "licenseType": "External dataset — not bundled",
+    "isBundled": false,
+    "description": "Compatible source slot; import a licensed, validated wordlist to populate."
+  }
+]

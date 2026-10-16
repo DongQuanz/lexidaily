@@ -1,0 +1,10 @@
+[
+  {
+    "id": "nawl",
+    "name": "NAWL",
+    "sourceType": "OPEN_WORDLIST",
+    "licenseType": "External dataset — not bundled",
+    "isBundled": false,
+    "description": "Compatible academic wordlist slot; no NAWL membership is asserted by the demo."
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "senseId": "sustainable_adjective_01",
+    "text": "lasting",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "mitigate_verb_01",
+    "text": "alleviate",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "biodiversity_noun_01",
+    "text": "biological diversity",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "emission_noun_01",
+    "text": "release",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "conservation_noun_01",
+    "text": "preservation",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "renewable_adjective_01",
+    "text": "replenishable",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "habitat_noun_01",
+    "text": "natural home",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "ecosystem_noun_01",
+    "text": "ecological system",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "pollution_noun_01",
+    "text": "contamination",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "scarce_adjective_01",
+    "text": "limited",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "deplete_verb_01",
+    "text": "use up",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "resilient_adjective_01",
+    "text": "adaptable",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "adapt_verb_01",
+    "text": "adjust",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "preserve_verb_01",
+    "text": "protect",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "consume_verb_01",
+    "text": "use",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "impact_noun_01",
+    "text": "effect",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "innovation_noun_01",
+    "text": "new development",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "automate_verb_01",
+    "text": "mechanise",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "efficient_adjective_01",
+    "text": "effective with little waste",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "accessible_adjective_01",
+    "text": "easy to use",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "infrastructure_noun_01",
+    "text": "basic systems",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "integrate_verb_01",
+    "text": "combine",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "reliable_adjective_01",
+    "text": "dependable",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "privacy_noun_01",
+    "text": "personal confidentiality",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "digital_adjective_01",
+    "text": "electronic",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "emerge_verb_01",
+    "text": "appear",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "transform_verb_01",
+    "text": "reshape",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "innovative_adjective_01",
+    "text": "inventive",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "curriculum_noun_01",
+    "text": "course programme",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "acquire_verb_01",
+    "text": "gain",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "assess_verb_01",
+    "text": "evaluate",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "literacy_noun_01",
+    "text": "reading and writing ability",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "retain_verb_01",
+    "text": "keep",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "motivate_verb_01",
+    "text": "encourage",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "comprehension_noun_01",
+    "text": "understanding",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "discipline_noun_01",
+    "text": "self control",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "collaborate_verb_01",
+    "text": "work together",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "feedback_noun_01",
+    "text": "response",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "significant_adjective_01",
+    "text": "substantial",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "evidence_noun_01",
+    "text": "supporting information",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "analyse_verb_01",
+    "text": "examine",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "analysis_noun_01",
+    "text": "examination",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "analytical_adjective_01",
+    "text": "systematic",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "evaluate_verb_01",
+    "text": "assess",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "hypothesis_noun_01",
+    "text": "testable explanation",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "variable_noun_01",
+    "text": "changing factor",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "objective_adjective_01",
+    "text": "impartial",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "inevitable_adjective_01",
+    "text": "unavoidable",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "significance_noun_01",
+    "text": "importance",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "significantly_adverb_01",
+    "text": "considerably",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "equity_noun_01",
+    "text": "fairness",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "diverse_adjective_01",
+    "text": "varied",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "cohesion_noun_01",
+    "text": "unity",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "urbanisation_noun_01",
+    "text": "urban growth",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "demographic_adjective_01",
+    "text": "population related",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "community_noun_01",
+    "text": "local group",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "welfare_noun_01",
+    "text": "well-being",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "access_noun_01",
+    "text": "opportunity to use",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "prevent_verb_01",
+    "text": "stop from happening",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "nutrition_noun_01",
+    "text": "nourishment",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "sedentary_adjective_01",
+    "text": "inactive",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "chronic_adjective_01",
+    "text": "long lasting",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "wellbeing_noun_01",
+    "text": "wellness",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "intervention_noun_01",
+    "text": "targeted action",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "incentive_noun_01",
+    "text": "encouragement",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "revenue_noun_01",
+    "text": "income",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "allocate_verb_01",
+    "text": "assign",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "investment_noun_01",
+    "text": "commitment of resources",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "productivity_noun_01",
+    "text": "output efficiency",
+    "relationType": "NEAR_SYNONYM"
+  },
+  {
+    "senseId": "fluctuate_verb_01",
+    "text": "vary",
+    "relationType": "NEAR_SYNONYM"
+  }
+]
