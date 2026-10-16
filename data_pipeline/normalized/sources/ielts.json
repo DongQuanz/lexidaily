@@ -1,0 +1,47 @@
+[
+  {
+    "id": "lexidaily_ielts",
+    "name": "LexiDaily IELTS Editorial",
+    "sourceType": "CUSTOM",
+    "licenseType": "CC BY-SA 4.0",
+    "isBundled": true,
+    "priority": 0.7,
+    "description": "Nội dung Anh–Việt biên soạn riêng. CEFR và độ liên quan IELTS là ước tính biên tập; không gán band cho từng từ. Ví dụ không lấy từ đề IELTS."
+  },
+  {
+    "id": "thichhoc_dictionary",
+    "name": "Từ điển Anh–Việt thichhoc.com",
+    "sourceType": "CUSTOM",
+    "licenseType": "CC BY-SA 4.0; WordNet and CMUdict notices retained",
+    "isBundled": true,
+    "priority": 0.5,
+    "description": "Dữ liệu từ điển: Từ điển Anh–Việt thichhoc.com (thichhoc-dict), giấy phép CC BY-SA 4.0. https://github.com/thichhoc-org/thichhoc-dict. Nguồn gốc: WordNet 3.1 (Princeton), CMUdict (CMU), Wiktionary. Đã chỉnh sửa dữ liệu. Bản chọn lọc tự động; nguồn có bản dịch do mô hình sinh, chưa được chuyên gia duyệt toàn bộ. IPA nguồn này là Anh–Mỹ, không phải bản ghi âm. Xem giấy phép và ghi công trong thư viện."
+  },
+  {
+    "id": "cefrj_profile",
+    "name": "CEFR-J Wordlist 1.5",
+    "sourceType": "CEFR_REFERENCE",
+    "licenseType": "Free research/commercial use with attribution to Tono Laboratory, TUFS",
+    "isBundled": true,
+    "priority": 0.5,
+    "description": "The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies. Qua Open Language Profiles: https://github.com/openlanguageprofiles/olp-en-cefrj. Chỉ tham chiếu mức headword/từ loại; không phải EVP hay band IELTS."
+  },
+  {
+    "id": "octanove_profile",
+    "name": "Octanove Vocabulary Profile C1/C2 1.0",
+    "sourceType": "CEFR_REFERENCE",
+    "licenseType": "CC BY-SA 4.0",
+    "isBundled": true,
+    "priority": 0.5,
+    "description": "Octanove Labs, Octanove Vocabulary Profile C1/C2 version 1.0, qua Open Language Profiles. https://github.com/openlanguageprofiles/olp-en-cefrj. Nhãn tham chiếu headword/từ loại, không xác nhận band IELTS."
+  },
+  {
+    "id": "wordnet_examples",
+    "name": "Princeton WordNet 3.0 usage examples",
+    "sourceType": "CUSTOM",
+    "licenseType": "WordNet License",
+    "isBundled": true,
+    "priority": 0.4,
+    "description": "WordNet 3.0, Princeton University, qua nltk_data. Ví dụ được chọn theo nghĩa và có kiểm tra tự động; không phải câu từ đề IELTS. Giữ ghi công và giấy phép Princeton trong phần Giấy phép và ghi công."
+  }
+]

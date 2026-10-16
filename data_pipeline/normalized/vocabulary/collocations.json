@@ -1,193 +1,23 @@
 [
   {
-    "id": "sustainable_adjective_01_0",
-    "senseId": "sustainable_adjective_01",
-    "text": "sustainable development"
+    "id": "absolute_adjective_01_0",
+    "senseId": "absolute_adjective_01",
+    "text": "absolute certainty"
   },
   {
-    "id": "sustainable_adjective_01_1",
-    "senseId": "sustainable_adjective_01",
-    "text": "sustainable energy"
+    "id": "absolute_adjective_01_1",
+    "senseId": "absolute_adjective_01",
+    "text": "absolute minimum"
   },
   {
-    "id": "mitigate_verb_01_0",
-    "senseId": "mitigate_verb_01",
-    "text": "mitigate risks"
+    "id": "access_noun_01_0",
+    "senseId": "access_noun_01",
+    "text": "equal access"
   },
   {
-    "id": "mitigate_verb_01_1",
-    "senseId": "mitigate_verb_01",
-    "text": "mitigate the impact"
-  },
-  {
-    "id": "biodiversity_noun_01_0",
-    "senseId": "biodiversity_noun_01",
-    "text": "protect biodiversity"
-  },
-  {
-    "id": "biodiversity_noun_01_1",
-    "senseId": "biodiversity_noun_01",
-    "text": "biodiversity loss"
-  },
-  {
-    "id": "emission_noun_01_0",
-    "senseId": "emission_noun_01",
-    "text": "carbon emissions"
-  },
-  {
-    "id": "emission_noun_01_1",
-    "senseId": "emission_noun_01",
-    "text": "reduce emissions"
-  },
-  {
-    "id": "conservation_noun_01_0",
-    "senseId": "conservation_noun_01",
-    "text": "wildlife conservation"
-  },
-  {
-    "id": "conservation_noun_01_1",
-    "senseId": "conservation_noun_01",
-    "text": "energy conservation"
-  },
-  {
-    "id": "renewable_adjective_01_0",
-    "senseId": "renewable_adjective_01",
-    "text": "renewable energy"
-  },
-  {
-    "id": "renewable_adjective_01_1",
-    "senseId": "renewable_adjective_01",
-    "text": "renewable resources"
-  },
-  {
-    "id": "habitat_noun_01_0",
-    "senseId": "habitat_noun_01",
-    "text": "natural habitat"
-  },
-  {
-    "id": "habitat_noun_01_1",
-    "senseId": "habitat_noun_01",
-    "text": "habitat loss"
-  },
-  {
-    "id": "ecosystem_noun_01_0",
-    "senseId": "ecosystem_noun_01",
-    "text": "marine ecosystem"
-  },
-  {
-    "id": "ecosystem_noun_01_1",
-    "senseId": "ecosystem_noun_01",
-    "text": "fragile ecosystem"
-  },
-  {
-    "id": "pollution_noun_01_0",
-    "senseId": "pollution_noun_01",
-    "text": "air pollution"
-  },
-  {
-    "id": "pollution_noun_01_1",
-    "senseId": "pollution_noun_01",
-    "text": "noise pollution"
-  },
-  {
-    "id": "scarce_adjective_01_0",
-    "senseId": "scarce_adjective_01",
-    "text": "scarce resources"
-  },
-  {
-    "id": "scarce_adjective_01_1",
-    "senseId": "scarce_adjective_01",
-    "text": "increasingly scarce"
-  },
-  {
-    "id": "deplete_verb_01_0",
-    "senseId": "deplete_verb_01",
-    "text": "deplete resources"
-  },
-  {
-    "id": "deplete_verb_01_1",
-    "senseId": "deplete_verb_01",
-    "text": "deplete reserves"
-  },
-  {
-    "id": "resilient_adjective_01_0",
-    "senseId": "resilient_adjective_01",
-    "text": "resilient communities"
-  },
-  {
-    "id": "resilient_adjective_01_1",
-    "senseId": "resilient_adjective_01",
-    "text": "climate resilient"
-  },
-  {
-    "id": "adapt_verb_01_0",
-    "senseId": "adapt_verb_01",
-    "text": "adapt to change"
-  },
-  {
-    "id": "adapt_verb_01_1",
-    "senseId": "adapt_verb_01",
-    "text": "adapt quickly"
-  },
-  {
-    "id": "preserve_verb_01_0",
-    "senseId": "preserve_verb_01",
-    "text": "preserve wildlife"
-  },
-  {
-    "id": "preserve_verb_01_1",
-    "senseId": "preserve_verb_01",
-    "text": "preserve resources"
-  },
-  {
-    "id": "consume_verb_01_0",
-    "senseId": "consume_verb_01",
-    "text": "consume energy"
-  },
-  {
-    "id": "consume_verb_01_1",
-    "senseId": "consume_verb_01",
-    "text": "consume resources"
-  },
-  {
-    "id": "impact_noun_01_0",
-    "senseId": "impact_noun_01",
-    "text": "environmental impact"
-  },
-  {
-    "id": "impact_noun_01_1",
-    "senseId": "impact_noun_01",
-    "text": "significant impact"
-  },
-  {
-    "id": "innovation_noun_01_0",
-    "senseId": "innovation_noun_01",
-    "text": "technological innovation"
-  },
-  {
-    "id": "innovation_noun_01_1",
-    "senseId": "innovation_noun_01",
-    "text": "encourage innovation"
-  },
-  {
-    "id": "automate_verb_01_0",
-    "senseId": "automate_verb_01",
-    "text": "automate processes"
-  },
-  {
-    "id": "automate_verb_01_1",
-    "senseId": "automate_verb_01",
-    "text": "automate production"
-  },
-  {
-    "id": "efficient_adjective_01_0",
-    "senseId": "efficient_adjective_01",
-    "text": "energy efficient"
-  },
-  {
-    "id": "efficient_adjective_01_1",
-    "senseId": "efficient_adjective_01",
-    "text": "highly efficient"
+    "id": "access_noun_01_1",
+    "senseId": "access_noun_01",
+    "text": "access to services"
   },
   {
     "id": "accessible_adjective_01_0",
@@ -200,94 +30,34 @@
     "text": "accessible technology"
   },
   {
-    "id": "infrastructure_noun_01_0",
-    "senseId": "infrastructure_noun_01",
-    "text": "digital infrastructure"
+    "id": "accommodation_noun_01_0",
+    "senseId": "accommodation_noun_01",
+    "text": "student accommodation"
   },
   {
-    "id": "infrastructure_noun_01_1",
-    "senseId": "infrastructure_noun_01",
-    "text": "public infrastructure"
+    "id": "accommodation_noun_01_1",
+    "senseId": "accommodation_noun_01",
+    "text": "affordable accommodation"
   },
   {
-    "id": "integrate_verb_01_0",
-    "senseId": "integrate_verb_01",
-    "text": "integrate technology"
+    "id": "account_verb_01_0",
+    "senseId": "account_verb_01",
+    "text": "account for differences"
   },
   {
-    "id": "integrate_verb_01_1",
-    "senseId": "integrate_verb_01",
-    "text": "fully integrate"
+    "id": "account_verb_01_1",
+    "senseId": "account_verb_01",
+    "text": "account for the decline"
   },
   {
-    "id": "reliable_adjective_01_0",
-    "senseId": "reliable_adjective_01",
-    "text": "reliable data"
+    "id": "accountability_noun_01_0",
+    "senseId": "accountability_noun_01",
+    "text": "public accountability"
   },
   {
-    "id": "reliable_adjective_01_1",
-    "senseId": "reliable_adjective_01",
-    "text": "reliable service"
-  },
-  {
-    "id": "privacy_noun_01_0",
-    "senseId": "privacy_noun_01",
-    "text": "protect privacy"
-  },
-  {
-    "id": "privacy_noun_01_1",
-    "senseId": "privacy_noun_01",
-    "text": "data privacy"
-  },
-  {
-    "id": "digital_adjective_01_0",
-    "senseId": "digital_adjective_01",
-    "text": "digital literacy"
-  },
-  {
-    "id": "digital_adjective_01_1",
-    "senseId": "digital_adjective_01",
-    "text": "digital access"
-  },
-  {
-    "id": "emerge_verb_01_0",
-    "senseId": "emerge_verb_01",
-    "text": "emerge gradually"
-  },
-  {
-    "id": "emerge_verb_01_1",
-    "senseId": "emerge_verb_01",
-    "text": "emerging technology"
-  },
-  {
-    "id": "transform_verb_01_0",
-    "senseId": "transform_verb_01",
-    "text": "transform society"
-  },
-  {
-    "id": "transform_verb_01_1",
-    "senseId": "transform_verb_01",
-    "text": "transform the way"
-  },
-  {
-    "id": "innovative_adjective_01_0",
-    "senseId": "innovative_adjective_01",
-    "text": "innovative solution"
-  },
-  {
-    "id": "innovative_adjective_01_1",
-    "senseId": "innovative_adjective_01",
-    "text": "innovative approach"
-  },
-  {
-    "id": "curriculum_noun_01_0",
-    "senseId": "curriculum_noun_01",
-    "text": "school curriculum"
-  },
-  {
-    "id": "curriculum_noun_01_1",
-    "senseId": "curriculum_noun_01",
-    "text": "develop a curriculum"
+    "id": "accountability_noun_01_1",
+    "senseId": "accountability_noun_01",
+    "text": "democratic accountability"
   },
   {
     "id": "acquire_verb_01_0",
@@ -300,104 +70,154 @@
     "text": "acquire knowledge"
   },
   {
-    "id": "assess_verb_01_0",
-    "senseId": "assess_verb_01",
-    "text": "assess performance"
+    "id": "adapt_verb_01_0",
+    "senseId": "adapt_verb_01",
+    "text": "adapt to change"
   },
   {
-    "id": "assess_verb_01_1",
-    "senseId": "assess_verb_01",
-    "text": "assess the impact"
+    "id": "adapt_verb_01_1",
+    "senseId": "adapt_verb_01",
+    "text": "adapt quickly"
   },
   {
-    "id": "literacy_noun_01_0",
-    "senseId": "literacy_noun_01",
-    "text": "digital literacy"
+    "id": "adaptation_noun_01_0",
+    "senseId": "adaptation_noun_01",
+    "text": "climate adaptation"
   },
   {
-    "id": "literacy_noun_01_1",
-    "senseId": "literacy_noun_01",
-    "text": "literacy skills"
+    "id": "adaptation_noun_01_1",
+    "senseId": "adaptation_noun_01",
+    "text": "adaptation measures"
   },
   {
-    "id": "retain_verb_01_0",
-    "senseId": "retain_verb_01",
-    "text": "retain information"
+    "id": "addiction_noun_01_0",
+    "senseId": "addiction_noun_01",
+    "text": "substance addiction"
   },
   {
-    "id": "retain_verb_01_1",
-    "senseId": "retain_verb_01",
-    "text": "retain knowledge"
+    "id": "addiction_noun_01_1",
+    "senseId": "addiction_noun_01",
+    "text": "addiction treatment"
   },
   {
-    "id": "motivate_verb_01_0",
-    "senseId": "motivate_verb_01",
-    "text": "motivate learners"
+    "id": "adolescence_noun_01_0",
+    "senseId": "adolescence_noun_01",
+    "text": "early adolescence"
   },
   {
-    "id": "motivate_verb_01_1",
-    "senseId": "motivate_verb_01",
-    "text": "highly motivated"
+    "id": "adolescence_noun_01_1",
+    "senseId": "adolescence_noun_01",
+    "text": "during adolescence"
   },
   {
-    "id": "comprehension_noun_01_0",
-    "senseId": "comprehension_noun_01",
-    "text": "reading comprehension"
+    "id": "aesthetic_adjective_01_0",
+    "senseId": "aesthetic_adjective_01",
+    "text": "aesthetic value"
   },
   {
-    "id": "comprehension_noun_01_1",
-    "senseId": "comprehension_noun_01",
-    "text": "comprehension skills"
+    "id": "aesthetic_adjective_01_1",
+    "senseId": "aesthetic_adjective_01",
+    "text": "aesthetic appeal"
   },
   {
-    "id": "discipline_noun_01_0",
-    "senseId": "discipline_noun_01",
-    "text": "self discipline"
+    "id": "affordability_noun_01_0",
+    "senseId": "affordability_noun_01",
+    "text": "housing affordability"
   },
   {
-    "id": "discipline_noun_01_1",
-    "senseId": "discipline_noun_01",
-    "text": "academic discipline"
+    "id": "affordability_noun_01_1",
+    "senseId": "affordability_noun_01",
+    "text": "improve affordability"
   },
   {
-    "id": "collaborate_verb_01_0",
-    "senseId": "collaborate_verb_01",
-    "text": "collaborate closely"
+    "id": "agroforestry_noun_01_0",
+    "senseId": "agroforestry_noun_01",
+    "text": "agroforestry system"
   },
   {
-    "id": "collaborate_verb_01_1",
-    "senseId": "collaborate_verb_01",
-    "text": "collaborate with peers"
+    "id": "agroforestry_noun_01_1",
+    "senseId": "agroforestry_noun_01",
+    "text": "agroforestry practice"
   },
   {
-    "id": "feedback_noun_01_0",
-    "senseId": "feedback_noun_01",
-    "text": "constructive feedback"
+    "id": "albeit_conjunction_01_0",
+    "senseId": "albeit_conjunction_01",
+    "text": "albeit slowly"
   },
   {
-    "id": "feedback_noun_01_1",
-    "senseId": "feedback_noun_01",
-    "text": "provide feedback"
+    "id": "albeit_conjunction_01_1",
+    "senseId": "albeit_conjunction_01",
+    "text": "albeit with limitations"
   },
   {
-    "id": "significant_adjective_01_0",
-    "senseId": "significant_adjective_01",
-    "text": "significant increase"
+    "id": "algorithm_noun_01_0",
+    "senseId": "algorithm_noun_01",
+    "text": "search algorithm"
   },
   {
-    "id": "significant_adjective_01_1",
-    "senseId": "significant_adjective_01",
-    "text": "significant difference"
+    "id": "algorithm_noun_01_1",
+    "senseId": "algorithm_noun_01",
+    "text": "recommendation algorithm"
   },
   {
-    "id": "evidence_noun_01_0",
-    "senseId": "evidence_noun_01",
-    "text": "strong evidence"
+    "id": "allegory_noun_01_0",
+    "senseId": "allegory_noun_01",
+    "text": "political allegory"
   },
   {
-    "id": "evidence_noun_01_1",
-    "senseId": "evidence_noun_01",
-    "text": "empirical evidence"
+    "id": "allegory_noun_01_1",
+    "senseId": "allegory_noun_01",
+    "text": "literary allegory"
+  },
+  {
+    "id": "alleviate_verb_01_0",
+    "senseId": "alleviate_verb_01",
+    "text": "alleviate poverty"
+  },
+  {
+    "id": "alleviate_verb_01_1",
+    "senseId": "alleviate_verb_01",
+    "text": "alleviate pressure"
+  },
+  {
+    "id": "allocate_verb_01_0",
+    "senseId": "allocate_verb_01",
+    "text": "allocate resources"
+  },
+  {
+    "id": "allocate_verb_01_1",
+    "senseId": "allocate_verb_01",
+    "text": "allocate funding"
+  },
+  {
+    "id": "although_conjunction_01_0",
+    "senseId": "although_conjunction_01",
+    "text": "although initially expensive"
+  },
+  {
+    "id": "although_conjunction_01_1",
+    "senseId": "although_conjunction_01",
+    "text": "although the evidence suggests"
+  },
+  {
+    "id": "ambassador_noun_01_0",
+    "senseId": "ambassador_noun_01",
+    "text": "appoint an ambassador"
+  },
+  {
+    "id": "ambassador_noun_01_1",
+    "senseId": "ambassador_noun_01",
+    "text": "goodwill ambassador"
+  },
+  {
+    "id": "analogy_noun_01_0",
+    "senseId": "analogy_noun_01",
+    "text": "draw an analogy"
+  },
+  {
+    "id": "analogy_noun_01_1",
+    "senseId": "analogy_noun_01",
+    "text": "useful analogy"
   },
   {
     "id": "analyse_verb_01_0",
@@ -430,184 +250,434 @@
     "text": "analytical approach"
   },
   {
-    "id": "evaluate_verb_01_0",
-    "senseId": "evaluate_verb_01",
-    "text": "evaluate effectiveness"
+    "id": "anthropogenic_adjective_01_0",
+    "senseId": "anthropogenic_adjective_01",
+    "text": "anthropogenic emissions"
   },
   {
-    "id": "evaluate_verb_01_1",
-    "senseId": "evaluate_verb_01",
-    "text": "evaluate outcomes"
+    "id": "anthropogenic_adjective_01_1",
+    "senseId": "anthropogenic_adjective_01",
+    "text": "anthropogenic warming"
   },
   {
-    "id": "hypothesis_noun_01_0",
-    "senseId": "hypothesis_noun_01",
-    "text": "test a hypothesis"
+    "id": "antimicrobial_adjective_01_0",
+    "senseId": "antimicrobial_adjective_01",
+    "text": "antimicrobial resistance"
   },
   {
-    "id": "hypothesis_noun_01_1",
-    "senseId": "hypothesis_noun_01",
-    "text": "form a hypothesis"
+    "id": "antimicrobial_adjective_01_1",
+    "senseId": "antimicrobial_adjective_01",
+    "text": "antimicrobial agent"
   },
   {
-    "id": "variable_noun_01_0",
-    "senseId": "variable_noun_01",
-    "text": "independent variable"
+    "id": "arable_adjective_01_0",
+    "senseId": "arable_adjective_01",
+    "text": "arable land"
   },
   {
-    "id": "variable_noun_01_1",
-    "senseId": "variable_noun_01",
-    "text": "control a variable"
+    "id": "arable_adjective_01_1",
+    "senseId": "arable_adjective_01",
+    "text": "arable farming"
   },
   {
-    "id": "objective_adjective_01_0",
-    "senseId": "objective_adjective_01",
-    "text": "objective assessment"
+    "id": "archaeology_noun_01_0",
+    "senseId": "archaeology_noun_01",
+    "text": "urban archaeology"
   },
   {
-    "id": "objective_adjective_01_1",
-    "senseId": "objective_adjective_01",
-    "text": "objective evidence"
+    "id": "archaeology_noun_01_1",
+    "senseId": "archaeology_noun_01",
+    "text": "archaeology research"
   },
   {
-    "id": "inevitable_adjective_01_0",
-    "senseId": "inevitable_adjective_01",
-    "text": "almost inevitable"
+    "id": "arguably_adverb_01_0",
+    "senseId": "arguably_adverb_01",
+    "text": "arguably the most important"
   },
   {
-    "id": "inevitable_adjective_01_1",
-    "senseId": "inevitable_adjective_01",
-    "text": "inevitable consequence"
+    "id": "arguably_adverb_01_1",
+    "senseId": "arguably_adverb_01",
+    "text": "arguably more effective"
   },
   {
-    "id": "significance_noun_01_0",
-    "senseId": "significance_noun_01",
-    "text": "practical significance"
+    "id": "artefact_noun_01_0",
+    "senseId": "artefact_noun_01",
+    "text": "ancient artefact"
   },
   {
-    "id": "significance_noun_01_1",
-    "senseId": "significance_noun_01",
-    "text": "statistical significance"
+    "id": "artefact_noun_01_1",
+    "senseId": "artefact_noun_01",
+    "text": "cultural artefact"
   },
   {
-    "id": "significantly_adverb_01_0",
-    "senseId": "significantly_adverb_01",
-    "text": "increase significantly"
+    "id": "artery_noun_01_0",
+    "senseId": "artery_noun_01",
+    "text": "major artery"
   },
   {
-    "id": "significantly_adverb_01_1",
-    "senseId": "significantly_adverb_01",
-    "text": "significantly different"
+    "id": "artery_noun_01_1",
+    "senseId": "artery_noun_01",
+    "text": "coronary artery"
   },
   {
-    "id": "equity_noun_01_0",
-    "senseId": "equity_noun_01",
-    "text": "social equity"
+    "id": "articulate_verb_01_0",
+    "senseId": "articulate_verb_01",
+    "text": "articulate an argument"
   },
   {
-    "id": "equity_noun_01_1",
-    "senseId": "equity_noun_01",
-    "text": "promote equity"
+    "id": "articulate_verb_01_1",
+    "senseId": "articulate_verb_01",
+    "text": "articulate a concern"
   },
   {
-    "id": "diverse_adjective_01_0",
-    "senseId": "diverse_adjective_01",
-    "text": "diverse backgrounds"
+    "id": "artificial intelligence_noun_01_0",
+    "senseId": "artificial intelligence_noun_01",
+    "text": "artificial intelligence system"
   },
   {
-    "id": "diverse_adjective_01_1",
-    "senseId": "diverse_adjective_01",
-    "text": "diverse communities"
+    "id": "artificial intelligence_noun_01_1",
+    "senseId": "artificial intelligence_noun_01",
+    "text": "artificial intelligence research"
   },
   {
-    "id": "cohesion_noun_01_0",
-    "senseId": "cohesion_noun_01",
-    "text": "social cohesion"
+    "id": "assess_verb_01_0",
+    "senseId": "assess_verb_01",
+    "text": "assess performance"
   },
   {
-    "id": "cohesion_noun_01_1",
-    "senseId": "cohesion_noun_01",
-    "text": "community cohesion"
+    "id": "assess_verb_01_1",
+    "senseId": "assess_verb_01",
+    "text": "assess the impact"
   },
   {
-    "id": "urbanisation_noun_01_0",
-    "senseId": "urbanisation_noun_01",
-    "text": "rapid urbanisation"
+    "id": "assimilation_noun_01_0",
+    "senseId": "assimilation_noun_01",
+    "text": "cultural assimilation"
   },
   {
-    "id": "urbanisation_noun_01_1",
-    "senseId": "urbanisation_noun_01",
-    "text": "urbanisation rate"
+    "id": "assimilation_noun_01_1",
+    "senseId": "assimilation_noun_01",
+    "text": "linguistic assimilation"
   },
   {
-    "id": "demographic_adjective_01_0",
-    "senseId": "demographic_adjective_01",
-    "text": "demographic change"
+    "id": "attendance_noun_01_0",
+    "senseId": "attendance_noun_01",
+    "text": "school attendance"
   },
   {
-    "id": "demographic_adjective_01_1",
-    "senseId": "demographic_adjective_01",
-    "text": "demographic trends"
+    "id": "attendance_noun_01_1",
+    "senseId": "attendance_noun_01",
+    "text": "attendance rate"
   },
   {
-    "id": "community_noun_01_0",
-    "senseId": "community_noun_01",
-    "text": "local community"
+    "id": "austerity_noun_01_0",
+    "senseId": "austerity_noun_01",
+    "text": "fiscal austerity"
   },
   {
-    "id": "community_noun_01_1",
-    "senseId": "community_noun_01",
-    "text": "community support"
+    "id": "austerity_noun_01_1",
+    "senseId": "austerity_noun_01",
+    "text": "austerity measures"
   },
   {
-    "id": "welfare_noun_01_0",
-    "senseId": "welfare_noun_01",
-    "text": "social welfare"
+    "id": "automate_verb_01_0",
+    "senseId": "automate_verb_01",
+    "text": "automate processes"
   },
   {
-    "id": "welfare_noun_01_1",
-    "senseId": "welfare_noun_01",
-    "text": "public welfare"
+    "id": "automate_verb_01_1",
+    "senseId": "automate_verb_01",
+    "text": "automate production"
   },
   {
-    "id": "access_noun_01_0",
-    "senseId": "access_noun_01",
-    "text": "equal access"
+    "id": "automation_noun_01_0",
+    "senseId": "automation_noun_01",
+    "text": "industrial automation"
   },
   {
-    "id": "access_noun_01_1",
-    "senseId": "access_noun_01",
-    "text": "access to services"
+    "id": "automation_noun_01_1",
+    "senseId": "automation_noun_01",
+    "text": "process automation"
   },
   {
-    "id": "prevent_verb_01_0",
-    "senseId": "prevent_verb_01",
-    "text": "prevent disease"
+    "id": "axis_noun_01_0",
+    "senseId": "axis_noun_01",
+    "text": "horizontal axis"
   },
   {
-    "id": "prevent_verb_01_1",
-    "senseId": "prevent_verb_01",
-    "text": "prevent injury"
+    "id": "axis_noun_01_1",
+    "senseId": "axis_noun_01",
+    "text": "vertical axis"
   },
   {
-    "id": "nutrition_noun_01_0",
-    "senseId": "nutrition_noun_01",
-    "text": "balanced nutrition"
+    "id": "ballot_noun_01_0",
+    "senseId": "ballot_noun_01",
+    "text": "secret ballot"
   },
   {
-    "id": "nutrition_noun_01_1",
-    "senseId": "nutrition_noun_01",
-    "text": "nutrition education"
+    "id": "ballot_noun_01_1",
+    "senseId": "ballot_noun_01",
+    "text": "ballot paper"
   },
   {
-    "id": "sedentary_adjective_01_0",
-    "senseId": "sedentary_adjective_01",
-    "text": "sedentary lifestyle"
+    "id": "bankruptcy_noun_01_0",
+    "senseId": "bankruptcy_noun_01",
+    "text": "file for bankruptcy"
   },
   {
-    "id": "sedentary_adjective_01_1",
-    "senseId": "sedentary_adjective_01",
-    "text": "sedentary work"
+    "id": "bankruptcy_noun_01_1",
+    "senseId": "bankruptcy_noun_01",
+    "text": "avoid bankruptcy"
+  },
+  {
+    "id": "base_noun_01_0",
+    "senseId": "base_noun_01",
+    "text": "evidence base"
+  },
+  {
+    "id": "base_noun_01_1",
+    "senseId": "base_noun_01",
+    "text": "knowledge base"
+  },
+  {
+    "id": "bias_noun_01_0",
+    "senseId": "bias_noun_01",
+    "text": "cognitive bias"
+  },
+  {
+    "id": "bias_noun_01_1",
+    "senseId": "bias_noun_01",
+    "text": "selection bias"
+  },
+  {
+    "id": "bilingualism_noun_01_0",
+    "senseId": "bilingualism_noun_01",
+    "text": "childhood bilingualism"
+  },
+  {
+    "id": "bilingualism_noun_01_1",
+    "senseId": "bilingualism_noun_01",
+    "text": "balanced bilingualism"
+  },
+  {
+    "id": "biodegradable_adjective_01_0",
+    "senseId": "biodegradable_adjective_01",
+    "text": "biodegradable packaging"
+  },
+  {
+    "id": "biodegradable_adjective_01_1",
+    "senseId": "biodegradable_adjective_01",
+    "text": "biodegradable material"
+  },
+  {
+    "id": "biodiversity_noun_01_0",
+    "senseId": "biodiversity_noun_01",
+    "text": "protect biodiversity"
+  },
+  {
+    "id": "biodiversity_noun_01_1",
+    "senseId": "biodiversity_noun_01",
+    "text": "biodiversity loss"
+  },
+  {
+    "id": "bioethics_noun_01_0",
+    "senseId": "bioethics_noun_01",
+    "text": "bioethics debate"
+  },
+  {
+    "id": "bioethics_noun_01_1",
+    "senseId": "bioethics_noun_01",
+    "text": "clinical bioethics"
+  },
+  {
+    "id": "blended learning_noun_01_0",
+    "senseId": "blended learning_noun_01",
+    "text": "blended learning model"
+  },
+  {
+    "id": "blended learning_noun_01_1",
+    "senseId": "blended learning_noun_01",
+    "text": "blended learning environment"
+  },
+  {
+    "id": "brain drain_noun_01_0",
+    "senseId": "brain drain_noun_01",
+    "text": "reverse brain drain"
+  },
+  {
+    "id": "brain drain_noun_01_1",
+    "senseId": "brain drain_noun_01",
+    "text": "skilled brain drain"
+  },
+  {
+    "id": "brake_noun_01_0",
+    "senseId": "brake_noun_01",
+    "text": "emergency brake"
+  },
+  {
+    "id": "brake_noun_01_1",
+    "senseId": "brake_noun_01",
+    "text": "brake failure"
+  },
+  {
+    "id": "branding_noun_01_0",
+    "senseId": "branding_noun_01",
+    "text": "corporate branding"
+  },
+  {
+    "id": "branding_noun_01_1",
+    "senseId": "branding_noun_01",
+    "text": "digital branding"
+  },
+  {
+    "id": "broadcast_verb_01_0",
+    "senseId": "broadcast_verb_01",
+    "text": "broadcast live"
+  },
+  {
+    "id": "broadcast_verb_01_1",
+    "senseId": "broadcast_verb_01",
+    "text": "broadcast a programme"
+  },
+  {
+    "id": "bun_noun_01_0",
+    "senseId": "bun_noun_01",
+    "text": "bread bun"
+  },
+  {
+    "id": "bun_noun_01_1",
+    "senseId": "bun_noun_01",
+    "text": "wholemeal bun"
+  },
+  {
+    "id": "bureaucracy_noun_01_0",
+    "senseId": "bureaucracy_noun_01",
+    "text": "government bureaucracy"
+  },
+  {
+    "id": "bureaucracy_noun_01_1",
+    "senseId": "bureaucracy_noun_01",
+    "text": "reduce bureaucracy"
+  },
+  {
+    "id": "cabinet_noun_01_0",
+    "senseId": "cabinet_noun_01",
+    "text": "cabinet meeting"
+  },
+  {
+    "id": "cabinet_noun_01_1",
+    "senseId": "cabinet_noun_01",
+    "text": "cabinet minister"
+  },
+  {
+    "id": "cable_noun_01_0",
+    "senseId": "cable_noun_01",
+    "text": "fibre-optic cable"
+  },
+  {
+    "id": "cable_noun_01_1",
+    "senseId": "cable_noun_01",
+    "text": "power cable"
+  },
+  {
+    "id": "carbon_noun_01_0",
+    "senseId": "carbon_noun_01",
+    "text": "carbon emissions"
+  },
+  {
+    "id": "carbon_noun_01_1",
+    "senseId": "carbon_noun_01",
+    "text": "carbon storage"
+  },
+  {
+    "id": "carbon footprint_noun_01_0",
+    "senseId": "carbon footprint_noun_01",
+    "text": "reduce a carbon footprint"
+  },
+  {
+    "id": "carbon footprint_noun_01_1",
+    "senseId": "carbon footprint_noun_01",
+    "text": "product carbon footprint"
+  },
+  {
+    "id": "caregiver_noun_01_0",
+    "senseId": "caregiver_noun_01",
+    "text": "family caregiver"
+  },
+  {
+    "id": "caregiver_noun_01_1",
+    "senseId": "caregiver_noun_01",
+    "text": "primary caregiver"
+  },
+  {
+    "id": "carrying capacity_noun_01_0",
+    "senseId": "carrying capacity_noun_01",
+    "text": "ecological carrying capacity"
+  },
+  {
+    "id": "carrying capacity_noun_01_1",
+    "senseId": "carrying capacity_noun_01",
+    "text": "tourism carrying capacity"
+  },
+  {
+    "id": "catalyst_noun_01_0",
+    "senseId": "catalyst_noun_01",
+    "text": "catalyst for change"
+  },
+  {
+    "id": "catalyst_noun_01_1",
+    "senseId": "catalyst_noun_01",
+    "text": "economic catalyst"
+  },
+  {
+    "id": "causality_noun_01_0",
+    "senseId": "causality_noun_01",
+    "text": "establish causality"
+  },
+  {
+    "id": "causality_noun_01_1",
+    "senseId": "causality_noun_01",
+    "text": "infer causality"
+  },
+  {
+    "id": "caveat_noun_01_0",
+    "senseId": "caveat_noun_01",
+    "text": "important caveat"
+  },
+  {
+    "id": "caveat_noun_01_1",
+    "senseId": "caveat_noun_01",
+    "text": "with a caveat"
+  },
+  {
+    "id": "censorship_noun_01_0",
+    "senseId": "censorship_noun_01",
+    "text": "media censorship"
+  },
+  {
+    "id": "censorship_noun_01_1",
+    "senseId": "censorship_noun_01",
+    "text": "internet censorship"
+  },
+  {
+    "id": "certificate_noun_01_0",
+    "senseId": "certificate_noun_01",
+    "text": "professional certificate"
+  },
+  {
+    "id": "certificate_noun_01_1",
+    "senseId": "certificate_noun_01",
+    "text": "obtain a certificate"
+  },
+  {
+    "id": "chip_noun_01_0",
+    "senseId": "chip_noun_01",
+    "text": "computer chip"
+  },
+  {
+    "id": "chip_noun_01_1",
+    "senseId": "chip_noun_01",
+    "text": "semiconductor chip"
   },
   {
     "id": "chronic_adjective_01_0",
@@ -620,24 +690,1654 @@
     "text": "chronic pain"
   },
   {
-    "id": "wellbeing_noun_01_0",
-    "senseId": "wellbeing_noun_01",
-    "text": "mental wellbeing"
+    "id": "circular economy_noun_01_0",
+    "senseId": "circular economy_noun_01",
+    "text": "circular economy model"
   },
   {
-    "id": "wellbeing_noun_01_1",
-    "senseId": "wellbeing_noun_01",
-    "text": "improve wellbeing"
+    "id": "circular economy_noun_01_1",
+    "senseId": "circular economy_noun_01",
+    "text": "transition to a circular economy"
   },
   {
-    "id": "intervention_noun_01_0",
-    "senseId": "intervention_noun_01",
-    "text": "early intervention"
+    "id": "circumvent_verb_01_0",
+    "senseId": "circumvent_verb_01",
+    "text": "circumvent regulations"
   },
   {
-    "id": "intervention_noun_01_1",
-    "senseId": "intervention_noun_01",
-    "text": "effective intervention"
+    "id": "circumvent_verb_01_1",
+    "senseId": "circumvent_verb_01",
+    "text": "circumvent restrictions"
+  },
+  {
+    "id": "civil liberties_noun_01_0",
+    "senseId": "civil liberties_noun_01",
+    "text": "protect civil liberties"
+  },
+  {
+    "id": "civil liberties_noun_01_1",
+    "senseId": "civil liberties_noun_01",
+    "text": "restrict civil liberties"
+  },
+  {
+    "id": "classification_noun_01_0",
+    "senseId": "classification_noun_01",
+    "text": "classification system"
+  },
+  {
+    "id": "classification_noun_01_1",
+    "senseId": "classification_noun_01",
+    "text": "scientific classification"
+  },
+  {
+    "id": "client_noun_01_0",
+    "senseId": "client_noun_01",
+    "text": "corporate client"
+  },
+  {
+    "id": "client_noun_01_1",
+    "senseId": "client_noun_01",
+    "text": "client relationship"
+  },
+  {
+    "id": "coalition_noun_01_0",
+    "senseId": "coalition_noun_01",
+    "text": "governing coalition"
+  },
+  {
+    "id": "coalition_noun_01_1",
+    "senseId": "coalition_noun_01",
+    "text": "coalition agreement"
+  },
+  {
+    "id": "cognition_noun_01_0",
+    "senseId": "cognition_noun_01",
+    "text": "human cognition"
+  },
+  {
+    "id": "cognition_noun_01_1",
+    "senseId": "cognition_noun_01",
+    "text": "social cognition"
+  },
+  {
+    "id": "coherent_adjective_01_0",
+    "senseId": "coherent_adjective_01",
+    "text": "coherent argument"
+  },
+  {
+    "id": "coherent_adjective_01_1",
+    "senseId": "coherent_adjective_01",
+    "text": "coherent explanation"
+  },
+  {
+    "id": "cohesion_noun_01_0",
+    "senseId": "cohesion_noun_01",
+    "text": "social cohesion"
+  },
+  {
+    "id": "cohesion_noun_01_1",
+    "senseId": "cohesion_noun_01",
+    "text": "community cohesion"
+  },
+  {
+    "id": "cohesive_adjective_01_0",
+    "senseId": "cohesive_adjective_01",
+    "text": "cohesive community"
+  },
+  {
+    "id": "cohesive_adjective_01_1",
+    "senseId": "cohesive_adjective_01",
+    "text": "cohesive text"
+  },
+  {
+    "id": "collaborate_verb_01_0",
+    "senseId": "collaborate_verb_01",
+    "text": "collaborate closely"
+  },
+  {
+    "id": "collaborate_verb_01_1",
+    "senseId": "collaborate_verb_01",
+    "text": "collaborate with peers"
+  },
+  {
+    "id": "colleague_noun_01_0",
+    "senseId": "colleague_noun_01",
+    "text": "close colleague"
+  },
+  {
+    "id": "colleague_noun_01_1",
+    "senseId": "colleague_noun_01",
+    "text": "academic colleague"
+  },
+  {
+    "id": "colonialism_noun_01_0",
+    "senseId": "colonialism_noun_01",
+    "text": "European colonialism"
+  },
+  {
+    "id": "colonialism_noun_01_1",
+    "senseId": "colonialism_noun_01",
+    "text": "legacy of colonialism"
+  },
+  {
+    "id": "commerce_noun_01_0",
+    "senseId": "commerce_noun_01",
+    "text": "international commerce"
+  },
+  {
+    "id": "commerce_noun_01_1",
+    "senseId": "commerce_noun_01",
+    "text": "electronic commerce"
+  },
+  {
+    "id": "community_noun_01_0",
+    "senseId": "community_noun_01",
+    "text": "local community"
+  },
+  {
+    "id": "community_noun_01_1",
+    "senseId": "community_noun_01",
+    "text": "community support"
+  },
+  {
+    "id": "commuter_noun_01_0",
+    "senseId": "commuter_noun_01",
+    "text": "daily commuter"
+  },
+  {
+    "id": "commuter_noun_01_1",
+    "senseId": "commuter_noun_01",
+    "text": "commuter rail"
+  },
+  {
+    "id": "comorbidity_noun_01_0",
+    "senseId": "comorbidity_noun_01",
+    "text": "psychiatric comorbidity"
+  },
+  {
+    "id": "comorbidity_noun_01_1",
+    "senseId": "comorbidity_noun_01",
+    "text": "comorbidity assessment"
+  },
+  {
+    "id": "comparatively_adverb_01_0",
+    "senseId": "comparatively_adverb_01",
+    "text": "comparatively low"
+  },
+  {
+    "id": "comparatively_adverb_01_1",
+    "senseId": "comparatively_adverb_01",
+    "text": "comparatively small"
+  },
+  {
+    "id": "compassion_noun_01_0",
+    "senseId": "compassion_noun_01",
+    "text": "show compassion"
+  },
+  {
+    "id": "compassion_noun_01_1",
+    "senseId": "compassion_noun_01",
+    "text": "compassion for others"
+  },
+  {
+    "id": "comprehension_noun_01_0",
+    "senseId": "comprehension_noun_01",
+    "text": "reading comprehension"
+  },
+  {
+    "id": "comprehension_noun_01_1",
+    "senseId": "comprehension_noun_01",
+    "text": "comprehension skills"
+  },
+  {
+    "id": "concomitant_adjective_01_0",
+    "senseId": "concomitant_adjective_01",
+    "text": "concomitant increase"
+  },
+  {
+    "id": "concomitant_adjective_01_1",
+    "senseId": "concomitant_adjective_01",
+    "text": "concomitant change"
+  },
+  {
+    "id": "confession_noun_01_0",
+    "senseId": "confession_noun_01",
+    "text": "false confession"
+  },
+  {
+    "id": "confession_noun_01_1",
+    "senseId": "confession_noun_01",
+    "text": "obtain a confession"
+  },
+  {
+    "id": "confidence interval_noun_01_0",
+    "senseId": "confidence interval_noun_01",
+    "text": "wide confidence interval"
+  },
+  {
+    "id": "confidence interval_noun_01_1",
+    "senseId": "confidence interval_noun_01",
+    "text": "95% confidence interval"
+  },
+  {
+    "id": "confounder_noun_01_0",
+    "senseId": "confounder_noun_01",
+    "text": "potential confounder"
+  },
+  {
+    "id": "confounder_noun_01_1",
+    "senseId": "confounder_noun_01",
+    "text": "control for a confounder"
+  },
+  {
+    "id": "congestion_noun_01_0",
+    "senseId": "congestion_noun_01",
+    "text": "traffic congestion"
+  },
+  {
+    "id": "congestion_noun_01_1",
+    "senseId": "congestion_noun_01",
+    "text": "urban congestion"
+  },
+  {
+    "id": "connectivity_noun_01_0",
+    "senseId": "connectivity_noun_01",
+    "text": "digital connectivity"
+  },
+  {
+    "id": "connectivity_noun_01_1",
+    "senseId": "connectivity_noun_01",
+    "text": "internet connectivity"
+  },
+  {
+    "id": "conscience_noun_01_0",
+    "senseId": "conscience_noun_01",
+    "text": "a clear conscience"
+  },
+  {
+    "id": "conscience_noun_01_1",
+    "senseId": "conscience_noun_01",
+    "text": "follow one's conscience"
+  },
+  {
+    "id": "consciousness_noun_01_0",
+    "senseId": "consciousness_noun_01",
+    "text": "human consciousness"
+  },
+  {
+    "id": "consciousness_noun_01_1",
+    "senseId": "consciousness_noun_01",
+    "text": "consciousness research"
+  },
+  {
+    "id": "consequently_adverb_01_0",
+    "senseId": "consequently_adverb_01",
+    "text": "consequently reduced"
+  },
+  {
+    "id": "consequently_adverb_01_1",
+    "senseId": "consequently_adverb_01",
+    "text": "consequently increased"
+  },
+  {
+    "id": "conservation_noun_01_0",
+    "senseId": "conservation_noun_01",
+    "text": "wildlife conservation"
+  },
+  {
+    "id": "conservation_noun_01_1",
+    "senseId": "conservation_noun_01",
+    "text": "energy conservation"
+  },
+  {
+    "id": "consume_verb_01_0",
+    "senseId": "consume_verb_01",
+    "text": "consume energy"
+  },
+  {
+    "id": "consume_verb_01_1",
+    "senseId": "consume_verb_01",
+    "text": "consume resources"
+  },
+  {
+    "id": "consumerism_noun_01_0",
+    "senseId": "consumerism_noun_01",
+    "text": "modern consumerism"
+  },
+  {
+    "id": "consumerism_noun_01_1",
+    "senseId": "consumerism_noun_01",
+    "text": "excessive consumerism"
+  },
+  {
+    "id": "contentious_adjective_01_0",
+    "senseId": "contentious_adjective_01",
+    "text": "contentious issue"
+  },
+  {
+    "id": "contentious_adjective_01_1",
+    "senseId": "contentious_adjective_01",
+    "text": "contentious proposal"
+  },
+  {
+    "id": "contingent_adjective_01_0",
+    "senseId": "contingent_adjective_01",
+    "text": "contingent on funding"
+  },
+  {
+    "id": "contingent_adjective_01_1",
+    "senseId": "contingent_adjective_01",
+    "text": "contingent on approval"
+  },
+  {
+    "id": "conversely_adverb_01_0",
+    "senseId": "conversely_adverb_01",
+    "text": "conversely lower demand"
+  },
+  {
+    "id": "conversely_adverb_01_1",
+    "senseId": "conversely_adverb_01",
+    "text": "conversely greater access"
+  },
+  {
+    "id": "conversion_noun_01_0",
+    "senseId": "conversion_noun_01",
+    "text": "energy conversion"
+  },
+  {
+    "id": "conversion_noun_01_1",
+    "senseId": "conversion_noun_01",
+    "text": "building conversion"
+  },
+  {
+    "id": "cooperation_noun_01_0",
+    "senseId": "cooperation_noun_01",
+    "text": "international cooperation"
+  },
+  {
+    "id": "cooperation_noun_01_1",
+    "senseId": "cooperation_noun_01",
+    "text": "close cooperation"
+  },
+  {
+    "id": "copyright_noun_01_0",
+    "senseId": "copyright_noun_01",
+    "text": "copyright protection"
+  },
+  {
+    "id": "copyright_noun_01_1",
+    "senseId": "copyright_noun_01",
+    "text": "copyright infringement"
+  },
+  {
+    "id": "coral_noun_01_0",
+    "senseId": "coral_noun_01",
+    "text": "coral reef"
+  },
+  {
+    "id": "coral_noun_01_1",
+    "senseId": "coral_noun_01",
+    "text": "coral bleaching"
+  },
+  {
+    "id": "corroborate_verb_01_0",
+    "senseId": "corroborate_verb_01",
+    "text": "corroborate evidence"
+  },
+  {
+    "id": "corroborate_verb_01_1",
+    "senseId": "corroborate_verb_01",
+    "text": "corroborate a finding"
+  },
+  {
+    "id": "corruption_noun_01_0",
+    "senseId": "corruption_noun_01",
+    "text": "political corruption"
+  },
+  {
+    "id": "corruption_noun_01_1",
+    "senseId": "corruption_noun_01",
+    "text": "combat corruption"
+  },
+  {
+    "id": "counterargument_noun_01_0",
+    "senseId": "counterargument_noun_01",
+    "text": "address a counterargument"
+  },
+  {
+    "id": "counterargument_noun_01_1",
+    "senseId": "counterargument_noun_01",
+    "text": "present a counterargument"
+  },
+  {
+    "id": "counterproductive_adjective_01_0",
+    "senseId": "counterproductive_adjective_01",
+    "text": "counterproductive policy"
+  },
+  {
+    "id": "counterproductive_adjective_01_1",
+    "senseId": "counterproductive_adjective_01",
+    "text": "prove counterproductive"
+  },
+  {
+    "id": "courtesy_noun_01_0",
+    "senseId": "courtesy_noun_01",
+    "text": "common courtesy"
+  },
+  {
+    "id": "courtesy_noun_01_1",
+    "senseId": "courtesy_noun_01",
+    "text": "professional courtesy"
+  },
+  {
+    "id": "coverage_noun_01_0",
+    "senseId": "coverage_noun_01",
+    "text": "media coverage"
+  },
+  {
+    "id": "coverage_noun_01_1",
+    "senseId": "coverage_noun_01",
+    "text": "news coverage"
+  },
+  {
+    "id": "crew_noun_01_0",
+    "senseId": "crew_noun_01",
+    "text": "flight crew"
+  },
+  {
+    "id": "crew_noun_01_1",
+    "senseId": "crew_noun_01",
+    "text": "train crew"
+  },
+  {
+    "id": "critical thinking_noun_01_0",
+    "senseId": "critical thinking_noun_01",
+    "text": "critical thinking skills"
+  },
+  {
+    "id": "critical thinking_noun_01_1",
+    "senseId": "critical thinking_noun_01",
+    "text": "promote critical thinking"
+  },
+  {
+    "id": "cross-sectional_adjective_01_0",
+    "senseId": "cross-sectional_adjective_01",
+    "text": "cross-sectional study"
+  },
+  {
+    "id": "cross-sectional_adjective_01_1",
+    "senseId": "cross-sectional_adjective_01",
+    "text": "cross-sectional survey"
+  },
+  {
+    "id": "culminate_verb_01_0",
+    "senseId": "culminate_verb_01",
+    "text": "culminate in"
+  },
+  {
+    "id": "culminate_verb_01_1",
+    "senseId": "culminate_verb_01",
+    "text": "culminate with"
+  },
+  {
+    "id": "curriculum_noun_01_0",
+    "senseId": "curriculum_noun_01",
+    "text": "school curriculum"
+  },
+  {
+    "id": "curriculum_noun_01_1",
+    "senseId": "curriculum_noun_01",
+    "text": "develop a curriculum"
+  },
+  {
+    "id": "cybersecurity_noun_01_0",
+    "senseId": "cybersecurity_noun_01",
+    "text": "cybersecurity measures"
+  },
+  {
+    "id": "cybersecurity_noun_01_1",
+    "senseId": "cybersecurity_noun_01",
+    "text": "cybersecurity risk"
+  },
+  {
+    "id": "decarbonisation_noun_01_0",
+    "senseId": "decarbonisation_noun_01",
+    "text": "industrial decarbonisation"
+  },
+  {
+    "id": "decarbonisation_noun_01_1",
+    "senseId": "decarbonisation_noun_01",
+    "text": "decarbonisation strategy"
+  },
+  {
+    "id": "decentralisation_noun_01_0",
+    "senseId": "decentralisation_noun_01",
+    "text": "administrative decentralisation"
+  },
+  {
+    "id": "decentralisation_noun_01_1",
+    "senseId": "decentralisation_noun_01",
+    "text": "fiscal decentralisation"
+  },
+  {
+    "id": "deficit_noun_01_0",
+    "senseId": "deficit_noun_01",
+    "text": "budget deficit"
+  },
+  {
+    "id": "deficit_noun_01_1",
+    "senseId": "deficit_noun_01",
+    "text": "trade deficit"
+  },
+  {
+    "id": "deforestation_noun_01_0",
+    "senseId": "deforestation_noun_01",
+    "text": "tropical deforestation"
+  },
+  {
+    "id": "deforestation_noun_01_1",
+    "senseId": "deforestation_noun_01",
+    "text": "reduce deforestation"
+  },
+  {
+    "id": "delineate_verb_01_0",
+    "senseId": "delineate_verb_01",
+    "text": "delineate responsibilities"
+  },
+  {
+    "id": "delineate_verb_01_1",
+    "senseId": "delineate_verb_01",
+    "text": "delineate boundaries"
+  },
+  {
+    "id": "demographic_adjective_01_0",
+    "senseId": "demographic_adjective_01",
+    "text": "demographic change"
+  },
+  {
+    "id": "demographic_adjective_01_1",
+    "senseId": "demographic_adjective_01",
+    "text": "demographic trends"
+  },
+  {
+    "id": "densification_noun_01_0",
+    "senseId": "densification_noun_01",
+    "text": "urban densification"
+  },
+  {
+    "id": "densification_noun_01_1",
+    "senseId": "densification_noun_01",
+    "text": "housing densification"
+  },
+  {
+    "id": "deplete_verb_01_0",
+    "senseId": "deplete_verb_01",
+    "text": "deplete resources"
+  },
+  {
+    "id": "deplete_verb_01_1",
+    "senseId": "deplete_verb_01",
+    "text": "deplete reserves"
+  },
+  {
+    "id": "deposit_noun_01_0",
+    "senseId": "deposit_noun_01",
+    "text": "refundable deposit"
+  },
+  {
+    "id": "deposit_noun_01_1",
+    "senseId": "deposit_noun_01",
+    "text": "pay a deposit"
+  },
+  {
+    "id": "desktop_noun_01_0",
+    "senseId": "desktop_noun_01",
+    "text": "desktop computer"
+  },
+  {
+    "id": "desktop_noun_01_1",
+    "senseId": "desktop_noun_01",
+    "text": "desktop application"
+  },
+  {
+    "id": "despite_preposition_01_0",
+    "senseId": "despite_preposition_01",
+    "text": "despite the cost"
+  },
+  {
+    "id": "despite_preposition_01_1",
+    "senseId": "despite_preposition_01",
+    "text": "despite these limitations"
+  },
+  {
+    "id": "deterrence_noun_01_0",
+    "senseId": "deterrence_noun_01",
+    "text": "criminal deterrence"
+  },
+  {
+    "id": "deterrence_noun_01_1",
+    "senseId": "deterrence_noun_01",
+    "text": "effective deterrence"
+  },
+  {
+    "id": "developmental_adjective_01_0",
+    "senseId": "developmental_adjective_01",
+    "text": "developmental stage"
+  },
+  {
+    "id": "developmental_adjective_01_1",
+    "senseId": "developmental_adjective_01",
+    "text": "developmental needs"
+  },
+  {
+    "id": "digital_adjective_01_0",
+    "senseId": "digital_adjective_01",
+    "text": "digital literacy"
+  },
+  {
+    "id": "digital_adjective_01_1",
+    "senseId": "digital_adjective_01",
+    "text": "digital access"
+  },
+  {
+    "id": "digital divide_noun_01_0",
+    "senseId": "digital divide_noun_01",
+    "text": "bridge the digital divide"
+  },
+  {
+    "id": "digital divide_noun_01_1",
+    "senseId": "digital divide_noun_01",
+    "text": "rural digital divide"
+  },
+  {
+    "id": "digitisation_noun_01_0",
+    "senseId": "digitisation_noun_01",
+    "text": "archive digitisation"
+  },
+  {
+    "id": "digitisation_noun_01_1",
+    "senseId": "digitisation_noun_01",
+    "text": "document digitisation"
+  },
+  {
+    "id": "dignity_noun_01_0",
+    "senseId": "dignity_noun_01",
+    "text": "human dignity"
+  },
+  {
+    "id": "dignity_noun_01_1",
+    "senseId": "dignity_noun_01",
+    "text": "respect dignity"
+  },
+  {
+    "id": "dimension_noun_01_0",
+    "senseId": "dimension_noun_01",
+    "text": "social dimension"
+  },
+  {
+    "id": "dimension_noun_01_1",
+    "senseId": "dimension_noun_01",
+    "text": "ethical dimension"
+  },
+  {
+    "id": "discipline_noun_01_0",
+    "senseId": "discipline_noun_01",
+    "text": "self discipline"
+  },
+  {
+    "id": "discipline_noun_01_1",
+    "senseId": "discipline_noun_01",
+    "text": "academic discipline"
+  },
+  {
+    "id": "discourse_noun_01_0",
+    "senseId": "discourse_noun_01",
+    "text": "public discourse"
+  },
+  {
+    "id": "discourse_noun_01_1",
+    "senseId": "discourse_noun_01",
+    "text": "academic discourse"
+  },
+  {
+    "id": "discrimination_noun_01_0",
+    "senseId": "discrimination_noun_01",
+    "text": "racial discrimination"
+  },
+  {
+    "id": "discrimination_noun_01_1",
+    "senseId": "discrimination_noun_01",
+    "text": "workplace discrimination"
+  },
+  {
+    "id": "disinformation_noun_01_0",
+    "senseId": "disinformation_noun_01",
+    "text": "disinformation campaign"
+  },
+  {
+    "id": "disinformation_noun_01_1",
+    "senseId": "disinformation_noun_01",
+    "text": "combat disinformation"
+  },
+  {
+    "id": "disorder_noun_01_0",
+    "senseId": "disorder_noun_01",
+    "text": "sleep disorder"
+  },
+  {
+    "id": "disorder_noun_01_1",
+    "senseId": "disorder_noun_01",
+    "text": "anxiety disorder"
+  },
+  {
+    "id": "disproportionate_adjective_01_0",
+    "senseId": "disproportionate_adjective_01",
+    "text": "disproportionate impact"
+  },
+  {
+    "id": "disproportionate_adjective_01_1",
+    "senseId": "disproportionate_adjective_01",
+    "text": "disproportionate burden"
+  },
+  {
+    "id": "disseminate_verb_01_0",
+    "senseId": "disseminate_verb_01",
+    "text": "disseminate information"
+  },
+  {
+    "id": "disseminate_verb_01_1",
+    "senseId": "disseminate_verb_01",
+    "text": "disseminate findings"
+  },
+  {
+    "id": "distance learning_noun_01_0",
+    "senseId": "distance learning_noun_01",
+    "text": "distance learning course"
+  },
+  {
+    "id": "distance learning_noun_01_1",
+    "senseId": "distance learning_noun_01",
+    "text": "distance learning programme"
+  },
+  {
+    "id": "diverse_adjective_01_0",
+    "senseId": "diverse_adjective_01",
+    "text": "diverse backgrounds"
+  },
+  {
+    "id": "diverse_adjective_01_1",
+    "senseId": "diverse_adjective_01",
+    "text": "diverse communities"
+  },
+  {
+    "id": "diversity_noun_01_0",
+    "senseId": "diversity_noun_01",
+    "text": "cultural diversity"
+  },
+  {
+    "id": "diversity_noun_01_1",
+    "senseId": "diversity_noun_01",
+    "text": "workforce diversity"
+  },
+  {
+    "id": "donation_noun_01_0",
+    "senseId": "donation_noun_01",
+    "text": "charitable donation"
+  },
+  {
+    "id": "donation_noun_01_1",
+    "senseId": "donation_noun_01",
+    "text": "make a donation"
+  },
+  {
+    "id": "dose_noun_01_0",
+    "senseId": "dose_noun_01",
+    "text": "recommended dose"
+  },
+  {
+    "id": "dose_noun_01_1",
+    "senseId": "dose_noun_01",
+    "text": "daily dose"
+  },
+  {
+    "id": "drought_noun_01_0",
+    "senseId": "drought_noun_01",
+    "text": "prolonged drought"
+  },
+  {
+    "id": "drought_noun_01_1",
+    "senseId": "drought_noun_01",
+    "text": "severe drought"
+  },
+  {
+    "id": "dwindle_verb_01_0",
+    "senseId": "dwindle_verb_01",
+    "text": "dwindle rapidly"
+  },
+  {
+    "id": "dwindle_verb_01_1",
+    "senseId": "dwindle_verb_01",
+    "text": "dwindle over time"
+  },
+  {
+    "id": "ecological footprint_noun_01_0",
+    "senseId": "ecological footprint_noun_01",
+    "text": "reduce an ecological footprint"
+  },
+  {
+    "id": "ecological footprint_noun_01_1",
+    "senseId": "ecological footprint_noun_01",
+    "text": "global ecological footprint"
+  },
+  {
+    "id": "economies of scale_noun_01_0",
+    "senseId": "economies of scale_noun_01",
+    "text": "achieve economies of scale"
+  },
+  {
+    "id": "economies of scale_noun_01_1",
+    "senseId": "economies of scale_noun_01",
+    "text": "benefit from economies of scale"
+  },
+  {
+    "id": "ecosystem_noun_01_0",
+    "senseId": "ecosystem_noun_01",
+    "text": "marine ecosystem"
+  },
+  {
+    "id": "ecosystem_noun_01_1",
+    "senseId": "ecosystem_noun_01",
+    "text": "fragile ecosystem"
+  },
+  {
+    "id": "ecotourism_noun_01_0",
+    "senseId": "ecotourism_noun_01",
+    "text": "sustainable ecotourism"
+  },
+  {
+    "id": "ecotourism_noun_01_1",
+    "senseId": "ecotourism_noun_01",
+    "text": "ecotourism project"
+  },
+  {
+    "id": "efficient_adjective_01_0",
+    "senseId": "efficient_adjective_01",
+    "text": "energy efficient"
+  },
+  {
+    "id": "efficient_adjective_01_1",
+    "senseId": "efficient_adjective_01",
+    "text": "highly efficient"
+  },
+  {
+    "id": "ego_noun_01_0",
+    "senseId": "ego_noun_01",
+    "text": "personal ego"
+  },
+  {
+    "id": "ego_noun_01_1",
+    "senseId": "ego_noun_01",
+    "text": "protect one's ego"
+  },
+  {
+    "id": "electrification_noun_01_0",
+    "senseId": "electrification_noun_01",
+    "text": "railway electrification"
+  },
+  {
+    "id": "electrification_noun_01_1",
+    "senseId": "electrification_noun_01",
+    "text": "transport electrification"
+  },
+  {
+    "id": "elucidate_verb_01_0",
+    "senseId": "elucidate_verb_01",
+    "text": "elucidate a mechanism"
+  },
+  {
+    "id": "elucidate_verb_01_1",
+    "senseId": "elucidate_verb_01",
+    "text": "elucidate a relationship"
+  },
+  {
+    "id": "embassy_noun_01_0",
+    "senseId": "embassy_noun_01",
+    "text": "foreign embassy"
+  },
+  {
+    "id": "embassy_noun_01_1",
+    "senseId": "embassy_noun_01",
+    "text": "embassy staff"
+  },
+  {
+    "id": "emerge_verb_01_0",
+    "senseId": "emerge_verb_01",
+    "text": "emerge gradually"
+  },
+  {
+    "id": "emerge_verb_01_1",
+    "senseId": "emerge_verb_01",
+    "text": "emerging technology"
+  },
+  {
+    "id": "emission_noun_01_0",
+    "senseId": "emission_noun_01",
+    "text": "carbon emissions"
+  },
+  {
+    "id": "emission_noun_01_1",
+    "senseId": "emission_noun_01",
+    "text": "reduce emissions"
+  },
+  {
+    "id": "empirically_adverb_01_0",
+    "senseId": "empirically_adverb_01",
+    "text": "test empirically"
+  },
+  {
+    "id": "empirically_adverb_01_1",
+    "senseId": "empirically_adverb_01",
+    "text": "empirically supported"
+  },
+  {
+    "id": "employ_verb_01_0",
+    "senseId": "employ_verb_01",
+    "text": "employ workers"
+  },
+  {
+    "id": "employ_verb_01_1",
+    "senseId": "employ_verb_01",
+    "text": "employ staff"
+  },
+  {
+    "id": "employability_noun_01_0",
+    "senseId": "employability_noun_01",
+    "text": "graduate employability"
+  },
+  {
+    "id": "employability_noun_01_1",
+    "senseId": "employability_noun_01",
+    "text": "improve employability"
+  },
+  {
+    "id": "endorsement_noun_01_0",
+    "senseId": "endorsement_noun_01",
+    "text": "celebrity endorsement"
+  },
+  {
+    "id": "endorsement_noun_01_1",
+    "senseId": "endorsement_noun_01",
+    "text": "product endorsement"
+  },
+  {
+    "id": "enrolment_noun_01_0",
+    "senseId": "enrolment_noun_01",
+    "text": "student enrolment"
+  },
+  {
+    "id": "enrolment_noun_01_1",
+    "senseId": "enrolment_noun_01",
+    "text": "enrolment rate"
+  },
+  {
+    "id": "entail_verb_01_0",
+    "senseId": "entail_verb_01",
+    "text": "entail costs"
+  },
+  {
+    "id": "entail_verb_01_1",
+    "senseId": "entail_verb_01",
+    "text": "entail changes"
+  },
+  {
+    "id": "enterprise_noun_01_0",
+    "senseId": "enterprise_noun_01",
+    "text": "small enterprise"
+  },
+  {
+    "id": "enterprise_noun_01_1",
+    "senseId": "enterprise_noun_01",
+    "text": "social enterprise"
+  },
+  {
+    "id": "entrepreneurship_noun_01_0",
+    "senseId": "entrepreneurship_noun_01",
+    "text": "social entrepreneurship"
+  },
+  {
+    "id": "entrepreneurship_noun_01_1",
+    "senseId": "entrepreneurship_noun_01",
+    "text": "encourage entrepreneurship"
+  },
+  {
+    "id": "environment_noun_01_0",
+    "senseId": "environment_noun_01",
+    "text": "protect the environment"
+  },
+  {
+    "id": "environment_noun_01_1",
+    "senseId": "environment_noun_01",
+    "text": "natural environment"
+  },
+  {
+    "id": "equal opportunity_noun_01_0",
+    "senseId": "equal opportunity_noun_01",
+    "text": "equal opportunity policy"
+  },
+  {
+    "id": "equal opportunity_noun_01_1",
+    "senseId": "equal opportunity_noun_01",
+    "text": "promote equal opportunity"
+  },
+  {
+    "id": "equation_noun_01_0",
+    "senseId": "equation_noun_01",
+    "text": "linear equation"
+  },
+  {
+    "id": "equation_noun_01_1",
+    "senseId": "equation_noun_01",
+    "text": "solve an equation"
+  },
+  {
+    "id": "equity_noun_01_0",
+    "senseId": "equity_noun_01",
+    "text": "social equity"
+  },
+  {
+    "id": "equity_noun_01_1",
+    "senseId": "equity_noun_01",
+    "text": "promote equity"
+  },
+  {
+    "id": "erosion_noun_01_0",
+    "senseId": "erosion_noun_01",
+    "text": "soil erosion"
+  },
+  {
+    "id": "erosion_noun_01_1",
+    "senseId": "erosion_noun_01",
+    "text": "coastal erosion"
+  },
+  {
+    "id": "estimate_verb_01_0",
+    "senseId": "estimate_verb_01",
+    "text": "estimate the cost"
+  },
+  {
+    "id": "estimate_verb_01_1",
+    "senseId": "estimate_verb_01",
+    "text": "estimate demand"
+  },
+  {
+    "id": "eutrophication_noun_01_0",
+    "senseId": "eutrophication_noun_01",
+    "text": "lake eutrophication"
+  },
+  {
+    "id": "eutrophication_noun_01_1",
+    "senseId": "eutrophication_noun_01",
+    "text": "prevent eutrophication"
+  },
+  {
+    "id": "evaluate_verb_01_0",
+    "senseId": "evaluate_verb_01",
+    "text": "evaluate effectiveness"
+  },
+  {
+    "id": "evaluate_verb_01_1",
+    "senseId": "evaluate_verb_01",
+    "text": "evaluate outcomes"
+  },
+  {
+    "id": "eviction_noun_01_0",
+    "senseId": "eviction_noun_01",
+    "text": "eviction notice"
+  },
+  {
+    "id": "eviction_noun_01_1",
+    "senseId": "eviction_noun_01",
+    "text": "prevent eviction"
+  },
+  {
+    "id": "evidence_noun_01_0",
+    "senseId": "evidence_noun_01",
+    "text": "strong evidence"
+  },
+  {
+    "id": "evidence_noun_01_1",
+    "senseId": "evidence_noun_01",
+    "text": "empirical evidence"
+  },
+  {
+    "id": "evolution_noun_01_0",
+    "senseId": "evolution_noun_01",
+    "text": "biological evolution"
+  },
+  {
+    "id": "evolution_noun_01_1",
+    "senseId": "evolution_noun_01",
+    "text": "theory of evolution"
+  },
+  {
+    "id": "exacerbate_verb_01_0",
+    "senseId": "exacerbate_verb_01",
+    "text": "exacerbate inequality"
+  },
+  {
+    "id": "exacerbate_verb_01_1",
+    "senseId": "exacerbate_verb_01",
+    "text": "exacerbate the problem"
+  },
+  {
+    "id": "exhibit_noun_01_0",
+    "senseId": "exhibit_noun_01",
+    "text": "museum exhibit"
+  },
+  {
+    "id": "exhibit_noun_01_1",
+    "senseId": "exhibit_noun_01",
+    "text": "interactive exhibit"
+  },
+  {
+    "id": "externality_noun_01_0",
+    "senseId": "externality_noun_01",
+    "text": "negative externality"
+  },
+  {
+    "id": "externality_noun_01_1",
+    "senseId": "externality_noun_01",
+    "text": "environmental externality"
+  },
+  {
+    "id": "factor_noun_01_0",
+    "senseId": "factor_noun_01",
+    "text": "contributing factor"
+  },
+  {
+    "id": "factor_noun_01_1",
+    "senseId": "factor_noun_01",
+    "text": "key factor"
+  },
+  {
+    "id": "fat_noun_01_0",
+    "senseId": "fat_noun_01",
+    "text": "dietary fat"
+  },
+  {
+    "id": "fat_noun_01_1",
+    "senseId": "fat_noun_01",
+    "text": "saturated fat"
+  },
+  {
+    "id": "fatigue_noun_01_0",
+    "senseId": "fatigue_noun_01",
+    "text": "mental fatigue"
+  },
+  {
+    "id": "fatigue_noun_01_1",
+    "senseId": "fatigue_noun_01",
+    "text": "chronic fatigue"
+  },
+  {
+    "id": "feasibility_noun_01_0",
+    "senseId": "feasibility_noun_01",
+    "text": "feasibility study"
+  },
+  {
+    "id": "feasibility_noun_01_1",
+    "senseId": "feasibility_noun_01",
+    "text": "technical feasibility"
+  },
+  {
+    "id": "feedback_noun_01_0",
+    "senseId": "feedback_noun_01",
+    "text": "constructive feedback"
+  },
+  {
+    "id": "feedback_noun_01_1",
+    "senseId": "feedback_noun_01",
+    "text": "provide feedback"
+  },
+  {
+    "id": "fertiliser_noun_01_0",
+    "senseId": "fertiliser_noun_01",
+    "text": "organic fertiliser"
+  },
+  {
+    "id": "fertiliser_noun_01_1",
+    "senseId": "fertiliser_noun_01",
+    "text": "chemical fertiliser"
+  },
+  {
+    "id": "fibre_noun_01_0",
+    "senseId": "fibre_noun_01",
+    "text": "dietary fibre"
+  },
+  {
+    "id": "fibre_noun_01_1",
+    "senseId": "fibre_noun_01",
+    "text": "high-fibre diet"
+  },
+  {
+    "id": "file_noun_01_0",
+    "senseId": "file_noun_01",
+    "text": "digital file"
+  },
+  {
+    "id": "file_noun_01_1",
+    "senseId": "file_noun_01",
+    "text": "share a file"
+  },
+  {
+    "id": "first floor_noun_01_0",
+    "senseId": "first floor_noun_01",
+    "text": "on the first floor"
+  },
+  {
+    "id": "first floor_noun_01_1",
+    "senseId": "first floor_noun_01",
+    "text": "first floor office"
+  },
+  {
+    "id": "fluctuate_verb_01_0",
+    "senseId": "fluctuate_verb_01",
+    "text": "fluctuate widely"
+  },
+  {
+    "id": "fluctuate_verb_01_1",
+    "senseId": "fluctuate_verb_01",
+    "text": "fluctuate over time"
+  },
+  {
+    "id": "fluctuation_noun_01_0",
+    "senseId": "fluctuation_noun_01",
+    "text": "price fluctuation"
+  },
+  {
+    "id": "fluctuation_noun_01_1",
+    "senseId": "fluctuation_noun_01",
+    "text": "seasonal fluctuation"
+  },
+  {
+    "id": "folklore_noun_01_0",
+    "senseId": "folklore_noun_01",
+    "text": "local folklore"
+  },
+  {
+    "id": "folklore_noun_01_1",
+    "senseId": "folklore_noun_01",
+    "text": "oral folklore"
+  },
+  {
+    "id": "food security_noun_01_0",
+    "senseId": "food security_noun_01",
+    "text": "improve food security"
+  },
+  {
+    "id": "food security_noun_01_1",
+    "senseId": "food security_noun_01",
+    "text": "household food security"
+  },
+  {
+    "id": "for instance_adverb_01_0",
+    "senseId": "for instance_adverb_01",
+    "text": "for instance in education"
+  },
+  {
+    "id": "for instance_adverb_01_1",
+    "senseId": "for instance_adverb_01",
+    "text": "consider for instance"
+  },
+  {
+    "id": "fossil_noun_01_0",
+    "senseId": "fossil_noun_01",
+    "text": "fossil record"
+  },
+  {
+    "id": "fossil_noun_01_1",
+    "senseId": "fossil_noun_01",
+    "text": "marine fossil"
+  },
+  {
+    "id": "fraction_noun_01_0",
+    "senseId": "fraction_noun_01",
+    "text": "small fraction"
+  },
+  {
+    "id": "fraction_noun_01_1",
+    "senseId": "fraction_noun_01",
+    "text": "significant fraction"
+  },
+  {
+    "id": "fraud_noun_01_0",
+    "senseId": "fraud_noun_01",
+    "text": "financial fraud"
+  },
+  {
+    "id": "fraud_noun_01_1",
+    "senseId": "fraud_noun_01",
+    "text": "identity fraud"
+  },
+  {
+    "id": "furthermore_adverb_01_0",
+    "senseId": "furthermore_adverb_01",
+    "text": "furthermore it allows"
+  },
+  {
+    "id": "furthermore_adverb_01_1",
+    "senseId": "furthermore_adverb_01",
+    "text": "furthermore the study"
+  },
+  {
+    "id": "generalisability_noun_01_0",
+    "senseId": "generalisability_noun_01",
+    "text": "limited generalisability"
+  },
+  {
+    "id": "generalisability_noun_01_1",
+    "senseId": "generalisability_noun_01",
+    "text": "assess generalisability"
+  },
+  {
+    "id": "genome_noun_01_0",
+    "senseId": "genome_noun_01",
+    "text": "human genome"
+  },
+  {
+    "id": "genome_noun_01_1",
+    "senseId": "genome_noun_01",
+    "text": "genome sequencing"
+  },
+  {
+    "id": "gentrification_noun_01_0",
+    "senseId": "gentrification_noun_01",
+    "text": "urban gentrification"
+  },
+  {
+    "id": "gentrification_noun_01_1",
+    "senseId": "gentrification_noun_01",
+    "text": "gentrification pressure"
+  },
+  {
+    "id": "geriatric_adjective_01_0",
+    "senseId": "geriatric_adjective_01",
+    "text": "geriatric care"
+  },
+  {
+    "id": "geriatric_adjective_01_1",
+    "senseId": "geriatric_adjective_01",
+    "text": "geriatric medicine"
+  },
+  {
+    "id": "governance_noun_01_0",
+    "senseId": "governance_noun_01",
+    "text": "corporate governance"
+  },
+  {
+    "id": "governance_noun_01_1",
+    "senseId": "governance_noun_01",
+    "text": "good governance"
+  },
+  {
+    "id": "grain_noun_01_0",
+    "senseId": "grain_noun_01",
+    "text": "whole grain"
+  },
+  {
+    "id": "grain_noun_01_1",
+    "senseId": "grain_noun_01",
+    "text": "grain production"
+  },
+  {
+    "id": "grid_noun_01_0",
+    "senseId": "grid_noun_01",
+    "text": "national grid"
+  },
+  {
+    "id": "grid_noun_01_1",
+    "senseId": "grid_noun_01",
+    "text": "electricity grid"
+  },
+  {
+    "id": "grief_noun_01_0",
+    "senseId": "grief_noun_01",
+    "text": "cope with grief"
+  },
+  {
+    "id": "grief_noun_01_1",
+    "senseId": "grief_noun_01",
+    "text": "profound grief"
+  },
+  {
+    "id": "guarantee_noun_01_0",
+    "senseId": "guarantee_noun_01",
+    "text": "quality guarantee"
+  },
+  {
+    "id": "guarantee_noun_01_1",
+    "senseId": "guarantee_noun_01",
+    "text": "provide a guarantee"
+  },
+  {
+    "id": "habitat_noun_01_0",
+    "senseId": "habitat_noun_01",
+    "text": "natural habitat"
+  },
+  {
+    "id": "habitat_noun_01_1",
+    "senseId": "habitat_noun_01",
+    "text": "habitat loss"
+  },
+  {
+    "id": "habitat fragmentation_noun_01_0",
+    "senseId": "habitat fragmentation_noun_01",
+    "text": "reduce habitat fragmentation"
+  },
+  {
+    "id": "habitat fragmentation_noun_01_1",
+    "senseId": "habitat fragmentation_noun_01",
+    "text": "habitat fragmentation effects"
+  },
+  {
+    "id": "hardware_noun_01_0",
+    "senseId": "hardware_noun_01",
+    "text": "computer hardware"
+  },
+  {
+    "id": "hardware_noun_01_1",
+    "senseId": "hardware_noun_01",
+    "text": "hardware upgrade"
+  },
+  {
+    "id": "harvest_noun_01_0",
+    "senseId": "harvest_noun_01",
+    "text": "annual harvest"
+  },
+  {
+    "id": "harvest_noun_01_1",
+    "senseId": "harvest_noun_01",
+    "text": "crop harvest"
+  },
+  {
+    "id": "headline_noun_01_0",
+    "senseId": "headline_noun_01",
+    "text": "news headline"
+  },
+  {
+    "id": "headline_noun_01_1",
+    "senseId": "headline_noun_01",
+    "text": "misleading headline"
+  },
+  {
+    "id": "headquarters_noun_01_0",
+    "senseId": "headquarters_noun_01",
+    "text": "corporate headquarters"
+  },
+  {
+    "id": "headquarters_noun_01_1",
+    "senseId": "headquarters_noun_01",
+    "text": "regional headquarters"
+  },
+  {
+    "id": "hence_adverb_01_0",
+    "senseId": "hence_adverb_01",
+    "text": "hence the need"
+  },
+  {
+    "id": "hence_adverb_01_1",
+    "senseId": "hence_adverb_01",
+    "text": "hence the importance"
+  },
+  {
+    "id": "heritage_noun_01_0",
+    "senseId": "heritage_noun_01",
+    "text": "cultural heritage"
+  },
+  {
+    "id": "heritage_noun_01_1",
+    "senseId": "heritage_noun_01",
+    "text": "heritage conservation"
+  },
+  {
+    "id": "homelessness_noun_01_0",
+    "senseId": "homelessness_noun_01",
+    "text": "youth homelessness"
+  },
+  {
+    "id": "homelessness_noun_01_1",
+    "senseId": "homelessness_noun_01",
+    "text": "reduce homelessness"
+  },
+  {
+    "id": "hospice_noun_01_0",
+    "senseId": "hospice_noun_01",
+    "text": "hospice care"
+  },
+  {
+    "id": "hospice_noun_01_1",
+    "senseId": "hospice_noun_01",
+    "text": "hospice services"
+  },
+  {
+    "id": "however_adverb_01_0",
+    "senseId": "however_adverb_01",
+    "text": "however limited"
+  },
+  {
+    "id": "however_adverb_01_1",
+    "senseId": "however_adverb_01",
+    "text": "however important"
+  },
+  {
+    "id": "hydropower_noun_01_0",
+    "senseId": "hydropower_noun_01",
+    "text": "hydropower generation"
+  },
+  {
+    "id": "hydropower_noun_01_1",
+    "senseId": "hydropower_noun_01",
+    "text": "hydropower plant"
+  },
+  {
+    "id": "hygiene_noun_01_0",
+    "senseId": "hygiene_noun_01",
+    "text": "personal hygiene"
+  },
+  {
+    "id": "hygiene_noun_01_1",
+    "senseId": "hygiene_noun_01",
+    "text": "food hygiene"
+  },
+  {
+    "id": "hypothesis_noun_01_0",
+    "senseId": "hypothesis_noun_01",
+    "text": "test a hypothesis"
+  },
+  {
+    "id": "hypothesis_noun_01_1",
+    "senseId": "hypothesis_noun_01",
+    "text": "form a hypothesis"
+  },
+  {
+    "id": "impact_noun_01_0",
+    "senseId": "impact_noun_01",
+    "text": "environmental impact"
+  },
+  {
+    "id": "impact_noun_01_1",
+    "senseId": "impact_noun_01",
+    "text": "significant impact"
+  },
+  {
+    "id": "impartiality_noun_01_0",
+    "senseId": "impartiality_noun_01",
+    "text": "editorial impartiality"
+  },
+  {
+    "id": "impartiality_noun_01_1",
+    "senseId": "impartiality_noun_01",
+    "text": "political impartiality"
+  },
+  {
+    "id": "implication_noun_01_0",
+    "senseId": "implication_noun_01",
+    "text": "policy implication"
+  },
+  {
+    "id": "implication_noun_01_1",
+    "senseId": "implication_noun_01",
+    "text": "practical implication"
+  },
+  {
+    "id": "import_noun_01_0",
+    "senseId": "import_noun_01",
+    "text": "food import"
+  },
+  {
+    "id": "import_noun_01_1",
+    "senseId": "import_noun_01",
+    "text": "import restrictions"
+  },
+  {
+    "id": "imprisonment_noun_01_0",
+    "senseId": "imprisonment_noun_01",
+    "text": "life imprisonment"
+  },
+  {
+    "id": "imprisonment_noun_01_1",
+    "senseId": "imprisonment_noun_01",
+    "text": "term of imprisonment"
+  },
+  {
+    "id": "in contrast_adverb_01_0",
+    "senseId": "in contrast_adverb_01",
+    "text": "in contrast to"
+  },
+  {
+    "id": "in contrast_adverb_01_1",
+    "senseId": "in contrast_adverb_01",
+    "text": "in contrast with"
+  },
+  {
+    "id": "in particular_adverb_01_0",
+    "senseId": "in particular_adverb_01",
+    "text": "in particular children"
+  },
+  {
+    "id": "in particular_adverb_01_1",
+    "senseId": "in particular_adverb_01",
+    "text": "in particular rural communities"
+  },
+  {
+    "id": "inasmuch as_conjunction_01_0",
+    "senseId": "inasmuch as_conjunction_01",
+    "text": "inasmuch as it affects"
+  },
+  {
+    "id": "inasmuch as_conjunction_01_1",
+    "senseId": "inasmuch as_conjunction_01",
+    "text": "inasmuch as they reveal"
   },
   {
     "id": "incentive_noun_01_0",
@@ -650,24 +2350,274 @@
     "text": "provide an incentive"
   },
   {
-    "id": "revenue_noun_01_0",
-    "senseId": "revenue_noun_01",
-    "text": "annual revenue"
+    "id": "incentivise_verb_01_0",
+    "senseId": "incentivise_verb_01",
+    "text": "incentivise investment"
   },
   {
-    "id": "revenue_noun_01_1",
-    "senseId": "revenue_noun_01",
-    "text": "generate revenue"
+    "id": "incentivise_verb_01_1",
+    "senseId": "incentivise_verb_01",
+    "text": "incentivise innovation"
   },
   {
-    "id": "allocate_verb_01_0",
-    "senseId": "allocate_verb_01",
-    "text": "allocate resources"
+    "id": "inclusivity_noun_01_0",
+    "senseId": "inclusivity_noun_01",
+    "text": "social inclusivity"
   },
   {
-    "id": "allocate_verb_01_1",
-    "senseId": "allocate_verb_01",
-    "text": "allocate funding"
+    "id": "inclusivity_noun_01_1",
+    "senseId": "inclusivity_noun_01",
+    "text": "promote inclusivity"
+  },
+  {
+    "id": "induce_verb_01_0",
+    "senseId": "induce_verb_01",
+    "text": "induce a response"
+  },
+  {
+    "id": "induce_verb_01_1",
+    "senseId": "induce_verb_01",
+    "text": "induce change"
+  },
+  {
+    "id": "inequality_noun_01_0",
+    "senseId": "inequality_noun_01",
+    "text": "income inequality"
+  },
+  {
+    "id": "inequality_noun_01_1",
+    "senseId": "inequality_noun_01",
+    "text": "social inequality"
+  },
+  {
+    "id": "inevitable_adjective_01_0",
+    "senseId": "inevitable_adjective_01",
+    "text": "almost inevitable"
+  },
+  {
+    "id": "inevitable_adjective_01_1",
+    "senseId": "inevitable_adjective_01",
+    "text": "inevitable consequence"
+  },
+  {
+    "id": "inextricably_adverb_01_0",
+    "senseId": "inextricably_adverb_01",
+    "text": "inextricably linked"
+  },
+  {
+    "id": "inextricably_adverb_01_1",
+    "senseId": "inextricably_adverb_01",
+    "text": "inextricably connected"
+  },
+  {
+    "id": "inflammation_noun_01_0",
+    "senseId": "inflammation_noun_01",
+    "text": "chronic inflammation"
+  },
+  {
+    "id": "inflammation_noun_01_1",
+    "senseId": "inflammation_noun_01",
+    "text": "reduce inflammation"
+  },
+  {
+    "id": "inflation_noun_01_0",
+    "senseId": "inflation_noun_01",
+    "text": "annual inflation"
+  },
+  {
+    "id": "inflation_noun_01_1",
+    "senseId": "inflation_noun_01",
+    "text": "inflation rate"
+  },
+  {
+    "id": "infrastructure_noun_01_0",
+    "senseId": "infrastructure_noun_01",
+    "text": "digital infrastructure"
+  },
+  {
+    "id": "infrastructure_noun_01_1",
+    "senseId": "infrastructure_noun_01",
+    "text": "public infrastructure"
+  },
+  {
+    "id": "infringement_noun_01_0",
+    "senseId": "infringement_noun_01",
+    "text": "copyright infringement"
+  },
+  {
+    "id": "infringement_noun_01_1",
+    "senseId": "infringement_noun_01",
+    "text": "infringement of rights"
+  },
+  {
+    "id": "injection_noun_01_0",
+    "senseId": "injection_noun_01",
+    "text": "receive an injection"
+  },
+  {
+    "id": "injection_noun_01_1",
+    "senseId": "injection_noun_01",
+    "text": "vaccine injection"
+  },
+  {
+    "id": "injustice_noun_01_0",
+    "senseId": "injustice_noun_01",
+    "text": "social injustice"
+  },
+  {
+    "id": "injustice_noun_01_1",
+    "senseId": "injustice_noun_01",
+    "text": "address injustice"
+  },
+  {
+    "id": "innovation_noun_01_0",
+    "senseId": "innovation_noun_01",
+    "text": "technological innovation"
+  },
+  {
+    "id": "innovation_noun_01_1",
+    "senseId": "innovation_noun_01",
+    "text": "encourage innovation"
+  },
+  {
+    "id": "innovative_adjective_01_0",
+    "senseId": "innovative_adjective_01",
+    "text": "innovative solution"
+  },
+  {
+    "id": "innovative_adjective_01_1",
+    "senseId": "innovative_adjective_01",
+    "text": "innovative approach"
+  },
+  {
+    "id": "insofar as_conjunction_01_0",
+    "senseId": "insofar as_conjunction_01",
+    "text": "insofar as possible"
+  },
+  {
+    "id": "insofar as_conjunction_01_1",
+    "senseId": "insofar as_conjunction_01",
+    "text": "insofar as it applies"
+  },
+  {
+    "id": "institution_noun_01_0",
+    "senseId": "institution_noun_01",
+    "text": "educational institution"
+  },
+  {
+    "id": "institution_noun_01_1",
+    "senseId": "institution_noun_01",
+    "text": "public institution"
+  },
+  {
+    "id": "insulation_noun_01_0",
+    "senseId": "insulation_noun_01",
+    "text": "thermal insulation"
+  },
+  {
+    "id": "insulation_noun_01_1",
+    "senseId": "insulation_noun_01",
+    "text": "roof insulation"
+  },
+  {
+    "id": "integrate_verb_01_0",
+    "senseId": "integrate_verb_01",
+    "text": "integrate technology"
+  },
+  {
+    "id": "integrate_verb_01_1",
+    "senseId": "integrate_verb_01",
+    "text": "fully integrate"
+  },
+  {
+    "id": "interdependence_noun_01_0",
+    "senseId": "interdependence_noun_01",
+    "text": "economic interdependence"
+  },
+  {
+    "id": "interdependence_noun_01_1",
+    "senseId": "interdependence_noun_01",
+    "text": "global interdependence"
+  },
+  {
+    "id": "interest_noun_01_0",
+    "senseId": "interest_noun_01",
+    "text": "generate interest"
+  },
+  {
+    "id": "interest_noun_01_1",
+    "senseId": "interest_noun_01",
+    "text": "show interest"
+  },
+  {
+    "id": "intermittency_noun_01_0",
+    "senseId": "intermittency_noun_01",
+    "text": "renewable intermittency"
+  },
+  {
+    "id": "intermittency_noun_01_1",
+    "senseId": "intermittency_noun_01",
+    "text": "power intermittency"
+  },
+  {
+    "id": "intermodal_adjective_01_0",
+    "senseId": "intermodal_adjective_01",
+    "text": "intermodal transport"
+  },
+  {
+    "id": "intermodal_adjective_01_1",
+    "senseId": "intermodal_adjective_01",
+    "text": "intermodal terminal"
+  },
+  {
+    "id": "interoperability_noun_01_0",
+    "senseId": "interoperability_noun_01",
+    "text": "system interoperability"
+  },
+  {
+    "id": "interoperability_noun_01_1",
+    "senseId": "interoperability_noun_01",
+    "text": "improve interoperability"
+  },
+  {
+    "id": "interpret_verb_01_0",
+    "senseId": "interpret_verb_01",
+    "text": "interpret data"
+  },
+  {
+    "id": "interpret_verb_01_1",
+    "senseId": "interpret_verb_01",
+    "text": "interpret results"
+  },
+  {
+    "id": "intersection_noun_01_0",
+    "senseId": "intersection_noun_01",
+    "text": "road intersection"
+  },
+  {
+    "id": "intersection_noun_01_1",
+    "senseId": "intersection_noun_01",
+    "text": "signalised intersection"
+  },
+  {
+    "id": "intervention_noun_01_0",
+    "senseId": "intervention_noun_01",
+    "text": "early intervention"
+  },
+  {
+    "id": "intervention_noun_01_1",
+    "senseId": "intervention_noun_01",
+    "text": "effective intervention"
+  },
+  {
+    "id": "intrinsically_adverb_01_0",
+    "senseId": "intrinsically_adverb_01",
+    "text": "intrinsically linked"
+  },
+  {
+    "id": "intrinsically_adverb_01_1",
+    "senseId": "intrinsically_adverb_01",
+    "text": "intrinsically valuable"
   },
   {
     "id": "investment_noun_01_0",
@@ -680,6 +2630,1056 @@
     "text": "public investment"
   },
   {
+    "id": "irrigation_noun_01_0",
+    "senseId": "irrigation_noun_01",
+    "text": "drip irrigation"
+  },
+  {
+    "id": "irrigation_noun_01_1",
+    "senseId": "irrigation_noun_01",
+    "text": "irrigation system"
+  },
+  {
+    "id": "itinerary_noun_01_0",
+    "senseId": "itinerary_noun_01",
+    "text": "travel itinerary"
+  },
+  {
+    "id": "itinerary_noun_01_1",
+    "senseId": "itinerary_noun_01",
+    "text": "detailed itinerary"
+  },
+  {
+    "id": "journalism_noun_01_0",
+    "senseId": "journalism_noun_01",
+    "text": "investigative journalism"
+  },
+  {
+    "id": "journalism_noun_01_1",
+    "senseId": "journalism_noun_01",
+    "text": "quality journalism"
+  },
+  {
+    "id": "jury_noun_01_0",
+    "senseId": "jury_noun_01",
+    "text": "jury member"
+  },
+  {
+    "id": "jury_noun_01_1",
+    "senseId": "jury_noun_01",
+    "text": "jury verdict"
+  },
+  {
+    "id": "lecturer_noun_01_0",
+    "senseId": "lecturer_noun_01",
+    "text": "university lecturer"
+  },
+  {
+    "id": "lecturer_noun_01_1",
+    "senseId": "lecturer_noun_01",
+    "text": "senior lecturer"
+  },
+  {
+    "id": "legislation_noun_01_0",
+    "senseId": "legislation_noun_01",
+    "text": "environmental legislation"
+  },
+  {
+    "id": "legislation_noun_01_1",
+    "senseId": "legislation_noun_01",
+    "text": "introduce legislation"
+  },
+  {
+    "id": "life expectancy_noun_01_0",
+    "senseId": "life expectancy_noun_01",
+    "text": "average life expectancy"
+  },
+  {
+    "id": "life expectancy_noun_01_1",
+    "senseId": "life expectancy_noun_01",
+    "text": "life expectancy at birth"
+  },
+  {
+    "id": "lifelong_adjective_01_0",
+    "senseId": "lifelong_adjective_01",
+    "text": "lifelong learning"
+  },
+  {
+    "id": "lifelong_adjective_01_1",
+    "senseId": "lifelong_adjective_01",
+    "text": "lifelong commitment"
+  },
+  {
+    "id": "liquidity_noun_01_0",
+    "senseId": "liquidity_noun_01",
+    "text": "market liquidity"
+  },
+  {
+    "id": "liquidity_noun_01_1",
+    "senseId": "liquidity_noun_01",
+    "text": "liquidity shortage"
+  },
+  {
+    "id": "literacy_noun_01_0",
+    "senseId": "literacy_noun_01",
+    "text": "digital literacy"
+  },
+  {
+    "id": "literacy_noun_01_1",
+    "senseId": "literacy_noun_01",
+    "text": "literacy skills"
+  },
+  {
+    "id": "livestock_noun_01_0",
+    "senseId": "livestock_noun_01",
+    "text": "livestock farming"
+  },
+  {
+    "id": "livestock_noun_01_1",
+    "senseId": "livestock_noun_01",
+    "text": "livestock production"
+  },
+  {
+    "id": "loan_noun_01_0",
+    "senseId": "loan_noun_01",
+    "text": "bank loan"
+  },
+  {
+    "id": "loan_noun_01_1",
+    "senseId": "loan_noun_01",
+    "text": "repay a loan"
+  },
+  {
+    "id": "localisation_noun_01_0",
+    "senseId": "localisation_noun_01",
+    "text": "software localisation"
+  },
+  {
+    "id": "localisation_noun_01_1",
+    "senseId": "localisation_noun_01",
+    "text": "product localisation"
+  },
+  {
+    "id": "loneliness_noun_01_0",
+    "senseId": "loneliness_noun_01",
+    "text": "social loneliness"
+  },
+  {
+    "id": "loneliness_noun_01_1",
+    "senseId": "loneliness_noun_01",
+    "text": "reduce loneliness"
+  },
+  {
+    "id": "longevity_noun_01_0",
+    "senseId": "longevity_noun_01",
+    "text": "human longevity"
+  },
+  {
+    "id": "longevity_noun_01_1",
+    "senseId": "longevity_noun_01",
+    "text": "increased longevity"
+  },
+  {
+    "id": "longitudinal_adjective_01_0",
+    "senseId": "longitudinal_adjective_01",
+    "text": "longitudinal study"
+  },
+  {
+    "id": "longitudinal_adjective_01_1",
+    "senseId": "longitudinal_adjective_01",
+    "text": "longitudinal data"
+  },
+  {
+    "id": "magnitude_noun_01_0",
+    "senseId": "magnitude_noun_01",
+    "text": "magnitude of change"
+  },
+  {
+    "id": "magnitude_noun_01_1",
+    "senseId": "magnitude_noun_01",
+    "text": "relative magnitude"
+  },
+  {
+    "id": "malnutrition_noun_01_0",
+    "senseId": "malnutrition_noun_01",
+    "text": "childhood malnutrition"
+  },
+  {
+    "id": "malnutrition_noun_01_1",
+    "senseId": "malnutrition_noun_01",
+    "text": "prevent malnutrition"
+  },
+  {
+    "id": "manufacturer_noun_01_0",
+    "senseId": "manufacturer_noun_01",
+    "text": "car manufacturer"
+  },
+  {
+    "id": "manufacturer_noun_01_1",
+    "senseId": "manufacturer_noun_01",
+    "text": "leading manufacturer"
+  },
+  {
+    "id": "marginalisation_noun_01_0",
+    "senseId": "marginalisation_noun_01",
+    "text": "social marginalisation"
+  },
+  {
+    "id": "marginalisation_noun_01_1",
+    "senseId": "marginalisation_noun_01",
+    "text": "economic marginalisation"
+  },
+  {
+    "id": "markedly_adverb_01_0",
+    "senseId": "markedly_adverb_01",
+    "text": "increase markedly"
+  },
+  {
+    "id": "markedly_adverb_01_1",
+    "senseId": "markedly_adverb_01",
+    "text": "differ markedly"
+  },
+  {
+    "id": "masterpiece_noun_01_0",
+    "senseId": "masterpiece_noun_01",
+    "text": "literary masterpiece"
+  },
+  {
+    "id": "masterpiece_noun_01_1",
+    "senseId": "masterpiece_noun_01",
+    "text": "artistic masterpiece"
+  },
+  {
+    "id": "mechanism_noun_01_0",
+    "senseId": "mechanism_noun_01",
+    "text": "feedback mechanism"
+  },
+  {
+    "id": "mechanism_noun_01_1",
+    "senseId": "mechanism_noun_01",
+    "text": "security mechanism"
+  },
+  {
+    "id": "medication_noun_01_0",
+    "senseId": "medication_noun_01",
+    "text": "prescribed medication"
+  },
+  {
+    "id": "medication_noun_01_1",
+    "senseId": "medication_noun_01",
+    "text": "take medication"
+  },
+  {
+    "id": "melody_noun_01_0",
+    "senseId": "melody_noun_01",
+    "text": "simple melody"
+  },
+  {
+    "id": "melody_noun_01_1",
+    "senseId": "melody_noun_01",
+    "text": "memorable melody"
+  },
+  {
+    "id": "metaphor_noun_01_0",
+    "senseId": "metaphor_noun_01",
+    "text": "extended metaphor"
+  },
+  {
+    "id": "metaphor_noun_01_1",
+    "senseId": "metaphor_noun_01",
+    "text": "use a metaphor"
+  },
+  {
+    "id": "microplastic_noun_01_0",
+    "senseId": "microplastic_noun_01",
+    "text": "microplastic pollution"
+  },
+  {
+    "id": "microplastic_noun_01_1",
+    "senseId": "microplastic_noun_01",
+    "text": "microplastic particle"
+  },
+  {
+    "id": "migration_noun_01_0",
+    "senseId": "migration_noun_01",
+    "text": "rural migration"
+  },
+  {
+    "id": "migration_noun_01_1",
+    "senseId": "migration_noun_01",
+    "text": "international migration"
+  },
+  {
+    "id": "mimic_verb_01_0",
+    "senseId": "mimic_verb_01",
+    "text": "mimic behaviour"
+  },
+  {
+    "id": "mimic_verb_01_1",
+    "senseId": "mimic_verb_01",
+    "text": "mimic a sound"
+  },
+  {
+    "id": "misinformation_noun_01_0",
+    "senseId": "misinformation_noun_01",
+    "text": "online misinformation"
+  },
+  {
+    "id": "misinformation_noun_01_1",
+    "senseId": "misinformation_noun_01",
+    "text": "spread misinformation"
+  },
+  {
+    "id": "mitigate_verb_01_0",
+    "senseId": "mitigate_verb_01",
+    "text": "mitigate risks"
+  },
+  {
+    "id": "mitigate_verb_01_1",
+    "senseId": "mitigate_verb_01",
+    "text": "mitigate the impact"
+  },
+  {
+    "id": "mitigation_noun_01_0",
+    "senseId": "mitigation_noun_01",
+    "text": "climate mitigation"
+  },
+  {
+    "id": "mitigation_noun_01_1",
+    "senseId": "mitigation_noun_01",
+    "text": "mitigation measures"
+  },
+  {
+    "id": "monoculture_noun_01_0",
+    "senseId": "monoculture_noun_01",
+    "text": "crop monoculture"
+  },
+  {
+    "id": "monoculture_noun_01_1",
+    "senseId": "monoculture_noun_01",
+    "text": "intensive monoculture"
+  },
+  {
+    "id": "morbidity_noun_01_0",
+    "senseId": "morbidity_noun_01",
+    "text": "disease morbidity"
+  },
+  {
+    "id": "morbidity_noun_01_1",
+    "senseId": "morbidity_noun_01",
+    "text": "morbidity rate"
+  },
+  {
+    "id": "moreover_adverb_01_0",
+    "senseId": "moreover_adverb_01",
+    "text": "moreover the findings"
+  },
+  {
+    "id": "moreover_adverb_01_1",
+    "senseId": "moreover_adverb_01",
+    "text": "moreover it provides"
+  },
+  {
+    "id": "mortality_noun_01_0",
+    "senseId": "mortality_noun_01",
+    "text": "infant mortality"
+  },
+  {
+    "id": "mortality_noun_01_1",
+    "senseId": "mortality_noun_01",
+    "text": "mortality rate"
+  },
+  {
+    "id": "motivate_verb_01_0",
+    "senseId": "motivate_verb_01",
+    "text": "motivate learners"
+  },
+  {
+    "id": "motivate_verb_01_1",
+    "senseId": "motivate_verb_01",
+    "text": "highly motivated"
+  },
+  {
+    "id": "multiculturalism_noun_01_0",
+    "senseId": "multiculturalism_noun_01",
+    "text": "multiculturalism in education"
+  },
+  {
+    "id": "multiculturalism_noun_01_1",
+    "senseId": "multiculturalism_noun_01",
+    "text": "support multiculturalism"
+  },
+  {
+    "id": "multifaceted_adjective_01_0",
+    "senseId": "multifaceted_adjective_01",
+    "text": "multifaceted problem"
+  },
+  {
+    "id": "multifaceted_adjective_01_1",
+    "senseId": "multifaceted_adjective_01",
+    "text": "multifaceted approach"
+  },
+  {
+    "id": "multilingualism_noun_01_0",
+    "senseId": "multilingualism_noun_01",
+    "text": "societal multilingualism"
+  },
+  {
+    "id": "multilingualism_noun_01_1",
+    "senseId": "multilingualism_noun_01",
+    "text": "promote multilingualism"
+  },
+  {
+    "id": "mutation_noun_01_0",
+    "senseId": "mutation_noun_01",
+    "text": "genetic mutation"
+  },
+  {
+    "id": "mutation_noun_01_1",
+    "senseId": "mutation_noun_01",
+    "text": "mutation rate"
+  },
+  {
+    "id": "mythology_noun_01_0",
+    "senseId": "mythology_noun_01",
+    "text": "classical mythology"
+  },
+  {
+    "id": "mythology_noun_01_1",
+    "senseId": "mythology_noun_01",
+    "text": "local mythology"
+  },
+  {
+    "id": "nanotechnology_noun_01_0",
+    "senseId": "nanotechnology_noun_01",
+    "text": "nanotechnology research"
+  },
+  {
+    "id": "nanotechnology_noun_01_1",
+    "senseId": "nanotechnology_noun_01",
+    "text": "nanotechnology applications"
+  },
+  {
+    "id": "navigation_noun_01_0",
+    "senseId": "navigation_noun_01",
+    "text": "satellite navigation"
+  },
+  {
+    "id": "navigation_noun_01_1",
+    "senseId": "navigation_noun_01",
+    "text": "navigation system"
+  },
+  {
+    "id": "negligible_adjective_01_0",
+    "senseId": "negligible_adjective_01",
+    "text": "negligible impact"
+  },
+  {
+    "id": "negligible_adjective_01_1",
+    "senseId": "negligible_adjective_01",
+    "text": "negligible difference"
+  },
+  {
+    "id": "nevertheless_adverb_01_0",
+    "senseId": "nevertheless_adverb_01",
+    "text": "nevertheless remain"
+  },
+  {
+    "id": "nevertheless_adverb_01_1",
+    "senseId": "nevertheless_adverb_01",
+    "text": "nevertheless important"
+  },
+  {
+    "id": "nonetheless_adverb_01_0",
+    "senseId": "nonetheless_adverb_01",
+    "text": "nonetheless significant"
+  },
+  {
+    "id": "nonetheless_adverb_01_1",
+    "senseId": "nonetheless_adverb_01",
+    "text": "nonetheless remain"
+  },
+  {
+    "id": "notwithstanding_preposition_01_0",
+    "senseId": "notwithstanding_preposition_01",
+    "text": "notwithstanding these concerns"
+  },
+  {
+    "id": "notwithstanding_preposition_01_1",
+    "senseId": "notwithstanding_preposition_01",
+    "text": "notwithstanding the cost"
+  },
+  {
+    "id": "nuance_noun_01_0",
+    "senseId": "nuance_noun_01",
+    "text": "subtle nuance"
+  },
+  {
+    "id": "nuance_noun_01_1",
+    "senseId": "nuance_noun_01",
+    "text": "linguistic nuance"
+  },
+  {
+    "id": "nutrition_noun_01_0",
+    "senseId": "nutrition_noun_01",
+    "text": "balanced nutrition"
+  },
+  {
+    "id": "nutrition_noun_01_1",
+    "senseId": "nutrition_noun_01",
+    "text": "nutrition education"
+  },
+  {
+    "id": "objective_adjective_01_0",
+    "senseId": "objective_adjective_01",
+    "text": "objective assessment"
+  },
+  {
+    "id": "objective_adjective_01_1",
+    "senseId": "objective_adjective_01",
+    "text": "objective evidence"
+  },
+  {
+    "id": "obsolescence_noun_01_0",
+    "senseId": "obsolescence_noun_01",
+    "text": "technological obsolescence"
+  },
+  {
+    "id": "obsolescence_noun_01_1",
+    "senseId": "obsolescence_noun_01",
+    "text": "planned obsolescence"
+  },
+  {
+    "id": "on balance_adverb_01_0",
+    "senseId": "on balance_adverb_01",
+    "text": "on balance beneficial"
+  },
+  {
+    "id": "on balance_adverb_01_1",
+    "senseId": "on balance_adverb_01",
+    "text": "on balance preferable"
+  },
+  {
+    "id": "operationalise_verb_01_0",
+    "senseId": "operationalise_verb_01",
+    "text": "operationalise a concept"
+  },
+  {
+    "id": "operationalise_verb_01_1",
+    "senseId": "operationalise_verb_01",
+    "text": "operationalise a variable"
+  },
+  {
+    "id": "operator_noun_01_0",
+    "senseId": "operator_noun_01",
+    "text": "network operator"
+  },
+  {
+    "id": "operator_noun_01_1",
+    "senseId": "operator_noun_01",
+    "text": "machine operator"
+  },
+  {
+    "id": "opportunity cost_noun_01_0",
+    "senseId": "opportunity cost_noun_01",
+    "text": "high opportunity cost"
+  },
+  {
+    "id": "opportunity cost_noun_01_1",
+    "senseId": "opportunity cost_noun_01",
+    "text": "opportunity cost of investment"
+  },
+  {
+    "id": "optimism_noun_01_0",
+    "senseId": "optimism_noun_01",
+    "text": "cautious optimism"
+  },
+  {
+    "id": "optimism_noun_01_1",
+    "senseId": "optimism_noun_01",
+    "text": "express optimism"
+  },
+  {
+    "id": "ore_noun_01_0",
+    "senseId": "ore_noun_01",
+    "text": "iron ore"
+  },
+  {
+    "id": "ore_noun_01_1",
+    "senseId": "ore_noun_01",
+    "text": "metal ore"
+  },
+  {
+    "id": "oscillate_verb_01_0",
+    "senseId": "oscillate_verb_01",
+    "text": "oscillate between"
+  },
+  {
+    "id": "oscillate_verb_01_1",
+    "senseId": "oscillate_verb_01",
+    "text": "oscillate rapidly"
+  },
+  {
+    "id": "ostensibly_adverb_01_0",
+    "senseId": "ostensibly_adverb_01",
+    "text": "ostensibly independent"
+  },
+  {
+    "id": "ostensibly_adverb_01_1",
+    "senseId": "ostensibly_adverb_01",
+    "text": "ostensibly intended"
+  },
+  {
+    "id": "output_noun_01_0",
+    "senseId": "output_noun_01",
+    "text": "industrial output"
+  },
+  {
+    "id": "output_noun_01_1",
+    "senseId": "output_noun_01",
+    "text": "economic output"
+  },
+  {
+    "id": "outsourcing_noun_01_0",
+    "senseId": "outsourcing_noun_01",
+    "text": "offshore outsourcing"
+  },
+  {
+    "id": "outsourcing_noun_01_1",
+    "senseId": "outsourcing_noun_01",
+    "text": "outsourcing services"
+  },
+  {
+    "id": "outweigh_verb_01_0",
+    "senseId": "outweigh_verb_01",
+    "text": "outweigh the costs"
+  },
+  {
+    "id": "outweigh_verb_01_1",
+    "senseId": "outweigh_verb_01",
+    "text": "outweigh the drawbacks"
+  },
+  {
+    "id": "overconsumption_noun_01_0",
+    "senseId": "overconsumption_noun_01",
+    "text": "resource overconsumption"
+  },
+  {
+    "id": "overconsumption_noun_01_1",
+    "senseId": "overconsumption_noun_01",
+    "text": "overconsumption of sugar"
+  },
+  {
+    "id": "overcrowding_noun_01_0",
+    "senseId": "overcrowding_noun_01",
+    "text": "household overcrowding"
+  },
+  {
+    "id": "overcrowding_noun_01_1",
+    "senseId": "overcrowding_noun_01",
+    "text": "reduce overcrowding"
+  },
+  {
+    "id": "overlap_verb_01_0",
+    "senseId": "overlap_verb_01",
+    "text": "overlap significantly"
+  },
+  {
+    "id": "overlap_verb_01_1",
+    "senseId": "overlap_verb_01",
+    "text": "overlap with"
+  },
+  {
+    "id": "overtime_noun_01_0",
+    "senseId": "overtime_noun_01",
+    "text": "paid overtime"
+  },
+  {
+    "id": "overtime_noun_01_1",
+    "senseId": "overtime_noun_01",
+    "text": "work overtime"
+  },
+  {
+    "id": "overtourism_noun_01_0",
+    "senseId": "overtourism_noun_01",
+    "text": "urban overtourism"
+  },
+  {
+    "id": "overtourism_noun_01_1",
+    "senseId": "overtourism_noun_01",
+    "text": "address overtourism"
+  },
+  {
+    "id": "parenthood_noun_01_0",
+    "senseId": "parenthood_noun_01",
+    "text": "early parenthood"
+  },
+  {
+    "id": "parenthood_noun_01_1",
+    "senseId": "parenthood_noun_01",
+    "text": "responsible parenthood"
+  },
+  {
+    "id": "parliament_noun_01_0",
+    "senseId": "parliament_noun_01",
+    "text": "national parliament"
+  },
+  {
+    "id": "parliament_noun_01_1",
+    "senseId": "parliament_noun_01",
+    "text": "parliamentary debate"
+  },
+  {
+    "id": "participation_noun_01_0",
+    "senseId": "participation_noun_01",
+    "text": "active participation"
+  },
+  {
+    "id": "participation_noun_01_1",
+    "senseId": "participation_noun_01",
+    "text": "workforce participation"
+  },
+  {
+    "id": "particle_noun_01_0",
+    "senseId": "particle_noun_01",
+    "text": "dust particle"
+  },
+  {
+    "id": "particle_noun_01_1",
+    "senseId": "particle_noun_01",
+    "text": "subatomic particle"
+  },
+  {
+    "id": "partnership_noun_01_0",
+    "senseId": "partnership_noun_01",
+    "text": "strategic partnership"
+  },
+  {
+    "id": "partnership_noun_01_1",
+    "senseId": "partnership_noun_01",
+    "text": "public-private partnership"
+  },
+  {
+    "id": "peak_noun_01_0",
+    "senseId": "peak_noun_01",
+    "text": "reach a peak"
+  },
+  {
+    "id": "peak_noun_01_1",
+    "senseId": "peak_noun_01",
+    "text": "seasonal peak"
+  },
+  {
+    "id": "pedagogy_noun_01_0",
+    "senseId": "pedagogy_noun_01",
+    "text": "inclusive pedagogy"
+  },
+  {
+    "id": "pedagogy_noun_01_1",
+    "senseId": "pedagogy_noun_01",
+    "text": "digital pedagogy"
+  },
+  {
+    "id": "pedal_noun_01_0",
+    "senseId": "pedal_noun_01",
+    "text": "bicycle pedal"
+  },
+  {
+    "id": "pedal_noun_01_1",
+    "senseId": "pedal_noun_01",
+    "text": "brake pedal"
+  },
+  {
+    "id": "peer-reviewed_adjective_01_0",
+    "senseId": "peer-reviewed_adjective_01",
+    "text": "peer-reviewed journal"
+  },
+  {
+    "id": "peer-reviewed_adjective_01_1",
+    "senseId": "peer-reviewed_adjective_01",
+    "text": "peer-reviewed study"
+  },
+  {
+    "id": "penalty_noun_01_0",
+    "senseId": "penalty_noun_01",
+    "text": "financial penalty"
+  },
+  {
+    "id": "penalty_noun_01_1",
+    "senseId": "penalty_noun_01",
+    "text": "impose a penalty"
+  },
+  {
+    "id": "pension_noun_01_0",
+    "senseId": "pension_noun_01",
+    "text": "state pension"
+  },
+  {
+    "id": "pension_noun_01_1",
+    "senseId": "pension_noun_01",
+    "text": "pension scheme"
+  },
+  {
+    "id": "percentage_noun_01_0",
+    "senseId": "percentage_noun_01",
+    "text": "small percentage"
+  },
+  {
+    "id": "percentage_noun_01_1",
+    "senseId": "percentage_noun_01",
+    "text": "percentage change"
+  },
+  {
+    "id": "perception_noun_01_0",
+    "senseId": "perception_noun_01",
+    "text": "public perception"
+  },
+  {
+    "id": "perception_noun_01_1",
+    "senseId": "perception_noun_01",
+    "text": "risk perception"
+  },
+  {
+    "id": "permafrost_noun_01_0",
+    "senseId": "permafrost_noun_01",
+    "text": "permafrost thaw"
+  },
+  {
+    "id": "permafrost_noun_01_1",
+    "senseId": "permafrost_noun_01",
+    "text": "continuous permafrost"
+  },
+  {
+    "id": "pesticide_noun_01_0",
+    "senseId": "pesticide_noun_01",
+    "text": "pesticide use"
+  },
+  {
+    "id": "pesticide_noun_01_1",
+    "senseId": "pesticide_noun_01",
+    "text": "pesticide residue"
+  },
+  {
+    "id": "photosynthesis_noun_01_0",
+    "senseId": "photosynthesis_noun_01",
+    "text": "rate of photosynthesis"
+  },
+  {
+    "id": "photosynthesis_noun_01_1",
+    "senseId": "photosynthesis_noun_01",
+    "text": "photosynthesis process"
+  },
+  {
+    "id": "photovoltaic_adjective_01_0",
+    "senseId": "photovoltaic_adjective_01",
+    "text": "photovoltaic panel"
+  },
+  {
+    "id": "photovoltaic_adjective_01_1",
+    "senseId": "photovoltaic_adjective_01",
+    "text": "photovoltaic system"
+  },
+  {
+    "id": "plagiarism_noun_01_0",
+    "senseId": "plagiarism_noun_01",
+    "text": "academic plagiarism"
+  },
+  {
+    "id": "plagiarism_noun_01_1",
+    "senseId": "plagiarism_noun_01",
+    "text": "avoid plagiarism"
+  },
+  {
+    "id": "plateau_noun_01_0",
+    "senseId": "plateau_noun_01",
+    "text": "reach a plateau"
+  },
+  {
+    "id": "plateau_noun_01_1",
+    "senseId": "plateau_noun_01",
+    "text": "growth plateau"
+  },
+  {
+    "id": "plausible_adjective_01_0",
+    "senseId": "plausible_adjective_01",
+    "text": "plausible explanation"
+  },
+  {
+    "id": "plausible_adjective_01_1",
+    "senseId": "plausible_adjective_01",
+    "text": "plausible alternative"
+  },
+  {
+    "id": "plug_noun_01_0",
+    "senseId": "plug_noun_01",
+    "text": "electrical plug"
+  },
+  {
+    "id": "plug_noun_01_1",
+    "senseId": "plug_noun_01",
+    "text": "three-pin plug"
+  },
+  {
+    "id": "plummet_verb_01_0",
+    "senseId": "plummet_verb_01",
+    "text": "plummet sharply"
+  },
+  {
+    "id": "plummet_verb_01_1",
+    "senseId": "plummet_verb_01",
+    "text": "plummet to a low"
+  },
+  {
+    "id": "pollution_noun_01_0",
+    "senseId": "pollution_noun_01",
+    "text": "air pollution"
+  },
+  {
+    "id": "pollution_noun_01_1",
+    "senseId": "pollution_noun_01",
+    "text": "noise pollution"
+  },
+  {
+    "id": "portion_noun_01_0",
+    "senseId": "portion_noun_01",
+    "text": "substantial portion"
+  },
+  {
+    "id": "portion_noun_01_1",
+    "senseId": "portion_noun_01",
+    "text": "small portion"
+  },
+  {
+    "id": "portrayal_noun_01_0",
+    "senseId": "portrayal_noun_01",
+    "text": "media portrayal"
+  },
+  {
+    "id": "portrayal_noun_01_1",
+    "senseId": "portrayal_noun_01",
+    "text": "realistic portrayal"
+  },
+  {
+    "id": "postulate_verb_01_0",
+    "senseId": "postulate_verb_01",
+    "text": "postulate a relationship"
+  },
+  {
+    "id": "postulate_verb_01_1",
+    "senseId": "postulate_verb_01",
+    "text": "postulate a mechanism"
+  },
+  {
+    "id": "pragmatic_adjective_01_0",
+    "senseId": "pragmatic_adjective_01",
+    "text": "pragmatic approach"
+  },
+  {
+    "id": "pragmatic_adjective_01_1",
+    "senseId": "pragmatic_adjective_01",
+    "text": "pragmatic solution"
+  },
+  {
+    "id": "preclude_verb_01_0",
+    "senseId": "preclude_verb_01",
+    "text": "preclude participation"
+  },
+  {
+    "id": "preclude_verb_01_1",
+    "senseId": "preclude_verb_01",
+    "text": "preclude the possibility"
+  },
+  {
+    "id": "predominantly_adverb_01_0",
+    "senseId": "predominantly_adverb_01",
+    "text": "predominantly rural"
+  },
+  {
+    "id": "predominantly_adverb_01_1",
+    "senseId": "predominantly_adverb_01",
+    "text": "predominantly residential"
+  },
+  {
+    "id": "preserve_verb_01_0",
+    "senseId": "preserve_verb_01",
+    "text": "preserve wildlife"
+  },
+  {
+    "id": "preserve_verb_01_1",
+    "senseId": "preserve_verb_01",
+    "text": "preserve resources"
+  },
+  {
+    "id": "prevail_verb_01_0",
+    "senseId": "prevail_verb_01",
+    "text": "prevail over"
+  },
+  {
+    "id": "prevail_verb_01_1",
+    "senseId": "prevail_verb_01",
+    "text": "prevailing conditions"
+  },
+  {
+    "id": "prevalence_noun_01_0",
+    "senseId": "prevalence_noun_01",
+    "text": "disease prevalence"
+  },
+  {
+    "id": "prevalence_noun_01_1",
+    "senseId": "prevalence_noun_01",
+    "text": "high prevalence"
+  },
+  {
+    "id": "prevent_verb_01_0",
+    "senseId": "prevent_verb_01",
+    "text": "prevent disease"
+  },
+  {
+    "id": "prevent_verb_01_1",
+    "senseId": "prevent_verb_01",
+    "text": "prevent injury"
+  },
+  {
+    "id": "preventative_adjective_01_0",
+    "senseId": "preventative_adjective_01",
+    "text": "preventative care"
+  },
+  {
+    "id": "preventative_adjective_01_1",
+    "senseId": "preventative_adjective_01",
+    "text": "preventative measures"
+  },
+  {
+    "id": "privacy_noun_01_0",
+    "senseId": "privacy_noun_01",
+    "text": "protect privacy"
+  },
+  {
+    "id": "privacy_noun_01_1",
+    "senseId": "privacy_noun_01",
+    "text": "data privacy"
+  },
+  {
+    "id": "privilege_noun_01_0",
+    "senseId": "privilege_noun_01",
+    "text": "social privilege"
+  },
+  {
+    "id": "privilege_noun_01_1",
+    "senseId": "privilege_noun_01",
+    "text": "economic privilege"
+  },
+  {
+    "id": "procedure_noun_01_0",
+    "senseId": "procedure_noun_01",
+    "text": "standard procedure"
+  },
+  {
+    "id": "procedure_noun_01_1",
+    "senseId": "procedure_noun_01",
+    "text": "experimental procedure"
+  },
+  {
     "id": "productivity_noun_01_0",
     "senseId": "productivity_noun_01",
     "text": "increase productivity"
@@ -690,13 +3690,1453 @@
     "text": "labour productivity"
   },
   {
-    "id": "fluctuate_verb_01_0",
-    "senseId": "fluctuate_verb_01",
-    "text": "fluctuate widely"
+    "id": "profile_noun_01_0",
+    "senseId": "profile_noun_01",
+    "text": "user profile"
   },
   {
-    "id": "fluctuate_verb_01_1",
-    "senseId": "fluctuate_verb_01",
-    "text": "fluctuate over time"
+    "id": "profile_noun_01_1",
+    "senseId": "profile_noun_01",
+    "text": "online profile"
+  },
+  {
+    "id": "profit_noun_01_0",
+    "senseId": "profit_noun_01",
+    "text": "net profit"
+  },
+  {
+    "id": "profit_noun_01_1",
+    "senseId": "profit_noun_01",
+    "text": "operating profit"
+  },
+  {
+    "id": "programming_noun_01_0",
+    "senseId": "programming_noun_01",
+    "text": "computer programming"
+  },
+  {
+    "id": "programming_noun_01_1",
+    "senseId": "programming_noun_01",
+    "text": "programming language"
+  },
+  {
+    "id": "projection_noun_01_0",
+    "senseId": "projection_noun_01",
+    "text": "population projection"
+  },
+  {
+    "id": "projection_noun_01_1",
+    "senseId": "projection_noun_01",
+    "text": "economic projection"
+  },
+  {
+    "id": "proliferate_verb_01_0",
+    "senseId": "proliferate_verb_01",
+    "text": "proliferate rapidly"
+  },
+  {
+    "id": "proliferate_verb_01_1",
+    "senseId": "proliferate_verb_01",
+    "text": "proliferate online"
+  },
+  {
+    "id": "proportion_noun_01_0",
+    "senseId": "proportion_noun_01",
+    "text": "large proportion"
+  },
+  {
+    "id": "proportion_noun_01_1",
+    "senseId": "proportion_noun_01",
+    "text": "increasing proportion"
+  },
+  {
+    "id": "prose_noun_01_0",
+    "senseId": "prose_noun_01",
+    "text": "literary prose"
+  },
+  {
+    "id": "prose_noun_01_1",
+    "senseId": "prose_noun_01",
+    "text": "clear prose"
+  },
+  {
+    "id": "protagonist_noun_01_0",
+    "senseId": "protagonist_noun_01",
+    "text": "central protagonist"
+  },
+  {
+    "id": "protagonist_noun_01_1",
+    "senseId": "protagonist_noun_01",
+    "text": "female protagonist"
+  },
+  {
+    "id": "protectionism_noun_01_0",
+    "senseId": "protectionism_noun_01",
+    "text": "trade protectionism"
+  },
+  {
+    "id": "protectionism_noun_01_1",
+    "senseId": "protectionism_noun_01",
+    "text": "economic protectionism"
+  },
+  {
+    "id": "provided_conjunction_01_0",
+    "senseId": "provided_conjunction_01",
+    "text": "provided that"
+  },
+  {
+    "id": "provided_conjunction_01_1",
+    "senseId": "provided_conjunction_01",
+    "text": "provided adequate support is available"
+  },
+  {
+    "id": "psychosocial_adjective_01_0",
+    "senseId": "psychosocial_adjective_01",
+    "text": "psychosocial support"
+  },
+  {
+    "id": "psychosocial_adjective_01_1",
+    "senseId": "psychosocial_adjective_01",
+    "text": "psychosocial wellbeing"
+  },
+  {
+    "id": "public health_noun_01_0",
+    "senseId": "public health_noun_01",
+    "text": "public health policy"
+  },
+  {
+    "id": "public health_noun_01_1",
+    "senseId": "public health_noun_01",
+    "text": "public health intervention"
+  },
+  {
+    "id": "pulse_noun_01_0",
+    "senseId": "pulse_noun_01",
+    "text": "resting pulse"
+  },
+  {
+    "id": "pulse_noun_01_1",
+    "senseId": "pulse_noun_01",
+    "text": "pulse rate"
+  },
+  {
+    "id": "purchasing power_noun_01_0",
+    "senseId": "purchasing power_noun_01",
+    "text": "household purchasing power"
+  },
+  {
+    "id": "purchasing power_noun_01_1",
+    "senseId": "purchasing power_noun_01",
+    "text": "purchasing power parity"
+  },
+  {
+    "id": "qualify_verb_01_0",
+    "senseId": "qualify_verb_01",
+    "text": "qualify a claim"
+  },
+  {
+    "id": "qualify_verb_01_1",
+    "senseId": "qualify_verb_01",
+    "text": "qualify a statement"
+  },
+  {
+    "id": "quarantine_noun_01_0",
+    "senseId": "quarantine_noun_01",
+    "text": "quarantine period"
+  },
+  {
+    "id": "quarantine_noun_01_1",
+    "senseId": "quarantine_noun_01",
+    "text": "quarantine measures"
+  },
+  {
+    "id": "racism_noun_01_0",
+    "senseId": "racism_noun_01",
+    "text": "institutional racism"
+  },
+  {
+    "id": "racism_noun_01_1",
+    "senseId": "racism_noun_01",
+    "text": "combat racism"
+  },
+  {
+    "id": "randomised trial_noun_01_0",
+    "senseId": "randomised trial_noun_01",
+    "text": "randomised trial design"
+  },
+  {
+    "id": "randomised trial_noun_01_1",
+    "senseId": "randomised trial_noun_01",
+    "text": "randomised controlled trial"
+  },
+  {
+    "id": "rather than_conjunction_01_0",
+    "senseId": "rather than_conjunction_01",
+    "text": "rather than assume"
+  },
+  {
+    "id": "rather than_conjunction_01_1",
+    "senseId": "rather than_conjunction_01",
+    "text": "rather than rely on"
+  },
+  {
+    "id": "recession_noun_01_0",
+    "senseId": "recession_noun_01",
+    "text": "economic recession"
+  },
+  {
+    "id": "recession_noun_01_1",
+    "senseId": "recession_noun_01",
+    "text": "deep recession"
+  },
+  {
+    "id": "recidivism_noun_01_0",
+    "senseId": "recidivism_noun_01",
+    "text": "recidivism rate"
+  },
+  {
+    "id": "recidivism_noun_01_1",
+    "senseId": "recidivism_noun_01",
+    "text": "reduce recidivism"
+  },
+  {
+    "id": "reconcile_verb_01_0",
+    "senseId": "reconcile_verb_01",
+    "text": "reconcile differences"
+  },
+  {
+    "id": "reconcile_verb_01_1",
+    "senseId": "reconcile_verb_01",
+    "text": "reconcile competing demands"
+  },
+  {
+    "id": "reconciliation_noun_01_0",
+    "senseId": "reconciliation_noun_01",
+    "text": "national reconciliation"
+  },
+  {
+    "id": "reconciliation_noun_01_1",
+    "senseId": "reconciliation_noun_01",
+    "text": "post-conflict reconciliation"
+  },
+  {
+    "id": "recreation_noun_01_0",
+    "senseId": "recreation_noun_01",
+    "text": "outdoor recreation"
+  },
+  {
+    "id": "recreation_noun_01_1",
+    "senseId": "recreation_noun_01",
+    "text": "recreation facilities"
+  },
+  {
+    "id": "recruit_verb_01_0",
+    "senseId": "recruit_verb_01",
+    "text": "recruit staff"
+  },
+  {
+    "id": "recruit_verb_01_1",
+    "senseId": "recruit_verb_01",
+    "text": "recruit graduates"
+  },
+  {
+    "id": "redistribution_noun_01_0",
+    "senseId": "redistribution_noun_01",
+    "text": "income redistribution"
+  },
+  {
+    "id": "redistribution_noun_01_1",
+    "senseId": "redistribution_noun_01",
+    "text": "wealth redistribution"
+  },
+  {
+    "id": "redundancy_noun_01_0",
+    "senseId": "redundancy_noun_01",
+    "text": "compulsory redundancy"
+  },
+  {
+    "id": "redundancy_noun_01_1",
+    "senseId": "redundancy_noun_01",
+    "text": "redundancy payment"
+  },
+  {
+    "id": "reference_noun_01_0",
+    "senseId": "reference_noun_01",
+    "text": "reference material"
+  },
+  {
+    "id": "reference_noun_01_1",
+    "senseId": "reference_noun_01",
+    "text": "reference list"
+  },
+  {
+    "id": "reforestation_noun_01_0",
+    "senseId": "reforestation_noun_01",
+    "text": "reforestation programme"
+  },
+  {
+    "id": "reforestation_noun_01_1",
+    "senseId": "reforestation_noun_01",
+    "text": "support reforestation"
+  },
+  {
+    "id": "reform_noun_01_0",
+    "senseId": "reform_noun_01",
+    "text": "policy reform"
+  },
+  {
+    "id": "reform_noun_01_1",
+    "senseId": "reform_noun_01",
+    "text": "institutional reform"
+  },
+  {
+    "id": "regime_noun_01_0",
+    "senseId": "regime_noun_01",
+    "text": "political regime"
+  },
+  {
+    "id": "regime_noun_01_1",
+    "senseId": "regime_noun_01",
+    "text": "authoritarian regime"
+  },
+  {
+    "id": "rehabilitation_noun_01_0",
+    "senseId": "rehabilitation_noun_01",
+    "text": "physical rehabilitation"
+  },
+  {
+    "id": "rehabilitation_noun_01_1",
+    "senseId": "rehabilitation_noun_01",
+    "text": "rehabilitation programme"
+  },
+  {
+    "id": "reliable_adjective_01_0",
+    "senseId": "reliable_adjective_01",
+    "text": "reliable data"
+  },
+  {
+    "id": "reliable_adjective_01_1",
+    "senseId": "reliable_adjective_01",
+    "text": "reliable service"
+  },
+  {
+    "id": "remittance_noun_01_0",
+    "senseId": "remittance_noun_01",
+    "text": "migrant remittance"
+  },
+  {
+    "id": "remittance_noun_01_1",
+    "senseId": "remittance_noun_01",
+    "text": "remittance flows"
+  },
+  {
+    "id": "remuneration_noun_01_0",
+    "senseId": "remuneration_noun_01",
+    "text": "competitive remuneration"
+  },
+  {
+    "id": "remuneration_noun_01_1",
+    "senseId": "remuneration_noun_01",
+    "text": "remuneration package"
+  },
+  {
+    "id": "renewable_adjective_01_0",
+    "senseId": "renewable_adjective_01",
+    "text": "renewable energy"
+  },
+  {
+    "id": "renewable_adjective_01_1",
+    "senseId": "renewable_adjective_01",
+    "text": "renewable resources"
+  },
+  {
+    "id": "repertoire_noun_01_0",
+    "senseId": "repertoire_noun_01",
+    "text": "musical repertoire"
+  },
+  {
+    "id": "repertoire_noun_01_1",
+    "senseId": "repertoire_noun_01",
+    "text": "teaching repertoire"
+  },
+  {
+    "id": "replicability_noun_01_0",
+    "senseId": "replicability_noun_01",
+    "text": "research replicability"
+  },
+  {
+    "id": "replicability_noun_01_1",
+    "senseId": "replicability_noun_01",
+    "text": "improve replicability"
+  },
+  {
+    "id": "reproducibility_noun_01_0",
+    "senseId": "reproducibility_noun_01",
+    "text": "computational reproducibility"
+  },
+  {
+    "id": "reproducibility_noun_01_1",
+    "senseId": "reproducibility_noun_01",
+    "text": "improve reproducibility"
+  },
+  {
+    "id": "residence_noun_01_0",
+    "senseId": "residence_noun_01",
+    "text": "permanent residence"
+  },
+  {
+    "id": "residence_noun_01_1",
+    "senseId": "residence_noun_01",
+    "text": "place of residence"
+  },
+  {
+    "id": "resident_noun_01_0",
+    "senseId": "resident_noun_01",
+    "text": "local resident"
+  },
+  {
+    "id": "resident_noun_01_1",
+    "senseId": "resident_noun_01",
+    "text": "permanent resident"
+  },
+  {
+    "id": "resign_verb_01_0",
+    "senseId": "resign_verb_01",
+    "text": "resign from a position"
+  },
+  {
+    "id": "resign_verb_01_1",
+    "senseId": "resign_verb_01",
+    "text": "resign voluntarily"
+  },
+  {
+    "id": "resignation_noun_01_0",
+    "senseId": "resignation_noun_01",
+    "text": "submit a resignation"
+  },
+  {
+    "id": "resignation_noun_01_1",
+    "senseId": "resignation_noun_01",
+    "text": "letter of resignation"
+  },
+  {
+    "id": "resilient_adjective_01_0",
+    "senseId": "resilient_adjective_01",
+    "text": "resilient communities"
+  },
+  {
+    "id": "resilient_adjective_01_1",
+    "senseId": "resilient_adjective_01",
+    "text": "climate resilient"
+  },
+  {
+    "id": "reskilling_noun_01_0",
+    "senseId": "reskilling_noun_01",
+    "text": "reskilling programme"
+  },
+  {
+    "id": "reskilling_noun_01_1",
+    "senseId": "reskilling_noun_01",
+    "text": "worker reskilling"
+  },
+  {
+    "id": "respectively_adverb_01_0",
+    "senseId": "respectively_adverb_01",
+    "text": "ranked first and second respectively"
+  },
+  {
+    "id": "respectively_adverb_01_1",
+    "senseId": "respectively_adverb_01",
+    "text": "increased by 5% and 8% respectively"
+  },
+  {
+    "id": "restitution_noun_01_0",
+    "senseId": "restitution_noun_01",
+    "text": "financial restitution"
+  },
+  {
+    "id": "restitution_noun_01_1",
+    "senseId": "restitution_noun_01",
+    "text": "make restitution"
+  },
+  {
+    "id": "restoration_noun_01_0",
+    "senseId": "restoration_noun_01",
+    "text": "habitat restoration"
+  },
+  {
+    "id": "restoration_noun_01_1",
+    "senseId": "restoration_noun_01",
+    "text": "ecological restoration"
+  },
+  {
+    "id": "retain_verb_01_0",
+    "senseId": "retain_verb_01",
+    "text": "retain information"
+  },
+  {
+    "id": "retain_verb_01_1",
+    "senseId": "retain_verb_01",
+    "text": "retain knowledge"
+  },
+  {
+    "id": "retirement_noun_01_0",
+    "senseId": "retirement_noun_01",
+    "text": "retirement age"
+  },
+  {
+    "id": "retirement_noun_01_1",
+    "senseId": "retirement_noun_01",
+    "text": "retirement planning"
+  },
+  {
+    "id": "revenue_noun_01_0",
+    "senseId": "revenue_noun_01",
+    "text": "annual revenue"
+  },
+  {
+    "id": "revenue_noun_01_1",
+    "senseId": "revenue_noun_01",
+    "text": "generate revenue"
+  },
+  {
+    "id": "revolution_noun_01_0",
+    "senseId": "revolution_noun_01",
+    "text": "political revolution"
+  },
+  {
+    "id": "revolution_noun_01_1",
+    "senseId": "revolution_noun_01",
+    "text": "industrial revolution"
+  },
+  {
+    "id": "rhetoric_noun_01_0",
+    "senseId": "rhetoric_noun_01",
+    "text": "political rhetoric"
+  },
+  {
+    "id": "rhetoric_noun_01_1",
+    "senseId": "rhetoric_noun_01",
+    "text": "persuasive rhetoric"
+  },
+  {
+    "id": "ritual_noun_01_0",
+    "senseId": "ritual_noun_01",
+    "text": "traditional ritual"
+  },
+  {
+    "id": "ritual_noun_01_1",
+    "senseId": "ritual_noun_01",
+    "text": "religious ritual"
+  },
+  {
+    "id": "robust_adjective_01_0",
+    "senseId": "robust_adjective_01",
+    "text": "robust evidence"
+  },
+  {
+    "id": "robust_adjective_01_1",
+    "senseId": "robust_adjective_01",
+    "text": "robust methodology"
+  },
+  {
+    "id": "route_noun_01_0",
+    "senseId": "route_noun_01",
+    "text": "bus route"
+  },
+  {
+    "id": "route_noun_01_1",
+    "senseId": "route_noun_01",
+    "text": "cycle route"
+  },
+  {
+    "id": "rule of law_noun_01_0",
+    "senseId": "rule of law_noun_01",
+    "text": "uphold the rule of law"
+  },
+  {
+    "id": "rule of law_noun_01_1",
+    "senseId": "rule of law_noun_01",
+    "text": "respect the rule of law"
+  },
+  {
+    "id": "safeguarding_noun_01_0",
+    "senseId": "safeguarding_noun_01",
+    "text": "child safeguarding"
+  },
+  {
+    "id": "safeguarding_noun_01_1",
+    "senseId": "safeguarding_noun_01",
+    "text": "safeguarding policy"
+  },
+  {
+    "id": "salient_adjective_01_0",
+    "senseId": "salient_adjective_01",
+    "text": "salient feature"
+  },
+  {
+    "id": "salient_adjective_01_1",
+    "senseId": "salient_adjective_01",
+    "text": "salient point"
+  },
+  {
+    "id": "salinisation_noun_01_0",
+    "senseId": "salinisation_noun_01",
+    "text": "soil salinisation"
+  },
+  {
+    "id": "salinisation_noun_01_1",
+    "senseId": "salinisation_noun_01",
+    "text": "prevent salinisation"
+  },
+  {
+    "id": "sample size_noun_01_0",
+    "senseId": "sample size_noun_01",
+    "text": "adequate sample size"
+  },
+  {
+    "id": "sample size_noun_01_1",
+    "senseId": "sample size_noun_01",
+    "text": "small sample size"
+  },
+  {
+    "id": "scarce_adjective_01_0",
+    "senseId": "scarce_adjective_01",
+    "text": "scarce resources"
+  },
+  {
+    "id": "scarce_adjective_01_1",
+    "senseId": "scarce_adjective_01",
+    "text": "increasingly scarce"
+  },
+  {
+    "id": "scholarship_noun_01_0",
+    "senseId": "scholarship_noun_01",
+    "text": "university scholarship"
+  },
+  {
+    "id": "scholarship_noun_01_1",
+    "senseId": "scholarship_noun_01",
+    "text": "award a scholarship"
+  },
+  {
+    "id": "scrutinise_verb_01_0",
+    "senseId": "scrutinise_verb_01",
+    "text": "scrutinise evidence"
+  },
+  {
+    "id": "scrutinise_verb_01_1",
+    "senseId": "scrutinise_verb_01",
+    "text": "scrutinise a proposal"
+  },
+  {
+    "id": "seasonality_noun_01_0",
+    "senseId": "seasonality_noun_01",
+    "text": "tourism seasonality"
+  },
+  {
+    "id": "seasonality_noun_01_1",
+    "senseId": "seasonality_noun_01",
+    "text": "demand seasonality"
+  },
+  {
+    "id": "sedentarism_noun_01_0",
+    "senseId": "sedentarism_noun_01",
+    "text": "reduce sedentarism"
+  },
+  {
+    "id": "sedentarism_noun_01_1",
+    "senseId": "sedentarism_noun_01",
+    "text": "prolonged sedentarism"
+  },
+  {
+    "id": "sedentary_adjective_01_0",
+    "senseId": "sedentary_adjective_01",
+    "text": "sedentary lifestyle"
+  },
+  {
+    "id": "sedentary_adjective_01_1",
+    "senseId": "sedentary_adjective_01",
+    "text": "sedentary work"
+  },
+  {
+    "id": "self-esteem_noun_01_0",
+    "senseId": "self-esteem_noun_01",
+    "text": "low self-esteem"
+  },
+  {
+    "id": "self-esteem_noun_01_1",
+    "senseId": "self-esteem_noun_01",
+    "text": "build self-esteem"
+  },
+  {
+    "id": "sensationalism_noun_01_0",
+    "senseId": "sensationalism_noun_01",
+    "text": "media sensationalism"
+  },
+  {
+    "id": "sensationalism_noun_01_1",
+    "senseId": "sensationalism_noun_01",
+    "text": "avoid sensationalism"
+  },
+  {
+    "id": "sequestration_noun_01_0",
+    "senseId": "sequestration_noun_01",
+    "text": "carbon sequestration"
+  },
+  {
+    "id": "sequestration_noun_01_1",
+    "senseId": "sequestration_noun_01",
+    "text": "soil carbon sequestration"
+  },
+  {
+    "id": "significance_noun_01_0",
+    "senseId": "significance_noun_01",
+    "text": "practical significance"
+  },
+  {
+    "id": "significance_noun_01_1",
+    "senseId": "significance_noun_01",
+    "text": "statistical significance"
+  },
+  {
+    "id": "significant_adjective_01_0",
+    "senseId": "significant_adjective_01",
+    "text": "significant increase"
+  },
+  {
+    "id": "significant_adjective_01_1",
+    "senseId": "significant_adjective_01",
+    "text": "significant difference"
+  },
+  {
+    "id": "significantly_adverb_01_0",
+    "senseId": "significantly_adverb_01",
+    "text": "increase significantly"
+  },
+  {
+    "id": "significantly_adverb_01_1",
+    "senseId": "significantly_adverb_01",
+    "text": "significantly different"
+  },
+  {
+    "id": "social mobility_noun_01_0",
+    "senseId": "social mobility_noun_01",
+    "text": "upward social mobility"
+  },
+  {
+    "id": "social mobility_noun_01_1",
+    "senseId": "social mobility_noun_01",
+    "text": "intergenerational social mobility"
+  },
+  {
+    "id": "soil_noun_01_0",
+    "senseId": "soil_noun_01",
+    "text": "soil fertility"
+  },
+  {
+    "id": "soil_noun_01_1",
+    "senseId": "soil_noun_01",
+    "text": "soil quality"
+  },
+  {
+    "id": "solidarity_noun_01_0",
+    "senseId": "solidarity_noun_01",
+    "text": "social solidarity"
+  },
+  {
+    "id": "solidarity_noun_01_1",
+    "senseId": "solidarity_noun_01",
+    "text": "show solidarity"
+  },
+  {
+    "id": "sovereignty_noun_01_0",
+    "senseId": "sovereignty_noun_01",
+    "text": "national sovereignty"
+  },
+  {
+    "id": "sovereignty_noun_01_1",
+    "senseId": "sovereignty_noun_01",
+    "text": "state sovereignty"
+  },
+  {
+    "id": "species_noun_01_0",
+    "senseId": "species_noun_01",
+    "text": "endangered species"
+  },
+  {
+    "id": "species_noun_01_1",
+    "senseId": "species_noun_01",
+    "text": "native species"
+  },
+  {
+    "id": "specimen_noun_01_0",
+    "senseId": "specimen_noun_01",
+    "text": "biological specimen"
+  },
+  {
+    "id": "specimen_noun_01_1",
+    "senseId": "specimen_noun_01",
+    "text": "collect a specimen"
+  },
+  {
+    "id": "split_verb_01_0",
+    "senseId": "split_verb_01",
+    "text": "split into groups"
+  },
+  {
+    "id": "split_verb_01_1",
+    "senseId": "split_verb_01",
+    "text": "split the cost"
+  },
+  {
+    "id": "stabilise_verb_01_0",
+    "senseId": "stabilise_verb_01",
+    "text": "stabilise prices"
+  },
+  {
+    "id": "stabilise_verb_01_1",
+    "senseId": "stabilise_verb_01",
+    "text": "stabilise gradually"
+  },
+  {
+    "id": "stagnate_verb_01_0",
+    "senseId": "stagnate_verb_01",
+    "text": "stagnate economically"
+  },
+  {
+    "id": "stagnate_verb_01_1",
+    "senseId": "stagnate_verb_01",
+    "text": "stagnate for years"
+  },
+  {
+    "id": "stake_noun_01_0",
+    "senseId": "stake_noun_01",
+    "text": "minority stake"
+  },
+  {
+    "id": "stake_noun_01_1",
+    "senseId": "stake_noun_01",
+    "text": "ownership stake"
+  },
+  {
+    "id": "staple_noun_01_0",
+    "senseId": "staple_noun_01",
+    "text": "dietary staple"
+  },
+  {
+    "id": "staple_noun_01_1",
+    "senseId": "staple_noun_01",
+    "text": "staple food"
+  },
+  {
+    "id": "statistical significance_noun_01_0",
+    "senseId": "statistical significance_noun_01",
+    "text": "test statistical significance"
+  },
+  {
+    "id": "statistical significance_noun_01_1",
+    "senseId": "statistical significance_noun_01",
+    "text": "level of statistical significance"
+  },
+  {
+    "id": "statistics_noun_01_0",
+    "senseId": "statistics_noun_01",
+    "text": "official statistics"
+  },
+  {
+    "id": "statistics_noun_01_1",
+    "senseId": "statistics_noun_01",
+    "text": "population statistics"
+  },
+  {
+    "id": "storage_noun_01_0",
+    "senseId": "storage_noun_01",
+    "text": "energy storage"
+  },
+  {
+    "id": "storage_noun_01_1",
+    "senseId": "storage_noun_01",
+    "text": "battery storage"
+  },
+  {
+    "id": "stress_noun_01_0",
+    "senseId": "stress_noun_01",
+    "text": "work-related stress"
+  },
+  {
+    "id": "stress_noun_01_1",
+    "senseId": "stress_noun_01",
+    "text": "manage stress"
+  },
+  {
+    "id": "stroke_noun_01_0",
+    "senseId": "stroke_noun_01",
+    "text": "stroke prevention"
+  },
+  {
+    "id": "stroke_noun_01_1",
+    "senseId": "stroke_noun_01",
+    "text": "stroke recovery"
+  },
+  {
+    "id": "subsidy_noun_01_0",
+    "senseId": "subsidy_noun_01",
+    "text": "government subsidy"
+  },
+  {
+    "id": "subsidy_noun_01_1",
+    "senseId": "subsidy_noun_01",
+    "text": "energy subsidy"
+  },
+  {
+    "id": "substantiate_verb_01_0",
+    "senseId": "substantiate_verb_01",
+    "text": "substantiate a claim"
+  },
+  {
+    "id": "substantiate_verb_01_1",
+    "senseId": "substantiate_verb_01",
+    "text": "substantiate an argument"
+  },
+  {
+    "id": "suburb_noun_01_0",
+    "senseId": "suburb_noun_01",
+    "text": "residential suburb"
+  },
+  {
+    "id": "suburb_noun_01_1",
+    "senseId": "suburb_noun_01",
+    "text": "outer suburb"
+  },
+  {
+    "id": "supersede_verb_01_0",
+    "senseId": "supersede_verb_01",
+    "text": "supersede previous guidance"
+  },
+  {
+    "id": "supersede_verb_01_1",
+    "senseId": "supersede_verb_01",
+    "text": "supersede an agreement"
+  },
+  {
+    "id": "supervisor_noun_01_0",
+    "senseId": "supervisor_noun_01",
+    "text": "research supervisor"
+  },
+  {
+    "id": "supervisor_noun_01_1",
+    "senseId": "supervisor_noun_01",
+    "text": "academic supervisor"
+  },
+  {
+    "id": "supply chain_noun_01_0",
+    "senseId": "supply chain_noun_01",
+    "text": "global supply chain"
+  },
+  {
+    "id": "supply chain_noun_01_1",
+    "senseId": "supply chain_noun_01",
+    "text": "supply chain resilience"
+  },
+  {
+    "id": "surge_verb_01_0",
+    "senseId": "surge_verb_01",
+    "text": "surge sharply"
+  },
+  {
+    "id": "surge_verb_01_1",
+    "senseId": "surge_verb_01",
+    "text": "surge in demand"
+  },
+  {
+    "id": "sustainability_noun_01_0",
+    "senseId": "sustainability_noun_01",
+    "text": "environmental sustainability"
+  },
+  {
+    "id": "sustainability_noun_01_1",
+    "senseId": "sustainability_noun_01",
+    "text": "long-term sustainability"
+  },
+  {
+    "id": "sustainable_adjective_01_0",
+    "senseId": "sustainable_adjective_01",
+    "text": "sustainable development"
+  },
+  {
+    "id": "sustainable_adjective_01_1",
+    "senseId": "sustainable_adjective_01",
+    "text": "sustainable energy"
+  },
+  {
+    "id": "synthesis_noun_01_0",
+    "senseId": "synthesis_noun_01",
+    "text": "research synthesis"
+  },
+  {
+    "id": "synthesis_noun_01_1",
+    "senseId": "synthesis_noun_01",
+    "text": "evidence synthesis"
+  },
+  {
+    "id": "take_verb_01_0",
+    "senseId": "take_verb_01",
+    "text": "take time"
+  },
+  {
+    "id": "take_verb_01_1",
+    "senseId": "take_verb_01",
+    "text": "take effort"
+  },
+  {
+    "id": "tariff_noun_01_0",
+    "senseId": "tariff_noun_01",
+    "text": "import tariff"
+  },
+  {
+    "id": "tariff_noun_01_1",
+    "senseId": "tariff_noun_01",
+    "text": "tariff barrier"
+  },
+  {
+    "id": "telecommuting_noun_01_0",
+    "senseId": "telecommuting_noun_01",
+    "text": "telecommuting arrangements"
+  },
+  {
+    "id": "telecommuting_noun_01_1",
+    "senseId": "telecommuting_noun_01",
+    "text": "telecommuting policy"
+  },
+  {
+    "id": "tenancy_noun_01_0",
+    "senseId": "tenancy_noun_01",
+    "text": "tenancy agreement"
+  },
+  {
+    "id": "tenancy_noun_01_1",
+    "senseId": "tenancy_noun_01",
+    "text": "secure tenancy"
+  },
+  {
+    "id": "tentative_adjective_01_0",
+    "senseId": "tentative_adjective_01",
+    "text": "tentative conclusion"
+  },
+  {
+    "id": "tentative_adjective_01_1",
+    "senseId": "tentative_adjective_01",
+    "text": "tentative explanation"
+  },
+  {
+    "id": "testimony_noun_01_0",
+    "senseId": "testimony_noun_01",
+    "text": "witness testimony"
+  },
+  {
+    "id": "testimony_noun_01_1",
+    "senseId": "testimony_noun_01",
+    "text": "expert testimony"
+  },
+  {
+    "id": "thereby_adverb_01_0",
+    "senseId": "thereby_adverb_01",
+    "text": "thereby reducing costs"
+  },
+  {
+    "id": "thereby_adverb_01_1",
+    "senseId": "thereby_adverb_01",
+    "text": "thereby improving access"
+  },
+  {
+    "id": "therefore_adverb_01_0",
+    "senseId": "therefore_adverb_01",
+    "text": "therefore conclude"
+  },
+  {
+    "id": "therefore_adverb_01_1",
+    "senseId": "therefore_adverb_01",
+    "text": "therefore necessary"
+  },
+  {
+    "id": "thesis_noun_01_0",
+    "senseId": "thesis_noun_01",
+    "text": "doctoral thesis"
+  },
+  {
+    "id": "thesis_noun_01_1",
+    "senseId": "thesis_noun_01",
+    "text": "write a thesis"
+  },
+  {
+    "id": "to some extent_adverb_01_0",
+    "senseId": "to some extent_adverb_01",
+    "text": "agree to some extent"
+  },
+  {
+    "id": "to some extent_adverb_01_1",
+    "senseId": "to some extent_adverb_01",
+    "text": "depend to some extent"
+  },
+  {
+    "id": "trade-off_noun_01_0",
+    "senseId": "trade-off_noun_01",
+    "text": "policy trade-off"
+  },
+  {
+    "id": "trade-off_noun_01_1",
+    "senseId": "trade-off_noun_01",
+    "text": "trade-off between cost and quality"
+  },
+  {
+    "id": "transform_verb_01_0",
+    "senseId": "transform_verb_01",
+    "text": "transform society"
+  },
+  {
+    "id": "transform_verb_01_1",
+    "senseId": "transform_verb_01",
+    "text": "transform the way"
+  },
+  {
+    "id": "translation_noun_01_0",
+    "senseId": "translation_noun_01",
+    "text": "accurate translation"
+  },
+  {
+    "id": "translation_noun_01_1",
+    "senseId": "translation_noun_01",
+    "text": "machine translation"
+  },
+  {
+    "id": "trauma_noun_01_0",
+    "senseId": "trauma_noun_01",
+    "text": "psychological trauma"
+  },
+  {
+    "id": "trauma_noun_01_1",
+    "senseId": "trauma_noun_01",
+    "text": "trauma care"
+  },
+  {
+    "id": "trial_noun_01_0",
+    "senseId": "trial_noun_01",
+    "text": "criminal trial"
+  },
+  {
+    "id": "trial_noun_01_1",
+    "senseId": "trial_noun_01",
+    "text": "fair trial"
+  },
+  {
+    "id": "triangulation_noun_01_0",
+    "senseId": "triangulation_noun_01",
+    "text": "data triangulation"
+  },
+  {
+    "id": "triangulation_noun_01_1",
+    "senseId": "triangulation_noun_01",
+    "text": "methodological triangulation"
+  },
+  {
+    "id": "tuition_noun_01_0",
+    "senseId": "tuition_noun_01",
+    "text": "private tuition"
+  },
+  {
+    "id": "tuition_noun_01_1",
+    "senseId": "tuition_noun_01",
+    "text": "individual tuition"
+  },
+  {
+    "id": "tunnel_noun_01_0",
+    "senseId": "tunnel_noun_01",
+    "text": "rail tunnel"
+  },
+  {
+    "id": "tunnel_noun_01_1",
+    "senseId": "tunnel_noun_01",
+    "text": "road tunnel"
+  },
+  {
+    "id": "ubiquitous_adjective_01_0",
+    "senseId": "ubiquitous_adjective_01",
+    "text": "ubiquitous technology"
+  },
+  {
+    "id": "ubiquitous_adjective_01_1",
+    "senseId": "ubiquitous_adjective_01",
+    "text": "increasingly ubiquitous"
+  },
+  {
+    "id": "underemployment_noun_01_0",
+    "senseId": "underemployment_noun_01",
+    "text": "youth underemployment"
+  },
+  {
+    "id": "underemployment_noun_01_1",
+    "senseId": "underemployment_noun_01",
+    "text": "reduce underemployment"
+  },
+  {
+    "id": "underpin_verb_01_0",
+    "senseId": "underpin_verb_01",
+    "text": "underpin an argument"
+  },
+  {
+    "id": "underpin_verb_01_1",
+    "senseId": "underpin_verb_01",
+    "text": "underpin policy"
+  },
+  {
+    "id": "understanding_noun_01_0",
+    "senseId": "understanding_noun_01",
+    "text": "deepen understanding"
+  },
+  {
+    "id": "understanding_noun_01_1",
+    "senseId": "understanding_noun_01",
+    "text": "conceptual understanding"
+  },
+  {
+    "id": "unequivocal_adjective_01_0",
+    "senseId": "unequivocal_adjective_01",
+    "text": "unequivocal evidence"
+  },
+  {
+    "id": "unequivocal_adjective_01_1",
+    "senseId": "unequivocal_adjective_01",
+    "text": "unequivocal support"
+  },
+  {
+    "id": "unless_conjunction_01_0",
+    "senseId": "unless_conjunction_01",
+    "text": "unless otherwise stated"
+  },
+  {
+    "id": "unless_conjunction_01_1",
+    "senseId": "unless_conjunction_01",
+    "text": "unless action is taken"
+  },
+  {
+    "id": "upbringing_noun_01_0",
+    "senseId": "upbringing_noun_01",
+    "text": "childhood upbringing"
+  },
+  {
+    "id": "upbringing_noun_01_1",
+    "senseId": "upbringing_noun_01",
+    "text": "family upbringing"
+  },
+  {
+    "id": "upskilling_noun_01_0",
+    "senseId": "upskilling_noun_01",
+    "text": "workforce upskilling"
+  },
+  {
+    "id": "upskilling_noun_01_1",
+    "senseId": "upskilling_noun_01",
+    "text": "upskilling programme"
+  },
+  {
+    "id": "urbanisation_noun_01_0",
+    "senseId": "urbanisation_noun_01",
+    "text": "rapid urbanisation"
+  },
+  {
+    "id": "urbanisation_noun_01_1",
+    "senseId": "urbanisation_noun_01",
+    "text": "urbanisation rate"
+  },
+  {
+    "id": "user_noun_01_0",
+    "senseId": "user_noun_01",
+    "text": "user experience"
+  },
+  {
+    "id": "user_noun_01_1",
+    "senseId": "user_noun_01",
+    "text": "user privacy"
+  },
+  {
+    "id": "utilise_verb_01_0",
+    "senseId": "utilise_verb_01",
+    "text": "utilise resources"
+  },
+  {
+    "id": "utilise_verb_01_1",
+    "senseId": "utilise_verb_01",
+    "text": "utilise technology"
+  },
+  {
+    "id": "vaccination_noun_01_0",
+    "senseId": "vaccination_noun_01",
+    "text": "vaccination programme"
+  },
+  {
+    "id": "vaccination_noun_01_1",
+    "senseId": "vaccination_noun_01",
+    "text": "vaccination coverage"
+  },
+  {
+    "id": "variable_noun_01_0",
+    "senseId": "variable_noun_01",
+    "text": "independent variable"
+  },
+  {
+    "id": "variable_noun_01_1",
+    "senseId": "variable_noun_01",
+    "text": "control a variable"
+  },
+  {
+    "id": "variation_noun_01_0",
+    "senseId": "variation_noun_01",
+    "text": "seasonal variation"
+  },
+  {
+    "id": "variation_noun_01_1",
+    "senseId": "variation_noun_01",
+    "text": "regional variation"
+  },
+  {
+    "id": "vegetation_noun_01_0",
+    "senseId": "vegetation_noun_01",
+    "text": "native vegetation"
+  },
+  {
+    "id": "vegetation_noun_01_1",
+    "senseId": "vegetation_noun_01",
+    "text": "dense vegetation"
+  },
+  {
+    "id": "ventilation_noun_01_0",
+    "senseId": "ventilation_noun_01",
+    "text": "natural ventilation"
+  },
+  {
+    "id": "ventilation_noun_01_1",
+    "senseId": "ventilation_noun_01",
+    "text": "ventilation system"
+  },
+  {
+    "id": "vocational_adjective_01_0",
+    "senseId": "vocational_adjective_01",
+    "text": "vocational training"
+  },
+  {
+    "id": "vocational_adjective_01_1",
+    "senseId": "vocational_adjective_01",
+    "text": "vocational qualification"
+  },
+  {
+    "id": "volunteer_noun_01_0",
+    "senseId": "volunteer_noun_01",
+    "text": "community volunteer"
+  },
+  {
+    "id": "volunteer_noun_01_1",
+    "senseId": "volunteer_noun_01",
+    "text": "volunteer programme"
+  },
+  {
+    "id": "vulnerability_noun_01_0",
+    "senseId": "vulnerability_noun_01",
+    "text": "climate vulnerability"
+  },
+  {
+    "id": "vulnerability_noun_01_1",
+    "senseId": "vulnerability_noun_01",
+    "text": "reduce vulnerability"
+  },
+  {
+    "id": "walkability_noun_01_0",
+    "senseId": "walkability_noun_01",
+    "text": "urban walkability"
+  },
+  {
+    "id": "walkability_noun_01_1",
+    "senseId": "walkability_noun_01",
+    "text": "improve walkability"
+  },
+  {
+    "id": "waterlogging_noun_01_0",
+    "senseId": "waterlogging_noun_01",
+    "text": "soil waterlogging"
+  },
+  {
+    "id": "waterlogging_noun_01_1",
+    "senseId": "waterlogging_noun_01",
+    "text": "seasonal waterlogging"
+  },
+  {
+    "id": "welfare_noun_01_0",
+    "senseId": "welfare_noun_01",
+    "text": "social welfare"
+  },
+  {
+    "id": "welfare_noun_01_1",
+    "senseId": "welfare_noun_01",
+    "text": "public welfare"
+  },
+  {
+    "id": "wellbeing_noun_01_0",
+    "senseId": "wellbeing_noun_01",
+    "text": "mental wellbeing"
+  },
+  {
+    "id": "wellbeing_noun_01_1",
+    "senseId": "wellbeing_noun_01",
+    "text": "improve wellbeing"
+  },
+  {
+    "id": "wheat_noun_01_0",
+    "senseId": "wheat_noun_01",
+    "text": "wheat production"
+  },
+  {
+    "id": "wheat_noun_01_1",
+    "senseId": "wheat_noun_01",
+    "text": "wheat flour"
+  },
+  {
+    "id": "whereas_conjunction_01_0",
+    "senseId": "whereas_conjunction_01",
+    "text": "whereas rural areas"
+  },
+  {
+    "id": "whereas_conjunction_01_1",
+    "senseId": "whereas_conjunction_01",
+    "text": "whereas the latter"
+  },
+  {
+    "id": "whilst_conjunction_01_0",
+    "senseId": "whilst_conjunction_01",
+    "text": "whilst acknowledging the limitations"
+  },
+  {
+    "id": "whilst_conjunction_01_1",
+    "senseId": "whilst_conjunction_01",
+    "text": "whilst maintaining quality"
+  },
+  {
+    "id": "wilderness_noun_01_0",
+    "senseId": "wilderness_noun_01",
+    "text": "wilderness conservation"
+  },
+  {
+    "id": "wilderness_noun_01_1",
+    "senseId": "wilderness_noun_01",
+    "text": "wilderness area"
+  },
+  {
+    "id": "work-life balance_noun_01_0",
+    "senseId": "work-life balance_noun_01",
+    "text": "healthy work-life balance"
+  },
+  {
+    "id": "work-life balance_noun_01_1",
+    "senseId": "work-life balance_noun_01",
+    "text": "improve work-life balance"
   }
 ]

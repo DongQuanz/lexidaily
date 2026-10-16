@@ -8,6 +8,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.*
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.lexidaily.app.data.*
@@ -100,6 +101,18 @@ import java.time.temporal.TemporalAdjusters
     var skillFilter by rememberSaveable { mutableStateOf("Mọi kỹ năng") }
     var topicFilter by rememberSaveable { mutableStateOf("Mọi chủ đề") }
     var packFilter by rememberSaveable { mutableStateOf("") }
+    var wordPage by rememberSaveable(query, stateFilter, cefrFilter, skillFilter, topicFilter, packFilter) { mutableIntStateOf(0) }
+    var showLicenses by rememberSaveable { mutableStateOf(false) }
+    val context = LocalContext.current
+    if (showLicenses) {
+        val notices = remember(context) {
+            listOf("ATTRIBUTION.txt", "CC-BY-SA-4.0.txt", "THICHHOC-LICENSE-DATA.txt", "CEFR-PROFILES-NOTICE.txt", "WORDNET-3.0-LICENSE.txt", "CMUDICT-LICENSE.txt")
+                .joinToString("\n\n") { name -> context.assets.open("licenses/$name").bufferedReader(Charsets.UTF_8).use { it.readText() } }
+        }
+        AlertDialog(onDismissRequest = { showLicenses = false }, title = { Text("Giấy phép và ghi công") },
+            text = { Column(Modifier.heightIn(max = 420.dp).verticalScroll(rememberScrollState())) { Text(notices, style = MaterialTheme.typography.bodySmall) } },
+            confirmButton = { TextButton({ showLicenses = false }) { Text("Đóng") } })
+    }
     Page {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text("Thư viện của bạn", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.SemiBold)
@@ -122,7 +135,7 @@ import java.time.temporal.TemporalAdjusters
             }
         } else if (tab == 2 && packFilter.isEmpty()) {
             data.packs.filter { it.id != "general" }.forEach { pack ->
-                val ids = data.packLinks.filter { it.packId == pack.id }.map { it.lexemeId }
+                val ids = data.packLinks.filter { it.packId == pack.id }.map { it.lexemeId }.toSet()
                 val members = data.words.filter { it.lexeme.id in ids }
                 Card(onClick = { packFilter = pack.id }, colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface), shape = MaterialTheme.shapes.large) {
                     Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -141,6 +154,7 @@ import java.time.temporal.TemporalAdjusters
                     Text(source.description, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
+            TextButton({ showLicenses = true }) { Text("Giấy phép và ghi công") }
         } else {
             if (packFilter.isNotEmpty()) TextButton({ packFilter = "" }) { Text("‹ Tất cả bộ từ") }
             OutlinedTextField(query, { query = it }, Modifier.fillMaxWidth(), label = { Text("Tìm từ hoặc nghĩa tiếng Việt") }, leadingIcon = { Icon(Icons.Outlined.Search, null) }, singleLine = true, shape = MaterialTheme.shapes.medium)
@@ -148,7 +162,7 @@ import java.time.temporal.TemporalAdjusters
             ChoiceStrip(listOf("Tất cả CEFR", "B1", "B2", "C1", "C2"), cefrFilter) { cefrFilter = it }
             ChoiceStrip(listOf("Mọi kỹ năng", "Reading", "Writing", "Speaking", "Listening"), skillFilter) { skillFilter = it }
             ChoiceStrip(listOf("Mọi chủ đề") + data.topics.filter { t -> data.words.any { t.id in it.topics } }.map { it.name }, topicFilter) { topicFilter = it }
-            val ids = data.packLinks.filter { it.packId == packFilter }.map { it.lexemeId }
+            val ids = data.packLinks.filter { it.packId == packFilter }.map { it.lexemeId }.toSet()
             val filtered = data.words.filter { w ->
                 (packFilter.isEmpty() || w.lexeme.id in ids) &&
                 (query.isBlank() || w.lexeme.lemma.contains(query, true) || w.sense.meaningVi.contains(query, true)) &&
@@ -160,7 +174,17 @@ import java.time.temporal.TemporalAdjusters
             if (filtered.isEmpty()) EmptyState("Chưa có từ phù hợp", "Thử một bộ lọc khác hoặc bắt đầu hành trình hôm nay.")
             else Column {
                 Eyebrow("${filtered.size} từ")
-                filtered.forEach { word -> VocabularyCard(word, data.profile.mode == "IELTS") { onWord(word.sense.id) } }
+                val pageSize = 50
+                val pages = (filtered.size + pageSize - 1) / pageSize
+                val currentPage = wordPage.coerceIn(0, pages - 1)
+                filtered.drop(currentPage * pageSize).take(pageSize).forEach { word ->
+                    VocabularyCard(word, data.profile.mode == "IELTS") { onWord(word.sense.id) }
+                }
+                if (pages > 1) Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                    TextButton({ wordPage = currentPage - 1 }, enabled = currentPage > 0) { Text("Trang trước") }
+                    Text("${currentPage + 1} / $pages", style = MaterialTheme.typography.labelMedium)
+                    TextButton({ wordPage = currentPage + 1 }, enabled = currentPage < pages - 1) { Text("Trang sau") }
+                }
             }
         }
     }
@@ -238,6 +262,7 @@ import java.time.temporal.TemporalAdjusters
 
 @Composable fun ConstellationScreen(data: AppSnapshot, topicId: String, onWord: (String) -> Unit, onContinue: () -> Unit) {
     val words = data.words.filter { topicId in it.topics }
+    var wordPage by rememberSaveable(topicId) { mutableIntStateOf(0) }
     val seen = words.count { it.progress.seen }
     val mastered = words.count { LearningEngine.state(it.progress, data.profile.mode == "IELTS") == MemoryState.MASTERED }
     Page {
@@ -249,7 +274,14 @@ import java.time.temporal.TemporalAdjusters
             ProgressBar(mastered.toFloat() / words.size)
             Text(MemoryState.entries.joinToString("  ") { "${it.symbol} ${it.label}" }, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             PrimaryButton("Tiếp tục hành trình", onClick = onContinue)
-            Column { words.forEach { w -> VocabularyCard(w, data.profile.mode == "IELTS") { onWord(w.sense.id) } } }
+            val pages = (words.size + 49) / 50
+            val currentPage = wordPage.coerceIn(0, pages - 1)
+            Column { words.drop(currentPage * 50).take(50).forEach { w -> VocabularyCard(w, data.profile.mode == "IELTS") { onWord(w.sense.id) } } }
+            if (pages > 1) Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                TextButton({ wordPage = currentPage - 1 }, enabled = currentPage > 0) { Text("Trang trước") }
+                Text("${currentPage + 1} / $pages", style = MaterialTheme.typography.labelMedium)
+                TextButton({ wordPage = currentPage + 1 }, enabled = currentPage < pages - 1) { Text("Trang sau") }
+            }
         }
     }
 }

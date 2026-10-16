@@ -1,155 +1,207 @@
-"""Build original demonstration content; no external lexical corpus is bundled."""
+"""Build the version-2 IELTS seed offline from the checked-in curated inputs.
+
+No external API, random generation, band-to-word mapping or corpus frequency
+claims are involved. Existing demo IDs are retained for content upgrades.
+"""
+import hashlib
 import json
+import re
+import zipfile
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "data_pipeline/normalized"
-# lemma | POS | CEFR | Vietnamese | original definition | original example | IPA | collocations | paraphrase
-DATA = {
-"environment": """
-sustainable|adjective|B2|bền vững|Able to continue without exhausting resources.|The city needs a sustainable transport system.|/səˈsteɪnəbl/|sustainable development;sustainable energy|lasting
-mitigate|verb|C1|giảm nhẹ|To make a harmful effect less severe.|Planting trees can mitigate urban heat.|/ˈmɪtɪɡeɪt/|mitigate risks;mitigate the impact|alleviate
-biodiversity|noun|C1|đa dạng sinh học|The variety of living organisms in an area.|The wetland supports remarkable biodiversity.|/ˌbaɪəʊdaɪˈvɜːsəti/|protect biodiversity;biodiversity loss|biological diversity
-emission|noun|B2|sự phát thải|The release of a substance into the environment.|The factory tracks each emission carefully.|/ɪˈmɪʃn/|carbon emissions;reduce emissions|release
-conservation|noun|B2|sự bảo tồn|The protection of natural resources and living things.|Community conservation protects this forest.|/ˌkɒnsəˈveɪʃn/|wildlife conservation;energy conservation|preservation
-renewable|adjective|B2|có thể tái tạo|Replaced naturally as it is used.|Wind is a renewable source of energy.|/rɪˈnjuːəbl/|renewable energy;renewable resources|replenishable
-habitat|noun|B2|môi trường sống|The natural place where an organism lives.|A healthy habitat provides food and shelter.|/ˈhæbɪtæt/|natural habitat;habitat loss|natural home
-ecosystem|noun|B2|hệ sinh thái|A community of organisms and its physical surroundings.|Pollution can disrupt an entire ecosystem.|/ˈiːkəʊsɪstəm/|marine ecosystem;fragile ecosystem|ecological system
-pollution|noun|B1|sự ô nhiễm|Harmful substances introduced into the environment.|Cleaner buses help reduce air pollution.|/pəˈluːʃn/|air pollution;noise pollution|contamination
-scarce|adjective|C1|khan hiếm|Available only in small amounts.|Clean water becomes scarce during a drought.|/skeəs/|scarce resources;increasingly scarce|limited
-deplete|verb|C1|làm cạn kiệt|To reduce the supply of something substantially.|Heavy irrigation can deplete groundwater.|/dɪˈpliːt/|deplete resources;deplete reserves|use up
-resilient|adjective|C1|có khả năng phục hồi|Able to recover after stress or damage.|Native plants make the garden more resilient.|/rɪˈzɪliənt/|resilient communities;climate resilient|adaptable
-adapt|verb|B2|thích nghi|To change in response to a new situation.|Farmers must adapt to changing rainfall.|/əˈdæpt/|adapt to change;adapt quickly|adjust
-preserve|verb|B2|gìn giữ|To keep something safe from loss or damage.|The project will preserve a coastal forest.|/prɪˈzɜːv/|preserve wildlife;preserve resources|protect
-consume|verb|B2|tiêu thụ|To use a resource or amount of energy.|Older appliances consume more electricity.|/kənˈsjuːm/|consume energy;consume resources|use
-impact|noun|B1|tác động|A strong effect on a person or situation.|The policy has a positive impact on air quality.|/ˈɪmpækt/|environmental impact;significant impact|effect
-""",
-"technology": """
-innovation|noun|B2|sự đổi mới|The creation or introduction of a new useful idea.|This innovation makes batteries easier to recycle.|/ˌɪnəˈveɪʃn/|technological innovation;encourage innovation|new development
-automate|verb|C1|tự động hóa|To make a process operate with little human control.|Small firms can automate repetitive tasks.|/ˈɔːtəmeɪt/|automate processes;automate production|mechanise
-efficient|adjective|B2|hiệu quả|Achieving results with little waste of time or energy.|The new engine is more efficient.|/ɪˈfɪʃnt/|energy efficient;highly efficient|effective with little waste
-accessible|adjective|B2|dễ tiếp cận|Easy for people to reach, enter, or use.|The library makes digital tools accessible.|/əkˈsesəbl/|easily accessible;accessible technology|easy to use
-infrastructure|noun|C1|cơ sở hạ tầng|The basic systems that allow a place to function.|Reliable digital infrastructure supports remote work.|/ˈɪnfrəstrʌktʃə/|digital infrastructure;public infrastructure|basic systems
-integrate|verb|B2|tích hợp|To combine parts into a working whole.|The team will integrate feedback into the design.|/ˈɪntɪɡreɪt/|integrate technology;fully integrate|combine
-reliable|adjective|B1|đáng tin cậy|Working well and able to be trusted.|A reliable connection is essential for online lessons.|/rɪˈlaɪəbl/|reliable data;reliable service|dependable
-privacy|noun|B2|sự riêng tư|Freedom from unwanted access to personal information.|The app gives users control over their privacy.|/ˈprɪvəsi/|protect privacy;data privacy|personal confidentiality
-digital|adjective|B1|thuộc kỹ thuật số|Using information stored as electronic signals.|The school provides digital learning materials.|/ˈdɪdʒɪtl/|digital literacy;digital access|electronic
-emerge|verb|B2|xuất hiện|To become visible or begin to exist.|New opportunities emerge as technology develops.|/ɪˈmɜːdʒ/|emerge gradually;emerging technology|appear
-transform|verb|B2|biến đổi|To change something greatly in form or function.|Better tools can transform daily work.|/trænsˈfɔːm/|transform society;transform the way|reshape
-innovative|adjective|B2|có tính đổi mới|Using original and useful approaches.|The team proposed an innovative design.|/ˈɪnəveɪtɪv/|innovative solution;innovative approach|inventive
-""",
-"education": """
-curriculum|noun|B2|chương trình học|The subjects and content taught in a course.|The curriculum includes practical science projects.|/kəˈrɪkjələm/|school curriculum;develop a curriculum|course programme
-acquire|verb|B2|tiếp thu|To gain knowledge, a skill, or a possession.|Children acquire language through interaction.|/əˈkwaɪə/|acquire skills;acquire knowledge|gain
-assess|verb|B2|đánh giá|To examine something in order to judge it.|Teachers assess progress throughout the course.|/əˈses/|assess performance;assess the impact|evaluate
-literacy|noun|C1|khả năng đọc viết|The ability to read and write effectively.|The programme improves adult literacy.|/ˈlɪtərəsi/|digital literacy;literacy skills|reading and writing ability
-retain|verb|B2|ghi nhớ, giữ lại|To keep something over time.|Regular practice helps learners retain vocabulary.|/rɪˈteɪn/|retain information;retain knowledge|keep
-motivate|verb|B2|tạo động lực|To give someone a reason to act.|Clear goals motivate students to practise.|/ˈməʊtɪveɪt/|motivate learners;highly motivated|encourage
-comprehension|noun|C1|sự hiểu biết|The ability to understand information.|Reading slowly can improve comprehension.|/ˌkɒmprɪˈhenʃn/|reading comprehension;comprehension skills|understanding
-discipline|noun|B2|tính kỷ luật|The ability to follow a plan and control behaviour.|Daily practice builds discipline.|/ˈdɪsəplɪn/|self discipline;academic discipline|self control
-collaborate|verb|C1|cộng tác|To work with others towards a shared result.|Students collaborate on a research project.|/kəˈlæbəreɪt/|collaborate closely;collaborate with peers|work together
-feedback|noun|B2|ý kiến phản hồi|Information given to help improve performance.|Specific feedback helps writers revise their work.|/ˈfiːdbæk/|constructive feedback;provide feedback|response
-""",
-"research": """
-significant|adjective|B2|đáng kể|Large or important enough to deserve attention.|The study found a significant difference.|/sɪɡˈnɪfɪkənt/|significant increase;significant difference|substantial
-evidence|noun|B2|bằng chứng|Information that supports a conclusion.|The team collected evidence before drawing conclusions.|/ˈevɪdəns/|strong evidence;empirical evidence|supporting information
-analyse|verb|B2|phân tích|To study parts of something to understand it.|Researchers analyse the results carefully.|/ˈænəlaɪz/|analyse data;analyse results|examine
-analysis|noun|B2|sự phân tích|A detailed examination of information.|The analysis revealed an unexpected pattern.|/əˈnæləsɪs/|data analysis;detailed analysis|examination
-analytical|adjective|C1|có tính phân tích|Using careful examination and reasoning.|The task requires analytical thinking.|/ˌænəˈlɪtɪkl/|analytical skills;analytical approach|systematic
-evaluate|verb|B2|thẩm định|To judge the quality or value of something.|We evaluate each method against the same criteria.|/ɪˈvæljueɪt/|evaluate effectiveness;evaluate outcomes|assess
-hypothesis|noun|C1|giả thuyết|A proposed explanation that can be tested.|The experiment tests a simple hypothesis.|/haɪˈpɒθəsɪs/|test a hypothesis;form a hypothesis|testable explanation
-variable|noun|B2|biến số|A factor that can change in a study.|Temperature is an important variable in this experiment.|/ˈveəriəbl/|independent variable;control a variable|changing factor
-objective|adjective|B2|khách quan|Based on facts rather than personal preferences.|A clear rubric helps make assessment objective.|/əbˈdʒektɪv/|objective assessment;objective evidence|impartial
-inevitable|adjective|B2|không thể tránh khỏi|Certain to happen and impossible to prevent.|Some uncertainty is inevitable in research.|/ɪnˈevɪtəbl/|almost inevitable;inevitable consequence|unavoidable
-significance|noun|C1|tầm quan trọng|The importance or meaning of something.|The findings have practical significance.|/sɪɡˈnɪfɪkəns/|practical significance;statistical significance|importance
-significantly|adverb|B2|một cách đáng kể|To a degree that is important or noticeable.|The revised method performed significantly better.|/sɪɡˈnɪfɪkəntli/|increase significantly;significantly different|considerably
-""",
-"society": """
-equity|noun|C1|sự công bằng|Fair treatment that considers different needs.|The policy aims to improve equity in education.|/ˈekwəti/|social equity;promote equity|fairness
-diverse|adjective|B2|đa dạng|Including many different kinds of people or things.|The neighbourhood has a diverse population.|/daɪˈvɜːs/|diverse backgrounds;diverse communities|varied
-cohesion|noun|C1|sự gắn kết|The strength of the connections within a group.|Shared public spaces can support social cohesion.|/kəʊˈhiːʒn/|social cohesion;community cohesion|unity
-urbanisation|noun|C1|đô thị hóa|The growth of towns and cities as people move there.|Rapid urbanisation increases demand for housing.|/ˌɜːbənaɪˈzeɪʃn/|rapid urbanisation;urbanisation rate|urban growth
-demographic|adjective|C1|thuộc nhân khẩu học|Related to the characteristics of a population.|Demographic change affects public services.|/ˌdeməˈɡræfɪk/|demographic change;demographic trends|population related
-community|noun|B1|cộng đồng|People connected by a place or shared interest.|The community created a public garden.|/kəˈmjuːnəti/|local community;community support|local group
-welfare|noun|B2|phúc lợi|The health and well-being of people.|Public services support community welfare.|/ˈwelfeə/|social welfare;public welfare|well-being
-access|noun|B1|khả năng tiếp cận|The opportunity or ability to use something.|Equal access to education benefits society.|/ˈækses/|equal access;access to services|opportunity to use
-""",
-"health": """
-prevent|verb|B1|ngăn ngừa|To stop something from happening.|Regular exercise can prevent some health problems.|/prɪˈvent/|prevent disease;prevent injury|stop from happening
-nutrition|noun|B2|dinh dưỡng|The process of obtaining nutrients from food.|Good nutrition supports recovery.|/njuˈtrɪʃn/|balanced nutrition;nutrition education|nourishment
-sedentary|adjective|C1|ít vận động|Involving long periods of sitting.|A sedentary routine can affect physical health.|/ˈsedntri/|sedentary lifestyle;sedentary work|inactive
-chronic|adjective|C1|mạn tính|Continuing for a long time or recurring often.|The clinic helps people manage chronic pain.|/ˈkrɒnɪk/|chronic disease;chronic pain|long lasting
-wellbeing|noun|B2|sức khỏe và trạng thái hạnh phúc|The state of feeling healthy and content.|Green spaces support mental wellbeing.|/ˌwelˈbiːɪŋ/|mental wellbeing;improve wellbeing|wellness
-intervention|noun|C1|biện pháp can thiệp|An action intended to improve a situation.|Early intervention can improve patient outcomes.|/ˌɪntəˈvenʃn/|early intervention;effective intervention|targeted action
-""",
-"business": """
-incentive|noun|C1|động lực khuyến khích|Something that encourages a person to act.|The grant provides an incentive to save energy.|/ɪnˈsentɪv/|financial incentive;provide an incentive|encouragement
-revenue|noun|B2|doanh thu|Money received by an organisation from its activities.|The company invested part of its revenue in training.|/ˈrevənjuː/|annual revenue;generate revenue|income
-allocate|verb|C1|phân bổ|To assign resources for a particular purpose.|The council will allocate funds to public transport.|/ˈæləkeɪt/|allocate resources;allocate funding|assign
-investment|noun|B2|sự đầu tư|The use of money or effort for a future benefit.|Investment in skills can raise productivity.|/ɪnˈvestmənt/|long term investment;public investment|commitment of resources
-productivity|noun|C1|năng suất|The amount produced relative to resources used.|Better equipment can improve productivity.|/ˌprɒdʌkˈtɪvəti/|increase productivity;labour productivity|output efficiency
-fluctuate|verb|C1|dao động|To rise and fall rather than stay steady.|Energy prices fluctuate throughout the year.|/ˈflʌktʃueɪt/|fluctuate widely;fluctuate over time|vary
-"""
-}
-TAXONOMY = "Education Environment Technology Health Science Work Business Economics Society Government Crime Transport Urbanisation Housing Culture Media Advertising Tourism Food Agriculture Energy Climate Nature Psychology Communication Family Children Ageing Globalisation History Art Research".split()
+CURATED = ROOT / 'data_pipeline/curated'
+TARGETS = (ROOT / 'data_pipeline/normalized', ROOT / 'app/src/main/assets')
+VERSION = 2
 
-def write(relative, data):
-    for root in (OUT, ROOT / "app/src/main/assets"):
-        path = root / relative
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+def read(name):
+    return json.loads((CURATED/name).read_text(encoding='utf-8'))
+
+def psv(name):
+    for line_number, line in enumerate((CURATED/name).read_text(encoding='utf-8').splitlines(),1):
+        if line.strip() and not line.startswith('#'):
+            yield line_number, line.split('|')
+
+def load_entries():
+    rows = {}
+    for line, fields in psv('legacy_demo.psv'):
+        topic,word,pos,level,vi,en,example,ipa,collocations,synonym = fields
+        rows[word] = dict(lemma=word,partOfSpeech=pos,cefrLevel=level,meaningVi=vi,definitionEn=en,
+            exampleEn=example,ipaBr=ipa,ipaAm='',topics=[topic],collocations=collocations.split(';'),
+            paraphrase=synonym,lexicalSource='lexidaily_demo',levelSource='LexiDaily editorial estimate (not EVP)',
+            sourceLocator=f'curated/legacy_demo.psv:{line}',reviewStatus='editorial_original')
+    ipa = read('editorial_pronunciations.json')
+    for line, fields in psv('ielts_editorial.psv'):
+        topic,word,pos,level,vi,en,example,collocations = fields
+        if word in rows: continue  # Preserve the complete original 70-entry seed.
+        rows[word] = dict(lemma=word,partOfSpeech=pos,cefrLevel=level,meaningVi=vi,definitionEn=en,
+            exampleEn=example,ipaBr='',ipaAm=ipa.get(word,{}).get('ipaAm',''),topics=[topic],
+            collocations=collocations.split(';'),paraphrase='',lexicalSource='lexidaily_ielts',
+            levelSource='LexiDaily editorial estimate (not EVP)',sourceLocator=f'curated/ielts_editorial.psv:{line}',
+            pronunciationProvenance=ipa.get(word),reviewStatus='editorial_original')
+    locked = read('source_lock.json')
+    snapshot = CURATED/'dictionary_selection.jsonl'
+    assert hashlib.sha256(snapshot.read_bytes()).hexdigest() == locked['selectionSha256'], 'Selection checksum changed; intentionally refreeze the source selection.'
+    for line in snapshot.read_text(encoding='utf-8').splitlines():
+        r = json.loads(line)
+        word = r['lemma']
+        assert word not in rows, f'Duplicate headword {word}'
+        rows[word] = dict(r,ipaBr='',collocations=[],paraphrase='',lexicalSource='thichhoc_dictionary',
+            sourceLocator=f"dict-en-vi/data/entries/{r['dictionaryFile']}:{r['dictionaryLine']} entry={r['dictionaryEntryId']} sense={r['dictionarySenseIndex']}")
+    assert len(rows) == 3000, f'Expected 3000 unique headwords, found {len(rows)}'
+    return sorted(rows.values(),key=lambda r:r['lemma'])
+
+def make_payload(entries):
+    lexemes,senses,pronunciations,links,collocations,paraphrases,occurrences = [],[],[],[],[],[],[]
+    flat = []
+    usage_notes = read('usage_notes.json')
+    topic_names = {t:t.title() for t in read('topics.json')}
+    topic_names.update(general='General English',academic='Academic language')
+    for r in entries:
+        word,pos,level = r['lemma'],r['partOfSpeech'],r['cefrLevel']
+        sid = f'{word}_{pos}_01'
+        academic = {'B1':.35,'B2':.65,'C1':.85,'C2':.9}[level]
+        productive = .85 if r['collocations'] else .65 if r['exampleEn'] else .5
+        cefr_source = r['levelSource']
+        if cefr_source in ('CEFR-J 1.5','Octanove 1.0'):
+            cefr_source += '; headword/POS reference, not a verified sense-level or IELTS-band annotation'
+        lexemes.append(dict(id=word,lemma=word,academicScore=academic,ieltsRelevanceScore=.7 if level=='B1' else .85,
+            productivePriority=productive,difficultyScore={'B1':.3,'B2':.5,'C1':.7,'C2':.9}[level],
+            lexicalDataSource=r['lexicalSource'],cefrSource=cefr_source,frequencySource='Not ranked'))
+        senses.append(dict(id=sid,lexemeId=word,partOfSpeech=pos,definitionEn=r['definitionEn'],meaningVi=r['meaningVi'],
+            cefrLevel=level,register='neutral',exampleEn=r['exampleEn'],exampleVi='',commonError=usage_notes.get(word,'')))
+        if r.get('ipaBr') or r.get('ipaAm'):
+            pronunciations.append(dict(senseId=sid,ipaBr=r.get('ipaBr',''),ipaAm=r.get('ipaAm','')))
+        topics = list(r['topics'])
+        if word in ['renewable','emission','sustainable']:
+            topics += ['climate','energy']
+        if r['topics']==['research']: topics += ['science']
+        topics = list(dict.fromkeys(topics))
+        links.extend(dict(lexemeId=word,topicId=t) for t in topics)
+        collocations.extend(dict(id=f'{sid}_{i}',senseId=sid,text=c) for i,c in enumerate(r['collocations']))
+        if r['paraphrase']:
+            paraphrases.append(dict(senseId=sid,text=r['paraphrase'],relationType='NEAR_SYNONYM'))
+        occurrences.append(dict(id=f"{r['lexicalSource']}:{word}",lexemeId=word,senseId=sid,
+            sourcePackId=r['lexicalSource'],sourceLocator=r['sourceLocator'],occurrenceCount=1))
+        skills = ['Reading']
+        if r['exampleEn'] and level in ['B2','C1','C2']: skills.append('Writing')
+        if r['collocations'] and level in ['B1','B2','C1']: skills.append('Speaking')
+        if level in ['B1','B2'] and (r.get('ipaBr') or r.get('ipaAm')): skills.append('Listening')
+        for skill in skills:
+            occurrences.append(dict(id=f'curriculum:{word}:{skill}',lexemeId=word,senseId=sid,
+                sourcePackId='lexidaily_ielts',skill=skill,topic=topics[0],occurrenceCount=1,
+                sourceLocator='Editorial study recommendation based on level and available enrichment; not an observed IELTS test occurrence'))
+        if r['lexicalSource']=='thichhoc_dictionary':
+            level_source = 'cefrj_profile' if r['levelSource']=='CEFR-J 1.5' else 'octanove_profile'
+            occurrences.append(dict(id=f'{level_source}:{word}',lexemeId=word,senseId=sid,
+                sourcePackId=level_source,sourceLocator=f"{r['lemma']} / {pos}; headword-level reference only",occurrenceCount=1))
+            if r['wordnetLocator']:
+                occurrences.append(dict(id=f'wordnet:{word}',lexemeId=word,senseId=sid,
+                    sourcePackId='wordnet_examples',sourceLocator=f"WordNet 3.0 synset {r['wordnetLocator']}; usage example, not an IELTS occurrence",occurrenceCount=1))
+        if r.get('pronunciationProvenance'):
+            ip = r['pronunciationProvenance']
+            occurrences.append(dict(id=f'ipa:{word}',lexemeId=word,senseId=sid,sourcePackId='thichhoc_dictionary',
+                sourceLocator=f"IPA only: {ip['sourceFile']}:{ip['sourceLine']} {ip['entryId']}",occurrenceCount=1))
+        flat.append(dict(id=word,senseId=sid,lemma=word,partOfSpeech=pos,cefrLevel=level,
+            meaningVi=r['meaningVi'],definitionEn=r['definitionEn'],exampleEn=r['exampleEn'],exampleVi='',
+            ipaBr=r.get('ipaBr',''),ipaAm=r.get('ipaAm',''),topics=topics,collocations=r['collocations'],
+            commonError=usage_notes.get(word,''),
+            spellingVariants=r.get('spellingVariants',[]),lexicalDataSource=r['lexicalSource'],cefrSource=cefr_source,
+            sourceLocator=r['sourceLocator'],reviewStatus=r['reviewStatus'],license='CC-BY-SA-4.0',
+            recommendedSkills=skills,pronunciationProvenance=r.get('pronunciationProvenance'),
+            exampleSource=('wordnet_examples' if r.get('wordnetLocator') else r['lexicalSource']) if r['exampleEn'] else None))
+    families = [dict(rootLexemeId=root,relatedLexemeId=related,relation=relation) for root,related,relation in (
+        ('analyse','analysis','NOUN_FORM'),('analyse','analytical','ADJECTIVE_FORM'),('analysis','analyse','VERB_FORM'),
+        ('significant','significance','NOUN_FORM'),('significant','significantly','ADVERB_FORM'),('innovation','innovative','ADJECTIVE_FORM'),
+        ('sustainable','sustainability','NOUN_FORM'),('mitigate','mitigation','NOUN_FORM'),('adapt','adaptation','NOUN_FORM'),
+        ('automate','automation','NOUN_FORM'),('resign','resignation','NOUN_FORM'),('employ','employability','NOUN_FORM'))]
+    sources = [
+        dict(id='lexidaily_ielts',name='LexiDaily IELTS Editorial',sourceType='CUSTOM',licenseType='CC BY-SA 4.0',isBundled=True,priority=.7,
+             description='Nội dung Anh–Việt biên soạn riêng. CEFR và độ liên quan IELTS là ước tính biên tập; không gán band cho từng từ. Ví dụ không lấy từ đề IELTS.'),
+        dict(id='thichhoc_dictionary',name='Từ điển Anh–Việt thichhoc.com',sourceType='CUSTOM',licenseType='CC BY-SA 4.0; WordNet and CMUdict notices retained',isBundled=True,priority=.5,
+             description='Dữ liệu từ điển: Từ điển Anh–Việt thichhoc.com (thichhoc-dict), giấy phép CC BY-SA 4.0. https://github.com/thichhoc-org/thichhoc-dict. Nguồn gốc: WordNet 3.1 (Princeton), CMUdict (CMU), Wiktionary. Đã chỉnh sửa dữ liệu. Bản chọn lọc tự động; nguồn có bản dịch do mô hình sinh, chưa được chuyên gia duyệt toàn bộ. IPA nguồn này là Anh–Mỹ, không phải bản ghi âm. Xem giấy phép và ghi công trong thư viện.'),
+        dict(id='cefrj_profile',name='CEFR-J Wordlist 1.5',sourceType='CEFR_REFERENCE',licenseType='Free research/commercial use with attribution to Tono Laboratory, TUFS',isBundled=True,priority=.5,
+             description='The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies. Qua Open Language Profiles: https://github.com/openlanguageprofiles/olp-en-cefrj. Chỉ tham chiếu mức headword/từ loại; không phải EVP hay band IELTS.'),
+        dict(id='octanove_profile',name='Octanove Vocabulary Profile C1/C2 1.0',sourceType='CEFR_REFERENCE',licenseType='CC BY-SA 4.0',isBundled=True,priority=.5,
+             description='Octanove Labs, Octanove Vocabulary Profile C1/C2 version 1.0, qua Open Language Profiles. https://github.com/openlanguageprofiles/olp-en-cefrj. Nhãn tham chiếu headword/từ loại, không xác nhận band IELTS.'),
+        dict(id='wordnet_examples',name='Princeton WordNet 3.0 usage examples',sourceType='CUSTOM',licenseType='WordNet License',isBundled=True,priority=.4,
+             description='WordNet 3.0, Princeton University, qua nltk_data. Ví dụ được chọn theo nghĩa và có kiểm tra tự động; không phải câu từ đề IELTS. Giữ ghi công và giấy phép Princeton trong phần Giấy phép và ghi công.')]
+    demo = [dict(id='lexidaily_demo',name='LexiDaily Original 70',sourceType='CUSTOM',licenseType='CC BY-SA 4.0',isBundled=True,priority=.5,
+                 description='70 mục từ gốc, giữ nguyên ID để cập nhật nội dung mà không mất tiến độ. Định nghĩa, ví dụ và nhãn CEFR do biên tập, không phải dữ liệu đề IELTS.')]
+    catalog = [dict(id=id,name=id.upper(),sourceType='OPEN_WORDLIST',licenseType='External dataset — not bundled',isBundled=False,
+                    description='Vị trí nguồn tương thích; không tuyên bố thành viên hay đóng gói danh sách này.') for id in ['ngsl','nawl']]
+    general = [dict(id='general',name='General English',description='Everyday and academic vocabulary for broader language use.')]
+    academic = [dict(id='academic',name='Academic Core',description='B2–C2 learning selection; not the NAWL corpus or an official IELTS wordlist.')]
+    packs = [dict(id='ielts_core',name='IELTS 3000 · 6.5–8.5',description='3000 mục từ cho người học hướng tới IELTS 6.5–8.5. Mục tiêu học tập cho cả bộ, không phải band của từng từ.')]
+    packs += [dict(id=f'ielts_{t}',name=f'{name} · IELTS',description='Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh.') for t,name in topic_names.items()]
+    packs += [dict(id=f'cefr_{level.lower()}',name=f'{level} · IELTS study',description='Tham chiếu CEFR theo nguồn hoặc ước tính biên tập; không quy đổi trực tiếp sang band IELTS.') for level in ['B1','B2','C1','C2']]
+    pack_links = []
+    for r in flat:
+        ids = ['general','ielts_core',f"cefr_{r['cefrLevel'].lower()}"] + [f'ielts_{t}' for t in r['topics']]
+        if r['cefrLevel'] != 'B1': ids += ['academic']
+        pack_links += [dict(packId=p,lexemeId=r['id']) for p in ids]
+    report = dict(version=VERSION,lexemes=len(entries),senses=len(senses),
+        originalEditorialEntries=sum(r['lexicalSource']!='thichhoc_dictionary' for r in entries),
+        importedEntries=sum(r['lexicalSource']=='thichhoc_dictionary' for r in entries),
+        cefr=dict(sorted(Counter(r['cefrLevel'] for r in entries).items())),
+        topicCoverage=dict(sorted(Counter(l['topicId'] for l in links).items())),
+        entriesWithExamples=sum(bool(r['exampleEn']) for r in entries),
+        entriesWithCollocations=sum(bool(r['collocations']) for r in entries),
+        entriesWithPronunciation=len(pronunciations),collocations=len(collocations),
+        expertReviewed=False,targetLearnerBand='6.5–8.5',perWordBandAssigned=False,
+        notes=['CEFR source profiles annotate headword/POS, not the imported sense. Editorial estimates are marked separately.',
+               'Examples, Vietnamese example translations, collocations, synonyms and word families are not complete for every entry. Missing enrichment is empty, never fabricated.',
+               'Imported translations include upstream model-generated content. Automated validation and a bounded manual spot check do not constitute expert review of all 3000 entries.',
+               'Topic labels on imported entries are heuristic. Source occurrences denote dictionary/profile membership, not observed IELTS test appearances.',
+               'Skill-tagged CUSTOM records are editorial study recommendations, not evidence that a word occurred in an IELTS paper.',
+               'Spelling variants listed in CEFR-J are deduplicated and not counted as separate study entries.'])
+    payload = {}
+    for name,data in [('lexemes',lexemes),('senses',senses),('pronunciations',pronunciations),('topic_links',links),
+                      ('collocations',collocations),('paraphrases',paraphrases),('word_families',families),
+                      ('topics',[dict(id=t,name=name) for t,name in topic_names.items()])]: payload[f'vocabulary/{name}.json'] = data
+    payload.update({'sources/demo.json':demo,'sources/ielts.json':sources,'sources/ngsl.json':catalog[:1],'sources/nawl.json':catalog[1:],
+                    'sources/occurrences.json':occurrences,'packs/general.json':general,'packs/academic.json':academic,
+                    'packs/ielts_topics.json':packs,'packs/memberships.json':pack_links,
+                    'manifest.json':dict(version=VERSION,lexemes=len(entries),senses=len(senses),
+                                         description='IELTS 3000 bilingual study dataset, learner target 6.5–8.5; no per-word band claims',
+                                         license='CC-BY-SA-4.0',qualityReport='quality_report.json'),
+                    'quality_report.json':report})
+    return payload,flat,report
 
 def build():
-    lexemes, senses, pronunciations, links, collocations, paraphrases, occurrences = [], [], [], [], [], [], []
-    for topic, content in DATA.items():
-        for row in content.strip().splitlines():
-            lemma, pos, cefr, vi, definition, example, ipa, colloc, synonym = row.split('|')
-            sid = f"{lemma}_{pos}_01"
-            academic = .8 if cefr == "C1" or topic == "research" else .6 if cefr == "B2" else .3
-            lexemes.append(dict(id=lemma, lemma=lemma, academicScore=academic,
-                ieltsRelevanceScore=round(academic * .8 + .15, 2), productivePriority=.8,
-                difficultyScore=.7 if cefr == "C1" else .4, lexicalDataSource="lexidaily_demo",
-                cefrSource="LexiDaily editorial estimate (not EVP)", frequencySource="Not ranked"))
-            senses.append(dict(id=sid, lexemeId=lemma, partOfSpeech=pos, definitionEn=definition,
-                meaningVi=vi, cefrLevel=cefr, register="academic" if academic >= .8 else "neutral",
-                exampleEn=example, exampleVi="", commonError="Learn this sense with its collocations; near synonyms may differ in use."))
-            pronunciations.append(dict(senseId=sid, ipaBr=ipa))
-            topics = [topic] + (["science"] if topic == "research" else []) + (["climate", "energy"] if topic == "environment" and lemma in ("renewable", "emission", "sustainable") else [])
-            links.extend(dict(lexemeId=lemma, topicId=t) for t in topics)
-            collocations.extend(dict(id=f"{sid}_{i}", senseId=sid, text=c) for i, c in enumerate(colloc.split(';')))
-            paraphrases.append(dict(senseId=sid, text=synonym, relationType="NEAR_SYNONYM"))
-            for skill in ("Reading", "Writing"):
-                occurrences.append(dict(id=f"demo_{lemma}_{skill.lower()}", lexemeId=lemma, senseId=sid,
-                    sourcePackId="lexidaily_demo", skill=skill, topic=topic,
-                    sourceLocator="Original editorial demonstration; not an IELTS test occurrence", occurrenceCount=1))
-    families = [dict(rootLexemeId=root, relatedLexemeId=related, relation=relation) for root, related, relation in (
-        ("analyse", "analysis", "NOUN_FORM"), ("analyse", "analytical", "ADJECTIVE_FORM"),
-        ("analysis", "analyse", "VERB_FORM"), ("significant", "significance", "NOUN_FORM"),
-        ("significant", "significantly", "ADVERB_FORM"), ("innovation", "innovative", "ADJECTIVE_FORM"))]
-    sources = [dict(id="lexidaily_demo", name="LexiDaily Original Demo", sourceType="CUSTOM",
-        licenseType="Original content — included with this project", isBundled=True, priority=.5,
-        description="Original definitions and examples. CEFR and IELTS relevance are editorial estimates. This is not the full NGSL or NAWL corpus.")]
-    catalog = [dict(id="ngsl", name="NGSL", sourceType="OPEN_WORDLIST", licenseType="External dataset — not bundled", isBundled=False,
-        description="Compatible source slot; import a licensed, validated wordlist to populate."),
-        dict(id="nawl", name="NAWL", sourceType="OPEN_WORDLIST", licenseType="External dataset — not bundled", isBundled=False,
-        description="Compatible academic wordlist slot; no NAWL membership is asserted by the demo.")]
-    packs = [dict(id="general", name="General English · Demo", description="Original vocabulary for everyday and academic contexts."),
-        dict(id="academic", name="Academic Core · Demo", description="Editorial academic selection, not the full NAWL list.")]
-    pack_words = [dict(packId="general", lexemeId=w['id']) for w in lexemes]
-    pack_words += [dict(packId="academic", lexemeId=w['id']) for w in lexemes if w['academicScore'] >= .6]
-    for topic in DATA:
-        packs.append(dict(id=f"ielts_{topic}", name=f"{topic.title()} · IELTS Demo", description="Topic practice using original material; relevance is heuristic."))
-        pack_words += [dict(packId=f"ielts_{topic}", lexemeId=link['lexemeId']) for link in links if link['topicId'] == topic]
-    for name, data in (("lexemes", lexemes), ("senses", senses), ("pronunciations", pronunciations),
-        ("collocations", collocations), ("word_families", families), ("paraphrases", paraphrases),
-        ("topics", [dict(id=t.lower(), name=t) for t in TAXONOMY]), ("topic_links", links)):
-        write(f"vocabulary/{name}.json", data)
-    write("sources/demo.json", sources)
-    write("sources/ngsl.json", catalog[:1]); write("sources/nawl.json", catalog[1:])
-    write("sources/occurrences.json", occurrences)
-    write("packs/general.json", packs[:1]); write("packs/academic.json", packs[1:2]); write("packs/ielts_topics.json", packs[2:])
-    write("packs/memberships.json", pack_words)
-    write("manifest.json", dict(version=1, lexemes=len(lexemes), description="Original demonstration seed"))
-    print(f"Built {len(lexemes)} lexemes, {len(senses)} senses, {len(occurrences)} editorial source links.")
+    payload,flat,report = make_payload(load_entries())
+    for root in TARGETS:
+        for relative,data in payload.items():
+            path = root/relative
+            path.parent.mkdir(parents=True,exist_ok=True)
+            path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+        for source in (ROOT/'data_pipeline/licenses').glob('*.txt'):
+            path = root/'licenses'/source.name
+            path.parent.mkdir(parents=True,exist_ok=True)
+            path.write_bytes(source.read_bytes())
+    export = ROOT/'data_pipeline/exports/ielts_3000.jsonl'
+    export.parent.mkdir(parents=True,exist_ok=True)
+    export.write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in flat),encoding='utf-8',newline='\n')
+    guide = ('IELTS 3000 — dữ liệu từ vựng Anh–Việt\n\n'
+        'Mở ielts_3000.jsonl bằng công cụ hỗ trợ JSON Lines và UTF-8. Mỗi dòng là một mục.\n'
+        'Bộ gồm 3.000 mục từ/cụm từ, một từ loại và một nghĩa học chính cho mỗi mục.\n'
+        'Mục tiêu người học: IELTS 6.5–8.5. Không gán band cho từng từ.\n'
+        'Nhãn CEFR là tham chiếu headword/POS từ CEFR-J/Octanove hoặc ước tính biên tập.\n'
+        f"Có {report['entriesWithExamples']} mục có ví dụ, {report['entriesWithCollocations']} mục có collocation và {report['entriesWithPronunciation']} mục có IPA.\n"
+        'Trường nội dung bổ sung còn thiếu được để trống. Các mục nhập chưa được chuyên gia duyệt toàn bộ.\n'
+        'recommendedSkills là gợi ý chương trình học, không phải bằng chứng xuất hiện trong đề thi.\n'
+        'Xem quality_report.json để biết độ phủ, và licenses/ATTRIBUTION.txt để xem nguồn, giấy phép, thay đổi.\n'
+        'Dữ liệu được cung cấp theo CC BY-SA 4.0; giữ ghi công khi phân phối lại.\n')
+    bundle_items = {'ielts_3000.jsonl':export.read_bytes(),'README.vi.txt':guide.encode('utf-8'),
+                    'manifest.json':(TARGETS[0]/'manifest.json').read_bytes(),
+                    'quality_report.json':(TARGETS[0]/'quality_report.json').read_bytes()}
+    bundle_items.update({f'licenses/{p.name}':p.read_bytes() for p in (ROOT/'data_pipeline/licenses').glob('*.txt')})
+    with zipfile.ZipFile(export.with_suffix('.zip'),'w',compression=zipfile.ZIP_DEFLATED) as archive:
+        for name,data in sorted(bundle_items.items()):
+            info = zipfile.ZipInfo(name,date_time=(2026,10,16,0,0,0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            archive.writestr(info,data)
+    print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__ == '__main__': build()

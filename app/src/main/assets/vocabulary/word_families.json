@@ -28,5 +28,35 @@
     "rootLexemeId": "innovation",
     "relatedLexemeId": "innovative",
     "relation": "ADJECTIVE_FORM"
+  },
+  {
+    "rootLexemeId": "sustainable",
+    "relatedLexemeId": "sustainability",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "mitigate",
+    "relatedLexemeId": "mitigation",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "adapt",
+    "relatedLexemeId": "adaptation",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "automate",
+    "relatedLexemeId": "automation",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "resign",
+    "relatedLexemeId": "resignation",
+    "relation": "NOUN_FORM"
+  },
+  {
+    "rootLexemeId": "employ",
+    "relatedLexemeId": "employability",
+    "relation": "NOUN_FORM"
   }
 ]

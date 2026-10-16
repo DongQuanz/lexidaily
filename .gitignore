@@ -9,6 +9,8 @@
 .gradle/
 .kotlin/
 .idea/
+.vscode/
+.fleet/
 *.iml
 local.properties
 **/build/
@@ -23,8 +25,26 @@ captures/
 *.hprof
 **/__pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
 .venv/
 venv/
+
+# Temporary work, editor backups and patch leftovers
+/tmp/
+/.tmp/
+/scratch/
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
 
 # Credentials and signing material
 .env
@@ -33,12 +53,17 @@ venv/
 !.env.*.example
 *.jks
 *.keystore
+*.p12
+*.pfx
 keystore.properties
 signing.properties
 
 # Unbundled external source datasets
 data_pipeline/raw/*
 !data_pipeline/raw/.gitkeep
+
+# Curated inputs, normalized content, licenses and public dataset exports
+# are intentional project files and remain versioned.
 
 # Operating system files
 .DS_Store

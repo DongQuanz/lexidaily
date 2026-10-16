@@ -126,5 +126,13 @@
   {
     "id": "research",
     "name": "Research"
+  },
+  {
+    "id": "academic",
+    "name": "Academic language"
+  },
+  {
+    "id": "general",
+    "name": "General English"
   }
 ]

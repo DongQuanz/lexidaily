@@ -81,4 +81,15 @@ class LearningEngineTest {
         assertTrue(LearningEngine.answerMatches("  SUSTAINABLE  ", "sustainable"))
         assertFalse(LearningEngine.answerMatches("sustain", "sustainable"))
     }
+    @Test fun incompleteEnrichmentNeverProducesAnEmptyOrUnmaskedCloze() {
+        val word = Word(LexemeEntity("resilience", "resilience"),
+            SenseEntity("resilience_noun_01", "resilience", "noun", "Ability to recover.", "khả năng phục hồi", "C1", exampleEn = ""))
+        assertEquals("TYPING", LearningEngine.supportedQuestionKind(word, "CLOZE"))
+        assertEquals("TYPING", LearningEngine.supportedQuestionKind(word, "COLLOCATION"))
+        assertEquals("TYPING", LearningEngine.supportedQuestionKind(word.copy(sense = word.sense.copy(exampleEn = "The city is resilient.")), "CLOZE"))
+        val contextual = word.copy(sense = word.sense.copy(exampleEn = "The city needs greater resilience."))
+        assertEquals("CLOZE", LearningEngine.supportedQuestionKind(contextual, "CLOZE"))
+        assertEquals("CLOZE", LearningEngine.supportedQuestionKind(contextual, "COLLOCATION"))
+        assertEquals("COLLOCATION", LearningEngine.supportedQuestionKind(word.copy(collocations = listOf("build resilience")), "COLLOCATION"))
+    }
 }

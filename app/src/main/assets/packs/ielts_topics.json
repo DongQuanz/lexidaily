@@ -1,37 +1,197 @@
 [
   {
-    "id": "ielts_environment",
-    "name": "Environment · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
-  },
-  {
-    "id": "ielts_technology",
-    "name": "Technology · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
+    "id": "ielts_core",
+    "name": "IELTS 3000 · 6.5–8.5",
+    "description": "3000 mục từ cho người học hướng tới IELTS 6.5–8.5. Mục tiêu học tập cho cả bộ, không phải band của từng từ."
   },
   {
     "id": "ielts_education",
-    "name": "Education · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
+    "name": "Education · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
   },
   {
-    "id": "ielts_research",
-    "name": "Research · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
+    "id": "ielts_environment",
+    "name": "Environment · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
   },
   {
-    "id": "ielts_society",
-    "name": "Society · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
+    "id": "ielts_technology",
+    "name": "Technology · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
   },
   {
     "id": "ielts_health",
-    "name": "Health · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
+    "name": "Health · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_science",
+    "name": "Science · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_work",
+    "name": "Work · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
   },
   {
     "id": "ielts_business",
-    "name": "Business · IELTS Demo",
-    "description": "Topic practice using original material; relevance is heuristic."
+    "name": "Business · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_economics",
+    "name": "Economics · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_society",
+    "name": "Society · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_government",
+    "name": "Government · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_crime",
+    "name": "Crime · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_transport",
+    "name": "Transport · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_urbanisation",
+    "name": "Urbanisation · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_housing",
+    "name": "Housing · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_culture",
+    "name": "Culture · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_media",
+    "name": "Media · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_advertising",
+    "name": "Advertising · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_tourism",
+    "name": "Tourism · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_food",
+    "name": "Food · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_agriculture",
+    "name": "Agriculture · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_energy",
+    "name": "Energy · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_climate",
+    "name": "Climate · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_nature",
+    "name": "Nature · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_psychology",
+    "name": "Psychology · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_communication",
+    "name": "Communication · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_family",
+    "name": "Family · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_children",
+    "name": "Children · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_ageing",
+    "name": "Ageing · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_globalisation",
+    "name": "Globalisation · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_history",
+    "name": "History · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_art",
+    "name": "Art · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_research",
+    "name": "Research · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_academic",
+    "name": "Academic language · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "ielts_general",
+    "name": "General English · IELTS",
+    "description": "Nhóm học theo chủ đề; liên kết nguồn nhập được gợi ý tự động, cần kiểm tra theo ngữ cảnh."
+  },
+  {
+    "id": "cefr_b1",
+    "name": "B1 · IELTS study",
+    "description": "Tham chiếu CEFR theo nguồn hoặc ước tính biên tập; không quy đổi trực tiếp sang band IELTS."
+  },
+  {
+    "id": "cefr_b2",
+    "name": "B2 · IELTS study",
+    "description": "Tham chiếu CEFR theo nguồn hoặc ước tính biên tập; không quy đổi trực tiếp sang band IELTS."
+  },
+  {
+    "id": "cefr_c1",
+    "name": "C1 · IELTS study",
+    "description": "Tham chiếu CEFR theo nguồn hoặc ước tính biên tập; không quy đổi trực tiếp sang band IELTS."
+  },
+  {
+    "id": "cefr_c2",
+    "name": "C2 · IELTS study",
+    "description": "Tham chiếu CEFR theo nguồn hoặc ước tính biên tập; không quy đổi trực tiếp sang band IELTS."
   }
 ]

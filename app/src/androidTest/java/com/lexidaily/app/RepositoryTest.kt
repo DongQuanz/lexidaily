@@ -28,6 +28,16 @@ class RepositoryTest {
             priority = "Writing", topicMode = "FIXED", preferredTopic = "environment"))
     }
     @After fun close() { db.close() }
+    @Test fun ieltsSeedImportsAllEntriesAndCatalogSources() = runBlocking {
+        assertEquals(3000, db.dao().lexemes().size)
+        assertEquals(3000, db.dao().senses().size)
+        assertEquals(3000, db.dao().packLinks().count { it.packId == "ielts_core" })
+        assertEquals(2, db.dao().contentVersion()!!.version)
+        assertTrue(db.dao().sources().any { it.id == "thichhoc_dictionary" })
+        val before = db.dao().lexemes().size
+        SeedImporter(context, db).importIfNeeded()
+        assertEquals(before, db.dao().lexemes().size)
+    }
     private suspend fun complete(kind: String) {
         var s = repo.start(kind)
         while (!s.session.complete) {
@@ -112,8 +122,11 @@ class RepositoryTest {
         catch (e: IllegalStateException) { assertTrue(e.message!!.contains("70%")) }
     }
     @Test fun reviewOnlyDayCompletesAndChallengeStillHasFiveQuestions() = runBlocking {
-        repo.savePreferences(repo.snapshot().profile.copy(mode = "GENERAL", minCefr = "C2"))
-        repo.snapshot().words.take(3).forEach { db.dao().put(it.progress.copy(seen = true, stage = 1, dueAt = clock - 1)) }
+        repo.savePreferences(repo.snapshot().profile.copy(mode = "GENERAL", minCefr = "B1"))
+        val topicWords = repo.snapshot().words.filter { "environment" in it.topics }
+        // Exhaust the selected topic instead of assuming that the seed has no C2 words.
+        topicWords.forEach { db.dao().put(it.progress.copy(seen = true, stage = 1, dueAt = clock + 10 * 86400000L)) }
+        topicWords.take(3).forEach { db.dao().put(it.progress.copy(seen = true, stage = 1, dueAt = clock - 1)) }
         day = day.plusDays(1); clock += 86400000L
         repo.initialize()
         assertTrue(repo.snapshot().plan.newIds.isEmpty())
@@ -124,7 +137,7 @@ class RepositoryTest {
         assertTrue(repo.snapshot().plan.perfect)
     }
     @Test fun onboardingSmallTopicCreatesThreeAchievableQuests() = runBlocking {
-        repo.savePreferences(repo.snapshot().profile.copy(topicMode = "FIXED", preferredTopic = "climate"))
+        repo.savePreferences(repo.snapshot().profile.copy(topicMode = "FIXED", preferredTopic = "ageing"))
         assertEquals(3, repo.snapshot().plan.newIds.ids().size)
         assertEquals(3, repo.snapshot().quests.size)
         complete("NEW")

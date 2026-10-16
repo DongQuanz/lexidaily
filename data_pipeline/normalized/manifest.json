@@ -1,5 +1,8 @@
 {
-  "version": 1,
-  "lexemes": 70,
-  "description": "Original demonstration seed"
+  "version": 2,
+  "lexemes": 3000,
+  "senses": 3000,
+  "description": "IELTS 3000 bilingual study dataset, learner target 6.5–8.5; no per-word band claims",
+  "license": "CC-BY-SA-4.0",
+  "qualityReport": "quality_report.json"
 }

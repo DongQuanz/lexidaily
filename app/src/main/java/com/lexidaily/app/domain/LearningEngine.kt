@@ -69,6 +69,12 @@ object LearningEngine {
     }
     fun answerMatches(answer: String, expected: String): Boolean =
         answer.trim().lowercase().replace(Regex("\\s+"), " ") == expected.trim().lowercase().replace(Regex("\\s+"), " ")
+    fun supportedQuestionKind(word: Word, requested: String): String {
+        val candidate = if (requested == "COLLOCATION" && word.collocations.isEmpty()) "CLOZE" else requested
+        val hasClozeTarget = word.sense.exampleEn.isNotBlank() &&
+            Regex("\\b${Regex.escape(word.lexeme.lemma)}\\b", RegexOption.IGNORE_CASE).containsMatchIn(word.sense.exampleEn)
+        return if (candidate == "CLOZE" && !hasClozeTarget) "TYPING" else candidate
+    }
     fun intervalLabel(minutes: Long): String = when {
         minutes < 60 -> "$minutes phút"
         minutes < 1440 -> "${minutes / 60} giờ"

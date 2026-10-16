@@ -32,7 +32,7 @@ class SeedImporter(private val context: Context, private val db: LexiDatabase) {
             dao.collocations(array("vocabulary/collocations.json").map { CollocationEntity(it.getString("id"), it.getString("senseId"), it.getString("text")) })
             dao.families(array("vocabulary/word_families.json").map { WordFamilyEntity(it.getString("rootLexemeId"), it.getString("relatedLexemeId"), it.getString("relation")) })
             dao.paraphrases(array("vocabulary/paraphrases.json").map { ParaphraseEntity(it.getString("senseId"), it.getString("text"), it.getString("relationType"), it.nullString("targetLexemeId")) })
-            dao.sources(listOf("demo", "ngsl", "nawl").flatMap { array("sources/$it.json") }.map {
+            dao.sources(listOf("demo", "ngsl", "nawl", "ielts").flatMap { array("sources/$it.json") }.map {
                 SourcePackEntity(it.getString("id"), it.getString("name"), it.getString("sourceType"),
                     it.nullString("publisher"), it.nullString("series"), it.nullInt("volume"), it.nullInt("year"),
                     it.getString("licenseType"), it.optBoolean("isBundled"), it.optDouble("priority", 1.0).toFloat(), it.optString("description"))

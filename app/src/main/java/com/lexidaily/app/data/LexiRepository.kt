@@ -152,7 +152,7 @@ class LexiRepository(val db: LexiDatabase, private val today: () -> LocalDate = 
         val session = SessionEntity(id, day, kind, complete = pool.isEmpty(), scope = scope, startedAt = now())
         dao.put(session)
         pool.forEachIndexed { index, (word, qkind) ->
-            val type = if (qkind == "COLLOCATION" && word.collocations.isEmpty()) "CLOZE" else qkind
+            val type = LearningEngine.supportedQuestionKind(word, qkind)
             val correct = expected(word, type)
             val distractors = all.filter { it.sense.id != word.sense.id }.map { expected(it, type) }.distinct().filter { it != correct }.take(3)
             val options = (distractors + correct).sortedBy { (it + session.id + index).hashCode() }.encoded()

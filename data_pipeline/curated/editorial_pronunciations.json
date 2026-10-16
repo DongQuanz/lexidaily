@@ -1,0 +1,2198 @@
+{
+  "access": {
+    "ipaAm": "/ˈækˌsɛs/",
+    "entryId": "en:access:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 49
+  },
+  "accommodation": {
+    "ipaAm": "/əˌkɑməˈdeɪʃən/",
+    "entryId": "en:accommodation:n",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 733
+  },
+  "account": {
+    "ipaAm": "/əˈkaʊnt/",
+    "entryId": "en:account:v",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 54
+  },
+  "accountability": {
+    "ipaAm": "/əˈkaʊntəˌbɪlɪti/",
+    "entryId": "en:accountability:n",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 772
+  },
+  "acquire": {
+    "ipaAm": "/əˈkwaɪɚ/",
+    "entryId": "en:acquire:v",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 1128
+  },
+  "adapt": {
+    "ipaAm": "/əˈdæpt/",
+    "entryId": "en:adapt:v",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 1462
+  },
+  "adaptation": {
+    "ipaAm": "/ˌædəpˈteɪʃən/",
+    "entryId": "en:adaptation:n",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 1465
+  },
+  "addiction": {
+    "ipaAm": "/əˈdɪkʃən/",
+    "entryId": "en:addiction:n",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 1495
+  },
+  "adolescence": {
+    "ipaAm": "/ˌædəˈlɛsəns/",
+    "entryId": "en:adolescence:n",
+    "sourceFile": "general-a-01.jsonl",
+    "sourceLine": 1746
+  },
+  "algorithm": {
+    "ipaAm": "/ˈælɡˌɚɪðəm/",
+    "entryId": "en:algorithm:n",
+    "sourceFile": "general-a-02.jsonl",
+    "sourceLine": 1369
+  },
+  "allegory": {
+    "ipaAm": "/ˈæləˌɡɔɹi/",
+    "entryId": "en:allegory:n",
+    "sourceFile": "general-a-02.jsonl",
+    "sourceLine": 1561
+  },
+  "alleviate": {
+    "ipaAm": "/əˈlivˌieɪt/",
+    "entryId": "en:alleviate:v",
+    "sourceFile": "general-a-02.jsonl",
+    "sourceLine": 1593
+  },
+  "allocate": {
+    "ipaAm": "/ˈæləˌkeɪt/",
+    "entryId": "en:allocate:v",
+    "sourceFile": "general-a-02.jsonl",
+    "sourceLine": 1671
+  },
+  "ambassador": {
+    "ipaAm": "/æmˈbæsədɚ/",
+    "entryId": "en:ambassador:n",
+    "sourceFile": "general-a-03.jsonl",
+    "sourceLine": 147
+  },
+  "analogy": {
+    "ipaAm": "/əˈnælədʒi/",
+    "entryId": "en:analogy:n",
+    "sourceFile": "general-a-03.jsonl",
+    "sourceLine": 914
+  },
+  "analysis": {
+    "ipaAm": "/əˈnæləsəs/",
+    "entryId": "en:analysis:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 223
+  },
+  "archaeology": {
+    "ipaAm": "/ˌɑɹkˈiɑlədʒi/",
+    "entryId": "en:archaeology:n",
+    "sourceFile": "general-a-04.jsonl",
+    "sourceLine": 1181
+  },
+  "artefact": {
+    "ipaAm": "/ˈɑɹtəˌfækt/",
+    "entryId": "en:artifact:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 112
+  },
+  "artery": {
+    "ipaAm": "/ˈɑɹtɚi/",
+    "entryId": "en:artery:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 1
+  },
+  "articulate": {
+    "ipaAm": "/ɑɹˈtɪkjəˌleɪt/",
+    "entryId": "en:articulate:v",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 88
+  },
+  "artificial intelligence": {
+    "ipaAm": "/ˌɑɹtəˈfɪʃəl ˌɪnˈtɛlədʒəns/",
+    "entryId": "en:artificial_intelligence:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 123
+  },
+  "assess": {
+    "ipaAm": "/əˈsɛs/",
+    "entryId": "en:assess:v",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 585
+  },
+  "assimilation": {
+    "ipaAm": "/əˌsɪməˈleɪʃən/",
+    "entryId": "en:assimilation:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 612
+  },
+  "attendance": {
+    "ipaAm": "/əˈtɛndəns/",
+    "entryId": "en:attendance:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 1294
+  },
+  "austerity": {
+    "ipaAm": "/ˌɔˈstɛɹɪti/",
+    "entryId": "en:austerity:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 1585
+  },
+  "automate": {
+    "ipaAm": "/ˈɔtəˌmeɪt/",
+    "entryId": "en:automate:v",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 1777
+  },
+  "automation": {
+    "ipaAm": "/ɔtəˈmeɪʃən/",
+    "entryId": "en:automation:n",
+    "sourceFile": "general-a-05.jsonl",
+    "sourceLine": 1798
+  },
+  "axis": {
+    "ipaAm": "/ˈæksəs/",
+    "entryId": "en:axis:n",
+    "sourceFile": "general-a-06.jsonl",
+    "sourceLine": 89
+  },
+  "ballot": {
+    "ipaAm": "/ˈbælət/",
+    "entryId": "en:ballot:n",
+    "sourceFile": "general-b-01.jsonl",
+    "sourceLine": 691
+  },
+  "bankruptcy": {
+    "ipaAm": "/ˈbæŋkɹəpsi/",
+    "entryId": "en:bankruptcy:n",
+    "sourceFile": "general-b-01.jsonl",
+    "sourceLine": 942
+  },
+  "base": {
+    "ipaAm": "/beɪs/",
+    "entryId": "en:base:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 433
+  },
+  "bias": {
+    "ipaAm": "/ˈbaɪəs/",
+    "entryId": "en:bias:n",
+    "sourceFile": "general-b-02.jsonl",
+    "sourceLine": 1253
+  },
+  "bilingualism": {
+    "ipaAm": "/baɪˈlɪŋɡwəˌlɪzəm/",
+    "entryId": "en:bilingualism:n",
+    "sourceFile": "general-b-02.jsonl",
+    "sourceLine": 1530
+  },
+  "biodiversity": {
+    "ipaAm": "/ˌbaɪoʊdaɪˈvɝsəti/",
+    "entryId": "en:biodiversity:n",
+    "sourceFile": "general-b-02.jsonl",
+    "sourceLine": 1720
+  },
+  "bioethics": {
+    "ipaAm": "/ˌbaɪˈoʊɛθɪks/",
+    "entryId": "en:bioethics:n",
+    "sourceFile": "general-b-02.jsonl",
+    "sourceLine": 1723
+  },
+  "brain drain": {
+    "ipaAm": "/bɹeɪn dɹeɪn/",
+    "entryId": "en:brain_drain:n",
+    "sourceFile": "general-b-04.jsonl",
+    "sourceLine": 555
+  },
+  "brake": {
+    "ipaAm": "/bɹeɪk/",
+    "entryId": "en:brake:n",
+    "sourceFile": "general-b-04.jsonl",
+    "sourceLine": 594
+  },
+  "branding": {
+    "ipaAm": "/ˈbɹændɪŋ/",
+    "entryId": "en:branding:n",
+    "sourceFile": "general-b-04.jsonl",
+    "sourceLine": 659
+  },
+  "broadcast": {
+    "ipaAm": "/ˈbɹɔdˌkæst/",
+    "entryId": "en:broadcast:v",
+    "sourceFile": "general-b-04.jsonl",
+    "sourceLine": 1289
+  },
+  "bun": {
+    "ipaAm": "/bʌn/",
+    "entryId": "en:bun:n",
+    "sourceFile": "general-b-05.jsonl",
+    "sourceLine": 134
+  },
+  "bureaucracy": {
+    "ipaAm": "/bjʊˈɹɑkɹəsi/",
+    "entryId": "en:bureaucracy:n",
+    "sourceFile": "general-b-05.jsonl",
+    "sourceLine": 250
+  },
+  "cabinet": {
+    "ipaAm": "/ˈkæbənət/",
+    "entryId": "en:cabinet:n",
+    "sourceFile": "general-c-01.jsonl",
+    "sourceLine": 71
+  },
+  "cable": {
+    "ipaAm": "/ˈkeɪbəl/",
+    "entryId": "en:cable:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 756
+  },
+  "carbon": {
+    "ipaAm": "/ˈkɑɹbən/",
+    "entryId": "en:carbon:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 813
+  },
+  "caregiver": {
+    "ipaAm": "/ˈkɛɹˌɡɪvɚ/",
+    "entryId": "en:caregiver:n",
+    "sourceFile": "general-c-02.jsonl",
+    "sourceLine": 72
+  },
+  "catalyst": {
+    "ipaAm": "/ˈkætələst/",
+    "entryId": "en:catalyst:n",
+    "sourceFile": "general-c-02.jsonl",
+    "sourceLine": 850
+  },
+  "causality": {
+    "ipaAm": "/ˌkɔˈzɑlɪti/",
+    "entryId": "en:causality:n",
+    "sourceFile": "general-c-02.jsonl",
+    "sourceLine": 1140
+  },
+  "caveat": {
+    "ipaAm": "/ˈkeɪvˌiæt/",
+    "entryId": "en:caveat:n",
+    "sourceFile": "general-c-02.jsonl",
+    "sourceLine": 1192
+  },
+  "censorship": {
+    "ipaAm": "/ˈsɛnsɚˌʃɪp/",
+    "entryId": "en:censorship:n",
+    "sourceFile": "general-c-02.jsonl",
+    "sourceLine": 1484
+  },
+  "certificate": {
+    "ipaAm": "/sɚˈtɪfɪkət/",
+    "entryId": "en:certificate:n",
+    "sourceFile": "general-c-02.jsonl",
+    "sourceLine": 1846
+  },
+  "chip": {
+    "ipaAm": "/tʃɪp/",
+    "entryId": "en:chip:n",
+    "sourceFile": "general-c-03.jsonl",
+    "sourceLine": 1346
+  },
+  "circumvent": {
+    "ipaAm": "/ˌsɝkəmˈvɛnt/",
+    "entryId": "en:circumvent:v",
+    "sourceFile": "general-c-04.jsonl",
+    "sourceLine": 337
+  },
+  "classification": {
+    "ipaAm": "/ˌklæsəfəˈkeɪʃən/",
+    "entryId": "en:classification:n",
+    "sourceFile": "general-c-04.jsonl",
+    "sourceLine": 850
+  },
+  "client": {
+    "ipaAm": "/ˈklaɪənt/",
+    "entryId": "en:client:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 986
+  },
+  "coalition": {
+    "ipaAm": "/ˌkoʊəˈlɪʃən/",
+    "entryId": "en:coalition:n",
+    "sourceFile": "general-c-04.jsonl",
+    "sourceLine": 1686
+  },
+  "cognition": {
+    "ipaAm": "/kɑɡˈnɪʃən/",
+    "entryId": "en:cognition:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 108
+  },
+  "cohesion": {
+    "ipaAm": "/koʊˈhiʒən/",
+    "entryId": "en:cohesion:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 140
+  },
+  "collaborate": {
+    "ipaAm": "/kəˈlæbˌɚeɪt/",
+    "entryId": "en:collaborate:v",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 292
+  },
+  "colleague": {
+    "ipaAm": "/ˈkɑliɡ/",
+    "entryId": "en:colleague:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 328
+  },
+  "colonialism": {
+    "ipaAm": "/kəˈloʊniəˌlɪzəm/",
+    "entryId": "en:colonialism:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 445
+  },
+  "commerce": {
+    "ipaAm": "/ˈkɑmɚs/",
+    "entryId": "en:commerce:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 826
+  },
+  "community": {
+    "ipaAm": "/kəˈmjunəti/",
+    "entryId": "en:community:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1108
+  },
+  "commuter": {
+    "ipaAm": "/kəˈmjutɚ/",
+    "entryId": "en:commuter:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 1210
+  },
+  "compassion": {
+    "ipaAm": "/kəmˈpæʃən/",
+    "entryId": "en:compassion:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 1279
+  },
+  "comprehension": {
+    "ipaAm": "/ˌkɑmpɹiˈhɛnʃən/",
+    "entryId": "en:comprehension:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 1440
+  },
+  "confession": {
+    "ipaAm": "/kənˈfɛʃən/",
+    "entryId": "en:confession:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 1867
+  },
+  "congestion": {
+    "ipaAm": "/kənˈdʒɛstʃən/",
+    "entryId": "en:congestion:n",
+    "sourceFile": "general-c-05.jsonl",
+    "sourceLine": 1995
+  },
+  "connectivity": {
+    "ipaAm": "/kənɛkˈtɪvɪti/",
+    "entryId": "en:connectivity:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 148
+  },
+  "conscience": {
+    "ipaAm": "/ˈkɑnʃəns/",
+    "entryId": "en:conscience:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 197
+  },
+  "consciousness": {
+    "ipaAm": "/ˈkɑnʃəsnəs/",
+    "entryId": "en:consciousness:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 208
+  },
+  "conservation": {
+    "ipaAm": "/ˌkɑnsɚˈveɪʃən/",
+    "entryId": "en:conservation:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 235
+  },
+  "consume": {
+    "ipaAm": "/kənˈsum/",
+    "entryId": "en:consume:v",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 412
+  },
+  "consumerism": {
+    "ipaAm": "/kənˈsumˌɚɪzəm/",
+    "entryId": "en:consumerism:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 420
+  },
+  "conversion": {
+    "ipaAm": "/kənˈvɝʒən/",
+    "entryId": "en:conversion:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 771
+  },
+  "cooperation": {
+    "ipaAm": "/kˌoʊɑpˈɚeɪʃən/",
+    "entryId": "en:cooperation:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 915
+  },
+  "copyright": {
+    "ipaAm": "/ˈkɑpiˌɹaɪt/",
+    "entryId": "en:copyright:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 1054
+  },
+  "coral": {
+    "ipaAm": "/ˈkɔɹəl/",
+    "entryId": "en:coral:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 1083
+  },
+  "corroborate": {
+    "ipaAm": "/kˈɚɑbˌɚeɪt/",
+    "entryId": "en:corroborate:v",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 1475
+  },
+  "corruption": {
+    "ipaAm": "/kˈɚʌpʃən/",
+    "entryId": "en:corruption:n",
+    "sourceFile": "general-c-06.jsonl",
+    "sourceLine": 1503
+  },
+  "courtesy": {
+    "ipaAm": "/ˈkɝtəsi/",
+    "entryId": "en:courtesy:n",
+    "sourceFile": "general-c-07.jsonl",
+    "sourceLine": 95
+  },
+  "coverage": {
+    "ipaAm": "/ˈkʌvɚədʒ/",
+    "entryId": "en:coverage:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1222
+  },
+  "crew": {
+    "ipaAm": "/kɹu/",
+    "entryId": "en:crew:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1235
+  },
+  "culminate": {
+    "ipaAm": "/ˈkʌlmɪˌneɪt/",
+    "entryId": "en:culminate:v",
+    "sourceFile": "general-c-07.jsonl",
+    "sourceLine": 1585
+  },
+  "curriculum": {
+    "ipaAm": "/kˈɚɪkjələm/",
+    "entryId": "en:curriculum:n",
+    "sourceFile": "general-c-07.jsonl",
+    "sourceLine": 1841
+  },
+  "decentralisation": {
+    "ipaAm": "/dɪˌsɛntɹəlɪˈzeɪʃən/",
+    "entryId": "en:decentralization:n",
+    "sourceFile": "general-d-01.jsonl",
+    "sourceLine": 1065
+  },
+  "deficit": {
+    "ipaAm": "/ˈdɛfəsət/",
+    "entryId": "en:deficit:n",
+    "sourceFile": "general-d-01.jsonl",
+    "sourceLine": 1460
+  },
+  "deforestation": {
+    "ipaAm": "/dɪˌfɔɹɪˈsteɪʃən/",
+    "entryId": "en:deforestation:n",
+    "sourceFile": "general-d-01.jsonl",
+    "sourceLine": 1502
+  },
+  "delineate": {
+    "ipaAm": "/dɪˈlɪnˌieɪt/",
+    "entryId": "en:delineate:v",
+    "sourceFile": "general-d-01.jsonl",
+    "sourceLine": 1684
+  },
+  "deplete": {
+    "ipaAm": "/dɪˈplit/",
+    "entryId": "en:deplete:v",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 206
+  },
+  "deposit": {
+    "ipaAm": "/dəˈpɑzɪt/",
+    "entryId": "en:deposit:n",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 232
+  },
+  "desktop": {
+    "ipaAm": "/ˈdɛskˌtɑp/",
+    "entryId": "en:desktop:n",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 506
+  },
+  "deterrence": {
+    "ipaAm": "/dɪˈtɝəns/",
+    "entryId": "en:deterrence:n",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 679
+  },
+  "dignity": {
+    "ipaAm": "/ˈdɪɡnəti/",
+    "entryId": "en:dignity:n",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 1440
+  },
+  "dimension": {
+    "ipaAm": "/dɪˈmɛnʃən/",
+    "entryId": "en:dimension:n",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 1517
+  },
+  "discipline": {
+    "ipaAm": "/ˈdɪsəplən/",
+    "entryId": "en:discipline:n",
+    "sourceFile": "general-d-02.jsonl",
+    "sourceLine": 1990
+  },
+  "discourse": {
+    "ipaAm": "/ˈdɪskɔɹs/",
+    "entryId": "en:discourse:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 80
+  },
+  "discrimination": {
+    "ipaAm": "/dɪˌskɹɪməˈneɪʃən/",
+    "entryId": "en:discrimination:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 111
+  },
+  "disinformation": {
+    "ipaAm": "/dɪˌzɪnfɚˈmeɪʃən/",
+    "entryId": "en:disinformation:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 270
+  },
+  "disorder": {
+    "ipaAm": "/dɪˈsɔɹdɚ/",
+    "entryId": "en:disorder:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 365
+  },
+  "disseminate": {
+    "ipaAm": "/dɪˈsɛməˌneɪt/",
+    "entryId": "en:disseminate:v",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 527
+  },
+  "diversity": {
+    "ipaAm": "/dɪˈvɝsɪti/",
+    "entryId": "en:diversity:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 777
+  },
+  "donation": {
+    "ipaAm": "/doʊˈneɪʃən/",
+    "entryId": "en:donation:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 1292
+  },
+  "dose": {
+    "ipaAm": "/doʊs/",
+    "entryId": "en:dose:n",
+    "sourceFile": "general-d-03.jsonl",
+    "sourceLine": 1448
+  },
+  "drought": {
+    "ipaAm": "/dɹaʊt/",
+    "entryId": "en:drought:n",
+    "sourceFile": "general-d-04.jsonl",
+    "sourceLine": 284
+  },
+  "dwindle": {
+    "ipaAm": "/ˈdwɪndəl/",
+    "entryId": "en:dwindle:v",
+    "sourceFile": "general-d-04.jsonl",
+    "sourceLine": 913
+  },
+  "ecosystem": {
+    "ipaAm": "/ˈikoʊˌsɪstəm/",
+    "entryId": "en:ecosystem:n",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 512
+  },
+  "ecotourism": {
+    "ipaAm": "/ˌɛkoʊˈtʊɹɪzəm/",
+    "entryId": "en:ecotourism:n",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 514
+  },
+  "ego": {
+    "ipaAm": "/ˈiɡoʊ/",
+    "entryId": "en:ego:n",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 917
+  },
+  "electrification": {
+    "ipaAm": "/ɪˌlɛktɹəfɪˈkeɪʃən/",
+    "entryId": "en:electrification:n",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 1310
+  },
+  "elucidate": {
+    "ipaAm": "/ɪˈlusəˌdeɪt/",
+    "entryId": "en:elucidate:v",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 1687
+  },
+  "embassy": {
+    "ipaAm": "/ˈɛmbəsi/",
+    "entryId": "en:embassy:n",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 1754
+  },
+  "emerge": {
+    "ipaAm": "/ɪˈmɝdʒ/",
+    "entryId": "en:emerge:v",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 1849
+  },
+  "emission": {
+    "ipaAm": "/ɪˈmɪʃən/",
+    "entryId": "en:emission:n",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 1913
+  },
+  "employ": {
+    "ipaAm": "/ɛmˈplɔɪ/",
+    "entryId": "en:employ:v",
+    "sourceFile": "general-e-01.jsonl",
+    "sourceLine": 1999
+  },
+  "endorsement": {
+    "ipaAm": "/ɛnˈdɔɹsmənt/",
+    "entryId": "en:endorsement:n",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 279
+  },
+  "entail": {
+    "ipaAm": "/ɛnˈteɪl/",
+    "entryId": "en:entail:v",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 578
+  },
+  "enterprise": {
+    "ipaAm": "/ˈɛntɚˌpɹaɪz/",
+    "entryId": "en:enterprise:n",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 621
+  },
+  "environment": {
+    "ipaAm": "/ɪnˈvaɪɹənmənt/",
+    "entryId": "en:environment:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1688
+  },
+  "equal opportunity": {
+    "ipaAm": "/ˈikwəl ˌɑpɚˈtunəti/",
+    "entryId": "en:equal_opportunity:n",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 1079
+  },
+  "equation": {
+    "ipaAm": "/ɪˈkweɪʒən/",
+    "entryId": "en:equation:n",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 1105
+  },
+  "equity": {
+    "ipaAm": "/ˈɛkwəti/",
+    "entryId": "en:equity:n",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 1173
+  },
+  "erosion": {
+    "ipaAm": "/ɪˈɹoʊʒən/",
+    "entryId": "en:erosion:n",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 1387
+  },
+  "estimate": {
+    "ipaAm": "/ˈɛstəmət/",
+    "entryId": "en:estimate:v",
+    "sourceFile": "general-e-02.jsonl",
+    "sourceLine": 1671
+  },
+  "evaluate": {
+    "ipaAm": "/ɪˈvæljˌueɪt/",
+    "entryId": "en:evaluate:v",
+    "sourceFile": "general-e-03.jsonl",
+    "sourceLine": 240
+  },
+  "eviction": {
+    "ipaAm": "/ɪˈvɪkʃən/",
+    "entryId": "en:eviction:n",
+    "sourceFile": "general-e-03.jsonl",
+    "sourceLine": 356
+  },
+  "evidence": {
+    "ipaAm": "/ˈɛvədəns/",
+    "entryId": "en:evidence:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1737
+  },
+  "evolution": {
+    "ipaAm": "/ˌɛvəˈluʃən/",
+    "entryId": "en:evolution:n",
+    "sourceFile": "general-e-03.jsonl",
+    "sourceLine": 379
+  },
+  "exacerbate": {
+    "ipaAm": "/ɪɡˈzæsɚˌbeɪt/",
+    "entryId": "en:exacerbate:v",
+    "sourceFile": "general-e-03.jsonl",
+    "sourceLine": 410
+  },
+  "exhibit": {
+    "ipaAm": "/ɪɡˈzɪbɪt/",
+    "entryId": "en:exhibit:n",
+    "sourceFile": "general-e-03.jsonl",
+    "sourceLine": 630
+  },
+  "factor": {
+    "ipaAm": "/ˈfæktɚ/",
+    "entryId": "en:factor:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1813
+  },
+  "fat": {
+    "ipaAm": "/fæt/",
+    "entryId": "en:fat:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1874
+  },
+  "fatigue": {
+    "ipaAm": "/fəˈtiɡ/",
+    "entryId": "en:fatigue:n",
+    "sourceFile": "general-f-01.jsonl",
+    "sourceLine": 1965
+  },
+  "feasibility": {
+    "ipaAm": "/ˌfizəˈbɪləti/",
+    "entryId": "en:feasibility:n",
+    "sourceFile": "general-f-02.jsonl",
+    "sourceLine": 88
+  },
+  "feedback": {
+    "ipaAm": "/ˈfidˌbæk/",
+    "entryId": "en:feedback:n",
+    "sourceFile": "general-f-02.jsonl",
+    "sourceLine": 248
+  },
+  "fertiliser": {
+    "ipaAm": "/ˈfɝtəˌlaɪzɚ/",
+    "entryId": "en:fertilizer:n",
+    "sourceFile": "general-f-02.jsonl",
+    "sourceLine": 546
+  },
+  "fibre": {
+    "ipaAm": "/ˈfaɪbɚ/",
+    "entryId": "en:fibre:n",
+    "sourceFile": "general-f-02.jsonl",
+    "sourceLine": 681
+  },
+  "file": {
+    "ipaAm": "/faɪl/",
+    "entryId": "en:file:n",
+    "sourceFile": "freq-tier1-01.jsonl",
+    "sourceLine": 1935
+  },
+  "first floor": {
+    "ipaAm": "/fɝst flɔɹ/",
+    "entryId": "en:first_floor:n",
+    "sourceFile": "general-f-02.jsonl",
+    "sourceLine": 1455
+  },
+  "fluctuate": {
+    "ipaAm": "/ˈflʌktʃəˌweɪt/",
+    "entryId": "en:fluctuate:v",
+    "sourceFile": "general-f-03.jsonl",
+    "sourceLine": 375
+  },
+  "fluctuation": {
+    "ipaAm": "/ˌflʌktʃˈueɪʃən/",
+    "entryId": "en:fluctuation:n",
+    "sourceFile": "general-f-03.jsonl",
+    "sourceLine": 377
+  },
+  "folklore": {
+    "ipaAm": "/ˈfoʊˌklɔɹ/",
+    "entryId": "en:folklore:n",
+    "sourceFile": "general-f-03.jsonl",
+    "sourceLine": 702
+  },
+  "fossil": {
+    "ipaAm": "/ˈfɑsəl/",
+    "entryId": "en:fossil:n",
+    "sourceFile": "general-f-03.jsonl",
+    "sourceLine": 1333
+  },
+  "fraction": {
+    "ipaAm": "/ˈfɹækʃən/",
+    "entryId": "en:fraction:n",
+    "sourceFile": "general-f-03.jsonl",
+    "sourceLine": 1541
+  },
+  "fraud": {
+    "ipaAm": "/fɹɔd/",
+    "entryId": "en:fraud:n",
+    "sourceFile": "general-f-03.jsonl",
+    "sourceLine": 1759
+  },
+  "genome": {
+    "ipaAm": "/ˈdʒiˌnoʊm/",
+    "entryId": "en:genome:n",
+    "sourceFile": "general-g-01.jsonl",
+    "sourceLine": 1183
+  },
+  "gentrification": {
+    "ipaAm": "/ˌdʒɛntɹɪfɪˈkeɪʃən/",
+    "entryId": "en:gentrification:n",
+    "sourceFile": "general-g-01.jsonl",
+    "sourceLine": 1249
+  },
+  "governance": {
+    "ipaAm": "/ˈɡʌvɚnəns/",
+    "entryId": "en:governance:n",
+    "sourceFile": "general-g-04.jsonl",
+    "sourceLine": 837
+  },
+  "grain": {
+    "ipaAm": "/ɡɹeɪn/",
+    "entryId": "en:grain:n",
+    "sourceFile": "general-g-04.jsonl",
+    "sourceLine": 970
+  },
+  "grid": {
+    "ipaAm": "/ɡɹɪd/",
+    "entryId": "en:grid:n",
+    "sourceFile": "general-g-04.jsonl",
+    "sourceLine": 1830
+  },
+  "grief": {
+    "ipaAm": "/ɡɹif/",
+    "entryId": "en:grief:n",
+    "sourceFile": "general-g-04.jsonl",
+    "sourceLine": 1838
+  },
+  "guarantee": {
+    "ipaAm": "/ˌɡɛɹənˈti/",
+    "entryId": "en:guarantee:n",
+    "sourceFile": "general-g-05.jsonl",
+    "sourceLine": 260
+  },
+  "habitat": {
+    "ipaAm": "/ˈhæbəˌtæt/",
+    "entryId": "en:habitat:n",
+    "sourceFile": "general-h-01.jsonl",
+    "sourceLine": 55
+  },
+  "hardware": {
+    "ipaAm": "/ˈhɑɹˌdwɛɹ/",
+    "entryId": "en:hardware:n",
+    "sourceFile": "general-h-01.jsonl",
+    "sourceLine": 983
+  },
+  "harvest": {
+    "ipaAm": "/ˈhɑɹvəst/",
+    "entryId": "en:harvest:n",
+    "sourceFile": "general-h-01.jsonl",
+    "sourceLine": 1170
+  },
+  "headline": {
+    "ipaAm": "/ˈhɛdˌlaɪn/",
+    "entryId": "en:headline:n",
+    "sourceFile": "general-h-01.jsonl",
+    "sourceLine": 1487
+  },
+  "headquarters": {
+    "ipaAm": "/ˈhɛdˌkwɔɹtɚz/",
+    "entryId": "en:headquarters:n",
+    "sourceFile": "general-h-01.jsonl",
+    "sourceLine": 1503
+  },
+  "heritage": {
+    "ipaAm": "/ˈhɛɹətədʒ/",
+    "entryId": "en:heritage:n",
+    "sourceFile": "general-h-02.jsonl",
+    "sourceLine": 478
+  },
+  "homelessness": {
+    "ipaAm": "/ˈhoʊmləsnəs/",
+    "entryId": "en:homelessness:n",
+    "sourceFile": "general-h-02.jsonl",
+    "sourceLine": 1742
+  },
+  "hospice": {
+    "ipaAm": "/ˈhɑspəs/",
+    "entryId": "en:hospice:n",
+    "sourceFile": "general-h-03.jsonl",
+    "sourceLine": 357
+  },
+  "hygiene": {
+    "ipaAm": "/ˈhaɪˌdʒin/",
+    "entryId": "en:hygiene:n",
+    "sourceFile": "general-h-03.jsonl",
+    "sourceLine": 1362
+  },
+  "hypothesis": {
+    "ipaAm": "/haɪˈpɑθəsəs/",
+    "entryId": "en:hypothesis:n",
+    "sourceFile": "general-h-03.jsonl",
+    "sourceLine": 1748
+  },
+  "impact": {
+    "ipaAm": "/ˌɪmˈpækt/",
+    "entryId": "en:impact:n",
+    "sourceFile": "freq-tier1-02.jsonl",
+    "sourceLine": 813
+  },
+  "impartiality": {
+    "ipaAm": "/ˌɪmˌpɑɹʃˈiælɪti/",
+    "entryId": "en:impartiality:n",
+    "sourceFile": "general-i-01.jsonl",
+    "sourceLine": 821
+  },
+  "implication": {
+    "ipaAm": "/ˌɪmpləˈkeɪʃən/",
+    "entryId": "en:implication:n",
+    "sourceFile": "general-i-01.jsonl",
+    "sourceLine": 972
+  },
+  "import": {
+    "ipaAm": "/ˌɪmˈpɔɹt/",
+    "entryId": "en:import:n",
+    "sourceFile": "general-i-01.jsonl",
+    "sourceLine": 994
+  },
+  "imprisonment": {
+    "ipaAm": "/ˌɪmˈpɹɪzənmənt/",
+    "entryId": "en:imprisonment:n",
+    "sourceFile": "general-i-01.jsonl",
+    "sourceLine": 1072
+  },
+  "incentive": {
+    "ipaAm": "/ˌɪnˈsɛntɪv/",
+    "entryId": "en:incentive:n",
+    "sourceFile": "general-i-01.jsonl",
+    "sourceLine": 1364
+  },
+  "induce": {
+    "ipaAm": "/ˌɪnˈdus/",
+    "entryId": "en:induce:v",
+    "sourceFile": "general-i-01.jsonl",
+    "sourceLine": 1933
+  },
+  "inequality": {
+    "ipaAm": "/ˌɪnɪˈkwɑləti/",
+    "entryId": "en:inequality:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 42
+  },
+  "inflammation": {
+    "ipaAm": "/ˌɪnfləˈmeɪʃən/",
+    "entryId": "en:inflammation:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 228
+  },
+  "inflation": {
+    "ipaAm": "/ˌɪnˈfleɪʃən/",
+    "entryId": "en:inflation:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 237
+  },
+  "infrastructure": {
+    "ipaAm": "/ˌɪnfɹəˈstɹʌktʃɚ/",
+    "entryId": "en:infrastructure:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 319
+  },
+  "infringement": {
+    "ipaAm": "/ˌɪnˈfɹɪndʒmənt/",
+    "entryId": "en:infringement:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 325
+  },
+  "injection": {
+    "ipaAm": "/ˌɪnˈdʒɛkʃən/",
+    "entryId": "en:injection:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 478
+  },
+  "injustice": {
+    "ipaAm": "/ˌɪnˈdʒʌstɪs/",
+    "entryId": "en:injustice:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 491
+  },
+  "innovation": {
+    "ipaAm": "/ˌɪnəˈveɪʃən/",
+    "entryId": "en:innovation:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 572
+  },
+  "institution": {
+    "ipaAm": "/ˌɪnstɪˈtuʃən/",
+    "entryId": "en:institution:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 831
+  },
+  "insulation": {
+    "ipaAm": "/ˌɪnsəˈleɪʃən/",
+    "entryId": "en:insulation:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 886
+  },
+  "integrate": {
+    "ipaAm": "/ˈɪntəˌɡɹeɪt/",
+    "entryId": "en:integrate:v",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 947
+  },
+  "interdependence": {
+    "ipaAm": "/ˌɪntɚdəˈpɛndəns/",
+    "entryId": "en:interdependence:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 1084
+  },
+  "interest": {
+    "ipaAm": "/ˈɪntɹəst/",
+    "entryId": "en:interest:n",
+    "sourceFile": "freq-tier1-02.jsonl",
+    "sourceLine": 941
+  },
+  "interpret": {
+    "ipaAm": "/ˌɪnˈtɝpɹət/",
+    "entryId": "en:interpret:v",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 1309
+  },
+  "intersection": {
+    "ipaAm": "/ˌɪntɚˈsɛkʃən/",
+    "entryId": "en:intersection:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 1354
+  },
+  "intervention": {
+    "ipaAm": "/ˌɪntɚˈvɛnʃən/",
+    "entryId": "en:intervention:n",
+    "sourceFile": "general-i-02.jsonl",
+    "sourceLine": 1386
+  },
+  "investment": {
+    "ipaAm": "/ˌɪnˈvɛstmənt/",
+    "entryId": "en:investment:n",
+    "sourceFile": "freq-tier1-02.jsonl",
+    "sourceLine": 956
+  },
+  "irrigation": {
+    "ipaAm": "/ˌɪɹəˈɡeɪʃən/",
+    "entryId": "en:irrigation:n",
+    "sourceFile": "general-i-03.jsonl",
+    "sourceLine": 84
+  },
+  "itinerary": {
+    "ipaAm": "/aɪˈtɪnˌɚɛɹi/",
+    "entryId": "en:itinerary:n",
+    "sourceFile": "general-i-03.jsonl",
+    "sourceLine": 400
+  },
+  "journalism": {
+    "ipaAm": "/ˈdʒɝnəˌlɪzəm/",
+    "entryId": "en:journalism:n",
+    "sourceFile": "general-j.jsonl",
+    "sourceLine": 1384
+  },
+  "jury": {
+    "ipaAm": "/ˈdʒʊɹi/",
+    "entryId": "en:jury:n",
+    "sourceFile": "general-j.jsonl",
+    "sourceLine": 1729
+  },
+  "lecturer": {
+    "ipaAm": "/ˈlɛktʃɚɚ/",
+    "entryId": "en:lecturer:n",
+    "sourceFile": "general-l-01.jsonl",
+    "sourceLine": 1703
+  },
+  "legislation": {
+    "ipaAm": "/ˌlɛdʒəˈsleɪʃən/",
+    "entryId": "en:legislation:n",
+    "sourceFile": "freq-tier1-02.jsonl",
+    "sourceLine": 1202
+  },
+  "life expectancy": {
+    "ipaAm": "/laɪf ɪkˈspɛktənsi/",
+    "entryId": "en:life_expectancy:n",
+    "sourceFile": "general-l-02.jsonl",
+    "sourceLine": 731
+  },
+  "liquidity": {
+    "ipaAm": "/lɪˈkwɪdəti/",
+    "entryId": "en:liquidity:n",
+    "sourceFile": "general-l-02.jsonl",
+    "sourceLine": 1455
+  },
+  "literacy": {
+    "ipaAm": "/ˈlɪtɚəsi/",
+    "entryId": "en:literacy:n",
+    "sourceFile": "general-l-02.jsonl",
+    "sourceLine": 1528
+  },
+  "livestock": {
+    "ipaAm": "/ˈlaɪvˌstɑk/",
+    "entryId": "en:livestock:n",
+    "sourceFile": "general-l-02.jsonl",
+    "sourceLine": 1742
+  },
+  "loan": {
+    "ipaAm": "/loʊn/",
+    "entryId": "en:loan:n",
+    "sourceFile": "freq-tier1-02.jsonl",
+    "sourceLine": 1336
+  },
+  "localisation": {
+    "ipaAm": "/ˌloʊkələˈzeɪʃən/",
+    "entryId": "en:localization:n",
+    "sourceFile": "general-l-02.jsonl",
+    "sourceLine": 1928
+  },
+  "loneliness": {
+    "ipaAm": "/ˈloʊnlinəs/",
+    "entryId": "en:loneliness:n",
+    "sourceFile": "general-l-03.jsonl",
+    "sourceLine": 178
+  },
+  "longevity": {
+    "ipaAm": "/lɔnˈdʒɛvəti/",
+    "entryId": "en:longevity:n",
+    "sourceFile": "general-l-03.jsonl",
+    "sourceLine": 269
+  },
+  "magnitude": {
+    "ipaAm": "/ˈmæɡnəˌtud/",
+    "entryId": "en:magnitude:n",
+    "sourceFile": "general-m-01.jsonl",
+    "sourceLine": 445
+  },
+  "malnutrition": {
+    "ipaAm": "/ˌmælnuˈtɹɪʃən/",
+    "entryId": "en:malnutrition:n",
+    "sourceFile": "general-m-01.jsonl",
+    "sourceLine": 934
+  },
+  "manufacturer": {
+    "ipaAm": "/ˌmænjəˈfæktʃɚɚ/",
+    "entryId": "en:manufacturer:n",
+    "sourceFile": "general-m-01.jsonl",
+    "sourceLine": 1424
+  },
+  "marginalisation": {
+    "ipaAm": "/ˌmɑɹdʒənələˈzeɪʃən/",
+    "entryId": "en:marginalization:n",
+    "sourceFile": "general-m-01.jsonl",
+    "sourceLine": 1632
+  },
+  "masterpiece": {
+    "ipaAm": "/ˈmæstɚˌpis/",
+    "entryId": "en:masterpiece:n",
+    "sourceFile": "general-m-02.jsonl",
+    "sourceLine": 225
+  },
+  "mechanism": {
+    "ipaAm": "/ˈmɛkəˌnɪzəm/",
+    "entryId": "en:mechanism:n",
+    "sourceFile": "general-m-02.jsonl",
+    "sourceLine": 817
+  },
+  "medication": {
+    "ipaAm": "/ˌmɛdəˈkeɪʃən/",
+    "entryId": "en:medication:n",
+    "sourceFile": "general-m-02.jsonl",
+    "sourceLine": 943
+  },
+  "melody": {
+    "ipaAm": "/ˈmɛlədi/",
+    "entryId": "en:melody:n",
+    "sourceFile": "general-m-02.jsonl",
+    "sourceLine": 1237
+  },
+  "metaphor": {
+    "ipaAm": "/ˈmɛtəfɔɹ/",
+    "entryId": "en:metaphor:n",
+    "sourceFile": "general-m-02.jsonl",
+    "sourceLine": 1901
+  },
+  "migration": {
+    "ipaAm": "/maɪˈɡɹeɪʃən/",
+    "entryId": "en:migration:n",
+    "sourceFile": "general-m-03.jsonl",
+    "sourceLine": 520
+  },
+  "mimic": {
+    "ipaAm": "/ˈmɪmɪk/",
+    "entryId": "en:mimic:v",
+    "sourceFile": "general-m-03.jsonl",
+    "sourceLine": 830
+  },
+  "misinformation": {
+    "ipaAm": "/ˌmɪsɪnfɚˈmeɪʃən/",
+    "entryId": "en:misinformation:n",
+    "sourceFile": "general-m-03.jsonl",
+    "sourceLine": 1239
+  },
+  "mitigate": {
+    "ipaAm": "/ˈmɪtəˌɡeɪt/",
+    "entryId": "en:mitigate:v",
+    "sourceFile": "general-m-03.jsonl",
+    "sourceLine": 1411
+  },
+  "mitigation": {
+    "ipaAm": "/ˌmɪtɪˈɡeɪʃən/",
+    "entryId": "en:mitigation:n",
+    "sourceFile": "general-m-03.jsonl",
+    "sourceLine": 1414
+  },
+  "morbidity": {
+    "ipaAm": "/mɔɹˈbɪdəti/",
+    "entryId": "en:morbidity:n",
+    "sourceFile": "general-m-04.jsonl",
+    "sourceLine": 373
+  },
+  "mortality": {
+    "ipaAm": "/mɔɹˈtæləti/",
+    "entryId": "en:mortality:n",
+    "sourceFile": "general-m-04.jsonl",
+    "sourceLine": 498
+  },
+  "motivate": {
+    "ipaAm": "/ˈmoʊtəˌveɪt/",
+    "entryId": "en:motivate:v",
+    "sourceFile": "general-m-04.jsonl",
+    "sourceLine": 674
+  },
+  "multiculturalism": {
+    "ipaAm": "/ˌmʌltiˈkʌltʃɚəˌlɪzəm/",
+    "entryId": "en:multiculturalism:n",
+    "sourceFile": "general-m-04.jsonl",
+    "sourceLine": 1278
+  },
+  "mutation": {
+    "ipaAm": "/mjuˈteɪʃən/",
+    "entryId": "en:mutation:n",
+    "sourceFile": "general-m-04.jsonl",
+    "sourceLine": 1796
+  },
+  "mythology": {
+    "ipaAm": "/məˈθɑləˌdʒi/",
+    "entryId": "en:mythology:n",
+    "sourceFile": "general-m-05.jsonl",
+    "sourceLine": 130
+  },
+  "nanotechnology": {
+    "ipaAm": "/ˌnænoʊˌtɛkˈnɑləˌdʒi/",
+    "entryId": "en:nanotechnology:n",
+    "sourceFile": "general-n-01.jsonl",
+    "sourceLine": 200
+  },
+  "navigation": {
+    "ipaAm": "/ˈnævəˈɡeɪʃən/",
+    "entryId": "en:navigation:n",
+    "sourceFile": "general-n-01.jsonl",
+    "sourceLine": 652
+  },
+  "nuance": {
+    "ipaAm": "/ˈnuɑns/",
+    "entryId": "en:nuance:n",
+    "sourceFile": "general-n-02.jsonl",
+    "sourceLine": 1178
+  },
+  "nutrition": {
+    "ipaAm": "/nuˈtɹɪʃən/",
+    "entryId": "en:nutrition:n",
+    "sourceFile": "general-n-02.jsonl",
+    "sourceLine": 1442
+  },
+  "obsolescence": {
+    "ipaAm": "/ˌɑbsəˈlɛsəns/",
+    "entryId": "en:obsolescence:n",
+    "sourceFile": "general-o-01.jsonl",
+    "sourceLine": 228
+  },
+  "operator": {
+    "ipaAm": "/ˈɑpˌɚeɪtɚ/",
+    "entryId": "en:operator:n",
+    "sourceFile": "general-o-01.jsonl",
+    "sourceLine": 1483
+  },
+  "opportunity cost": {
+    "ipaAm": "/ˌɑpɚˈtunəti kɑst/",
+    "entryId": "en:opportunity_cost:n",
+    "sourceFile": "general-o-01.jsonl",
+    "sourceLine": 1567
+  },
+  "optimism": {
+    "ipaAm": "/ˈɑptəˌmɪzəm/",
+    "entryId": "en:optimism:n",
+    "sourceFile": "general-o-01.jsonl",
+    "sourceLine": 1643
+  },
+  "ore": {
+    "ipaAm": "/ɔɹ/",
+    "entryId": "en:ore:n",
+    "sourceFile": "general-o-02.jsonl",
+    "sourceLine": 200
+  },
+  "oscillate": {
+    "ipaAm": "/ˈɑsəˌleɪt/",
+    "entryId": "en:oscillate:v",
+    "sourceFile": "general-o-02.jsonl",
+    "sourceLine": 580
+  },
+  "output": {
+    "ipaAm": "/ˈaʊtˌpʊt/",
+    "entryId": "en:output:n",
+    "sourceFile": "general-o-02.jsonl",
+    "sourceLine": 962
+  },
+  "outweigh": {
+    "ipaAm": "/ˈaʊˌtweɪ/",
+    "entryId": "en:outweigh:v",
+    "sourceFile": "general-o-02.jsonl",
+    "sourceLine": 1040
+  },
+  "overlap": {
+    "ipaAm": "/ˈoʊvɚˌlæp/",
+    "entryId": "en:overlap:v",
+    "sourceFile": "general-o-02.jsonl",
+    "sourceLine": 1243
+  },
+  "overtime": {
+    "ipaAm": "/ˈoʊvɚˌtaɪm/",
+    "entryId": "en:overtime:n",
+    "sourceFile": "general-o-02.jsonl",
+    "sourceLine": 1377
+  },
+  "parenthood": {
+    "ipaAm": "/ˈpɛɹəntˌhʊd/",
+    "entryId": "en:parenthood:n",
+    "sourceFile": "general-p-01.jsonl",
+    "sourceLine": 1192
+  },
+  "parliament": {
+    "ipaAm": "/ˈpɑɹləmənt/",
+    "entryId": "en:parliament:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 221
+  },
+  "participation": {
+    "ipaAm": "/pɑɹˌtɪsəˈpeɪʃən/",
+    "entryId": "en:participation:n",
+    "sourceFile": "general-p-01.jsonl",
+    "sourceLine": 1450
+  },
+  "particle": {
+    "ipaAm": "/ˈpɑɹtəkəl/",
+    "entryId": "en:particle:n",
+    "sourceFile": "general-p-01.jsonl",
+    "sourceLine": 1457
+  },
+  "partnership": {
+    "ipaAm": "/ˈpɑɹtnɚˌʃɪp/",
+    "entryId": "en:partnership:n",
+    "sourceFile": "general-p-01.jsonl",
+    "sourceLine": 1500
+  },
+  "peak": {
+    "ipaAm": "/pik/",
+    "entryId": "en:peak:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 276
+  },
+  "pedagogy": {
+    "ipaAm": "/ˈpɛdəˌɡoʊdʒi/",
+    "entryId": "en:pedagogy:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 282
+  },
+  "pedal": {
+    "ipaAm": "/ˈpɛdəl/",
+    "entryId": "en:pedal:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 284
+  },
+  "penalty": {
+    "ipaAm": "/ˈpɛnəlti/",
+    "entryId": "en:penalty:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 538
+  },
+  "pension": {
+    "ipaAm": "/ˈpɛnʃən/",
+    "entryId": "en:pension:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 674
+  },
+  "percentage": {
+    "ipaAm": "/pɚˈsɛntədʒ/",
+    "entryId": "en:percentage:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 869
+  },
+  "perception": {
+    "ipaAm": "/pɚˈsɛpʃən/",
+    "entryId": "en:perception:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 877
+  },
+  "pesticide": {
+    "ipaAm": "/ˈpɛstəˌsaɪd/",
+    "entryId": "en:pesticide:n",
+    "sourceFile": "general-p-02.jsonl",
+    "sourceLine": 1477
+  },
+  "photosynthesis": {
+    "ipaAm": "/ˌfoʊtoʊˈsɪnθəsɪs/",
+    "entryId": "en:photosynthesis:n",
+    "sourceFile": "general-p-03.jsonl",
+    "sourceLine": 273
+  },
+  "plagiarism": {
+    "ipaAm": "/ˈpleɪdʒˌɚɪzəm/",
+    "entryId": "en:plagiarism:n",
+    "sourceFile": "general-p-03.jsonl",
+    "sourceLine": 1650
+  },
+  "plateau": {
+    "ipaAm": "/plæˈtoʊ/",
+    "entryId": "en:plateau:n",
+    "sourceFile": "general-p-03.jsonl",
+    "sourceLine": 1924
+  },
+  "plug": {
+    "ipaAm": "/plʌɡ/",
+    "entryId": "en:plug:n",
+    "sourceFile": "general-p-04.jsonl",
+    "sourceLine": 303
+  },
+  "plummet": {
+    "ipaAm": "/ˈplʌmət/",
+    "entryId": "en:plummet:v",
+    "sourceFile": "general-p-04.jsonl",
+    "sourceLine": 372
+  },
+  "pollution": {
+    "ipaAm": "/pəˈluʃən/",
+    "entryId": "en:pollution:n",
+    "sourceFile": "general-p-04.jsonl",
+    "sourceLine": 969
+  },
+  "portion": {
+    "ipaAm": "/ˈpɔɹʃən/",
+    "entryId": "en:portion:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 408
+  },
+  "portrayal": {
+    "ipaAm": "/pɔɹˈtɹeɪəl/",
+    "entryId": "en:portrayal:n",
+    "sourceFile": "general-p-04.jsonl",
+    "sourceLine": 1610
+  },
+  "postulate": {
+    "ipaAm": "/ˈpɑstʃəˌleɪt/",
+    "entryId": "en:postulate:v",
+    "sourceFile": "general-p-04.jsonl",
+    "sourceLine": 1841
+  },
+  "preclude": {
+    "ipaAm": "/pɹɪˈklud/",
+    "entryId": "en:preclude:v",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 439
+  },
+  "preserve": {
+    "ipaAm": "/pɹəˈzɝv/",
+    "entryId": "en:preserve:v",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 767
+  },
+  "prevail": {
+    "ipaAm": "/pɹɪˈveɪl/",
+    "entryId": "en:prevail:v",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 940
+  },
+  "prevalence": {
+    "ipaAm": "/ˈpɹɛvələns/",
+    "entryId": "en:prevalence:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 945
+  },
+  "prevent": {
+    "ipaAm": "/pɹɪˈvɛnt/",
+    "entryId": "en:prevent:v",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 471
+  },
+  "privacy": {
+    "ipaAm": "/ˈpɹaɪvəsi/",
+    "entryId": "en:privacy:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1296
+  },
+  "privilege": {
+    "ipaAm": "/ˈpɹɪvlədʒ/",
+    "entryId": "en:privilege:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1329
+  },
+  "procedure": {
+    "ipaAm": "/pɹəˈsidʒɚ/",
+    "entryId": "en:procedure:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1422
+  },
+  "productivity": {
+    "ipaAm": "/ˌpɹoʊdəkˈtɪvəti/",
+    "entryId": "en:productivity:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1525
+  },
+  "profile": {
+    "ipaAm": "/ˈpɹoʊˌfaɪl/",
+    "entryId": "en:profile:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 512
+  },
+  "profit": {
+    "ipaAm": "/ˈpɹɑfət/",
+    "entryId": "en:profit:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 514
+  },
+  "programming": {
+    "ipaAm": "/ˈpɹoʊˌɡɹæmɪŋ/",
+    "entryId": "en:programming:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1632
+  },
+  "projection": {
+    "ipaAm": "/pɹəˈdʒɛkʃən/",
+    "entryId": "en:projection:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1666
+  },
+  "proliferate": {
+    "ipaAm": "/pɹoʊˈlɪfˌɚeɪt/",
+    "entryId": "en:proliferate:v",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1692
+  },
+  "proportion": {
+    "ipaAm": "/pɹəˈpɔɹʃən/",
+    "entryId": "en:proportion:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1876
+  },
+  "prose": {
+    "ipaAm": "/pɹoʊz/",
+    "entryId": "en:prose:n",
+    "sourceFile": "general-p-05.jsonl",
+    "sourceLine": 1945
+  },
+  "protagonist": {
+    "ipaAm": "/pɹoʊˈtæɡənəst/",
+    "entryId": "en:protagonist:n",
+    "sourceFile": "general-p-06.jsonl",
+    "sourceLine": 23
+  },
+  "protectionism": {
+    "ipaAm": "/pɹəˈtɛkʃəˌnɪzəm/",
+    "entryId": "en:protectionism:n",
+    "sourceFile": "general-p-06.jsonl",
+    "sourceLine": 38
+  },
+  "pulse": {
+    "ipaAm": "/pʌls/",
+    "entryId": "en:pulse:n",
+    "sourceFile": "general-p-06.jsonl",
+    "sourceLine": 987
+  },
+  "qualify": {
+    "ipaAm": "/ˈkwɑləˌfaɪ/",
+    "entryId": "en:qualify:v",
+    "sourceFile": "general-q.jsonl",
+    "sourceLine": 129
+  },
+  "quarantine": {
+    "ipaAm": "/ˈkwɔɹənˌtin/",
+    "entryId": "en:quarantine:n",
+    "sourceFile": "general-q.jsonl",
+    "sourceLine": 178
+  },
+  "racism": {
+    "ipaAm": "/ˈɹeɪˌsɪzəm/",
+    "entryId": "en:racism:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 117
+  },
+  "recession": {
+    "ipaAm": "/ɹɪˈsɛʃən/",
+    "entryId": "en:recession:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1426
+  },
+  "recidivism": {
+    "ipaAm": "/ɹəˈsɪdɪˌvɪzəm/",
+    "entryId": "en:recidivism:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1441
+  },
+  "reconcile": {
+    "ipaAm": "/ˈɹɛkənˌsaɪl/",
+    "entryId": "en:reconcile:v",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1523
+  },
+  "reconciliation": {
+    "ipaAm": "/ˌɹɛkənˌsɪlˈieɪʃən/",
+    "entryId": "en:reconciliation:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1526
+  },
+  "recreation": {
+    "ipaAm": "/ˌɹɛkɹˈieɪʃən/",
+    "entryId": "en:recreation:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1592
+  },
+  "recruit": {
+    "ipaAm": "/ɹəˈkɹut/",
+    "entryId": "en:recruit:v",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1607
+  },
+  "redistribution": {
+    "ipaAm": "/ˌɹidɪstɹəˈbjuʃən/",
+    "entryId": "en:redistribution:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1945
+  },
+  "redundancy": {
+    "ipaAm": "/ɹɪˈdʌndənsi/",
+    "entryId": "en:redundancy:n",
+    "sourceFile": "general-r-01.jsonl",
+    "sourceLine": 1991
+  },
+  "reference": {
+    "ipaAm": "/ˈɹɛfɚəns/",
+    "entryId": "en:reference:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 705
+  },
+  "reforestation": {
+    "ipaAm": "/ˌɹifɔɹəˈsteɪʃən/",
+    "entryId": "en:reforestation:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 142
+  },
+  "reform": {
+    "ipaAm": "/ɹəˈfɔɹm/",
+    "entryId": "en:reform:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 707
+  },
+  "regime": {
+    "ipaAm": "/ɹəˈʒim/",
+    "entryId": "en:regime:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 251
+  },
+  "rehabilitation": {
+    "ipaAm": "/ˌɹihəˌbɪləˈteɪʃən/",
+    "entryId": "en:rehabilitation:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 354
+  },
+  "remittance": {
+    "ipaAm": "/ɹiˈmɪtəns/",
+    "entryId": "en:remittance:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 646
+  },
+  "remuneration": {
+    "ipaAm": "/ɹɪˌmjunˈɚeɪʃən/",
+    "entryId": "en:remuneration:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 685
+  },
+  "repertoire": {
+    "ipaAm": "/ˈɹɛpɚˌtwɑɹ/",
+    "entryId": "en:repertoire:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 832
+  },
+  "residence": {
+    "ipaAm": "/ˈɹɛzɪdəns/",
+    "entryId": "en:residence:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1171
+  },
+  "resident": {
+    "ipaAm": "/ˈɹɛzɪdənt/",
+    "entryId": "en:resident:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1176
+  },
+  "resign": {
+    "ipaAm": "/ɹɪˈzaɪn/",
+    "entryId": "en:resign:v",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1192
+  },
+  "resignation": {
+    "ipaAm": "/ˌɹɛzəɡˈneɪʃən/",
+    "entryId": "en:resignation:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1193
+  },
+  "restitution": {
+    "ipaAm": "/ˌɹɛstɪˈtuʃən/",
+    "entryId": "en:restitution:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1328
+  },
+  "restoration": {
+    "ipaAm": "/ˌɹɛstˈɚeɪʃən/",
+    "entryId": "en:restoration:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1338
+  },
+  "retain": {
+    "ipaAm": "/ɹɪˈteɪn/",
+    "entryId": "en:retain:v",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1398
+  },
+  "retirement": {
+    "ipaAm": "/ɹiˈtaɪɚmənt/",
+    "entryId": "en:retirement:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 780
+  },
+  "revenue": {
+    "ipaAm": "/ˈɹɛvəˌnu/",
+    "entryId": "en:revenue:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 783
+  },
+  "revolution": {
+    "ipaAm": "/ˌɹɛvəˈluʃən/",
+    "entryId": "en:revolution:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 786
+  },
+  "rhetoric": {
+    "ipaAm": "/ˈɹɛtɚɪk/",
+    "entryId": "en:rhetoric:n",
+    "sourceFile": "general-r-02.jsonl",
+    "sourceLine": 1831
+  },
+  "ritual": {
+    "ipaAm": "/ˈɹɪtʃuəl/",
+    "entryId": "en:ritual:n",
+    "sourceFile": "general-r-03.jsonl",
+    "sourceLine": 561
+  },
+  "route": {
+    "ipaAm": "/ɹut/",
+    "entryId": "en:route:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 848
+  },
+  "rule of law": {
+    "ipaAm": "/ɹul ʌv lɔ/",
+    "entryId": "en:rule_of_law:n",
+    "sourceFile": "general-r-03.jsonl",
+    "sourceLine": 1932
+  },
+  "scholarship": {
+    "ipaAm": "/ˈskɑlɚˌʃɪp/",
+    "entryId": "en:scholarship:n",
+    "sourceFile": "general-s-02.jsonl",
+    "sourceLine": 127
+  },
+  "scrutinise": {
+    "ipaAm": "/ˈskɹutəˌnaɪz/",
+    "entryId": "en:scrutinize:v",
+    "sourceFile": "general-s-02.jsonl",
+    "sourceLine": 745
+  },
+  "self-esteem": {
+    "ipaAm": "/sɛlf əˈstim/",
+    "entryId": "en:self-esteem:n",
+    "sourceFile": "general-s-02.jsonl",
+    "sourceLine": 1617
+  },
+  "sensationalism": {
+    "ipaAm": "/sɛnˈseɪʃənəˌlɪzəm/",
+    "entryId": "en:sensationalism:n",
+    "sourceFile": "general-s-03.jsonl",
+    "sourceLine": 8
+  },
+  "sequestration": {
+    "ipaAm": "/ˌsɛkwəˈstɹeɪʃən/",
+    "entryId": "en:sequestration:n",
+    "sourceFile": "general-s-03.jsonl",
+    "sourceLine": 207
+  },
+  "significance": {
+    "ipaAm": "/səɡˈnɪfɪkəns/",
+    "entryId": "en:significance:n",
+    "sourceFile": "general-s-04.jsonl",
+    "sourceLine": 204
+  },
+  "soil": {
+    "ipaAm": "/sɔɪl/",
+    "entryId": "en:soil:n",
+    "sourceFile": "general-s-05.jsonl",
+    "sourceLine": 858
+  },
+  "solidarity": {
+    "ipaAm": "/ˌsɑləˈdɛɹəti/",
+    "entryId": "en:solidarity:n",
+    "sourceFile": "general-s-05.jsonl",
+    "sourceLine": 1048
+  },
+  "sovereignty": {
+    "ipaAm": "/ˈsɑvɹənti/",
+    "entryId": "en:sovereignty:n",
+    "sourceFile": "general-s-05.jsonl",
+    "sourceLine": 1692
+  },
+  "species": {
+    "ipaAm": "/ˈspiʃiz/",
+    "entryId": "en:species:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1355
+  },
+  "specimen": {
+    "ipaAm": "/ˈspɛsəmən/",
+    "entryId": "en:specimen:n",
+    "sourceFile": "general-s-06.jsonl",
+    "sourceLine": 73
+  },
+  "split": {
+    "ipaAm": "/splɪt/",
+    "entryId": "en:split:v",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1372
+  },
+  "stabilise": {
+    "ipaAm": "/ˈsteɪbəˌlaɪz/",
+    "entryId": "en:stabilize:v",
+    "sourceFile": "general-s-06.jsonl",
+    "sourceLine": 1497
+  },
+  "stagnate": {
+    "ipaAm": "/ˈstæɡˌneɪt/",
+    "entryId": "en:stagnate:v",
+    "sourceFile": "general-s-06.jsonl",
+    "sourceLine": 1606
+  },
+  "stake": {
+    "ipaAm": "/steɪk/",
+    "entryId": "en:stake:n",
+    "sourceFile": "general-s-06.jsonl",
+    "sourceLine": 1632
+  },
+  "staple": {
+    "ipaAm": "/ˈsteɪpəl/",
+    "entryId": "en:staple:n",
+    "sourceFile": "general-s-06.jsonl",
+    "sourceLine": 1818
+  },
+  "statistics": {
+    "ipaAm": "/stəˈtɪstɪks/",
+    "entryId": "en:statistics:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1435
+  },
+  "storage": {
+    "ipaAm": "/ˈstɔɹədʒ/",
+    "entryId": "en:storage:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1494
+  },
+  "stress": {
+    "ipaAm": "/stɹɛs/",
+    "entryId": "en:stress:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1513
+  },
+  "stroke": {
+    "ipaAm": "/stɹoʊk/",
+    "entryId": "en:stroke:n",
+    "sourceFile": "general-s-07.jsonl",
+    "sourceLine": 1482
+  },
+  "subsidy": {
+    "ipaAm": "/ˈsʌbsɪdi/",
+    "entryId": "en:subsidy:n",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 196
+  },
+  "substantiate": {
+    "ipaAm": "/səbˈstæntʃˌieɪt/",
+    "entryId": "en:substantiate:v",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 216
+  },
+  "suburb": {
+    "ipaAm": "/ˈsʌbɚb/",
+    "entryId": "en:suburb:n",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 271
+  },
+  "supersede": {
+    "ipaAm": "/ˌsupɚˈsid/",
+    "entryId": "en:supersede:v",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 982
+  },
+  "supervisor": {
+    "ipaAm": "/ˈsupɚˌvaɪzɚ/",
+    "entryId": "en:supervisor:n",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 1012
+  },
+  "surge": {
+    "ipaAm": "/sɝdʒ/",
+    "entryId": "en:surge:v",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 1178
+  },
+  "sustainability": {
+    "ipaAm": "/səˌsteɪnəˈbɪlɪti/",
+    "entryId": "en:sustainability:n",
+    "sourceFile": "general-s-08.jsonl",
+    "sourceLine": 1339
+  },
+  "synthesis": {
+    "ipaAm": "/ˈsɪnθəsəs/",
+    "entryId": "en:synthesis:n",
+    "sourceFile": "general-s-09.jsonl",
+    "sourceLine": 149
+  },
+  "take": {
+    "ipaAm": "/teɪk/",
+    "entryId": "en:take:v",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1617
+  },
+  "tariff": {
+    "ipaAm": "/ˈtɛɹəf/",
+    "entryId": "en:tariff:n",
+    "sourceFile": "general-t-01.jsonl",
+    "sourceLine": 842
+  },
+  "telecommuting": {
+    "ipaAm": "/tɛləkəˈmjutɪŋ/",
+    "entryId": "en:telecommuting:n",
+    "sourceFile": "general-t-01.jsonl",
+    "sourceLine": 1397
+  },
+  "tenancy": {
+    "ipaAm": "/ˈtɛnənsi/",
+    "entryId": "en:tenancy:n",
+    "sourceFile": "general-t-01.jsonl",
+    "sourceLine": 1679
+  },
+  "testimony": {
+    "ipaAm": "/ˈtɛstəˌmoʊni/",
+    "entryId": "en:testimony:n",
+    "sourceFile": "general-t-02.jsonl",
+    "sourceLine": 79
+  },
+  "thesis": {
+    "ipaAm": "/ˈθisəs/",
+    "entryId": "en:thesis:n",
+    "sourceFile": "general-t-02.jsonl",
+    "sourceLine": 619
+  },
+  "trade-off": {
+    "ipaAm": "/ˈtɹeɪˌdɔf/",
+    "entryId": "en:trade-off:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1912
+  },
+  "transform": {
+    "ipaAm": "/tɹænˈsfɔɹm/",
+    "entryId": "en:transform:v",
+    "sourceFile": "general-t-03.jsonl",
+    "sourceLine": 1173
+  },
+  "translation": {
+    "ipaAm": "/tɹænzˈleɪʃən/",
+    "entryId": "en:translation:n",
+    "sourceFile": "general-t-03.jsonl",
+    "sourceLine": 1226
+  },
+  "trauma": {
+    "ipaAm": "/ˈtɹɔmə/",
+    "entryId": "en:trauma:n",
+    "sourceFile": "general-t-03.jsonl",
+    "sourceLine": 1390
+  },
+  "trial": {
+    "ipaAm": "/ˈtɹaɪəl/",
+    "entryId": "en:trial:n",
+    "sourceFile": "freq-tier1-03.jsonl",
+    "sourceLine": 1935
+  },
+  "triangulation": {
+    "ipaAm": "/tɹˌaɪæŋɡjuˈleɪʃən/",
+    "entryId": "en:triangulation:n",
+    "sourceFile": "general-t-03.jsonl",
+    "sourceLine": 1701
+  },
+  "tuition": {
+    "ipaAm": "/tjˈuɪʃən/",
+    "entryId": "en:tuition:n",
+    "sourceFile": "general-t-04.jsonl",
+    "sourceLine": 600
+  },
+  "tunnel": {
+    "ipaAm": "/ˈtʌnəl/",
+    "entryId": "en:tunnel:n",
+    "sourceFile": "general-t-04.jsonl",
+    "sourceLine": 721
+  },
+  "underpin": {
+    "ipaAm": "/ˈʌndɚˌpɪn/",
+    "entryId": "en:underpin:v",
+    "sourceFile": "general-u-01.jsonl",
+    "sourceLine": 883
+  },
+  "understanding": {
+    "ipaAm": "/ˌʌndɚˈstændɪŋ/",
+    "entryId": "en:understanding:n",
+    "sourceFile": "freq-tier1-04.jsonl",
+    "sourceLine": 59
+  },
+  "upbringing": {
+    "ipaAm": "/ˈʌpˌbɹɪŋɪŋ/",
+    "entryId": "en:upbringing:n",
+    "sourceFile": "general-u-02.jsonl",
+    "sourceLine": 774
+  },
+  "urbanisation": {
+    "ipaAm": "/ˌɝbənəˈzeɪʃən/",
+    "entryId": "en:urbanization:n",
+    "sourceFile": "general-u-02.jsonl",
+    "sourceLine": 974
+  },
+  "user": {
+    "ipaAm": "/ˈjuzɚ/",
+    "entryId": "en:user:n",
+    "sourceFile": "freq-tier1-04.jsonl",
+    "sourceLine": 110
+  },
+  "utilise": {
+    "ipaAm": "/ˈjuːtɪlaɪz/",
+    "entryId": "en:utilise:v",
+    "sourceFile": "general-u-02.jsonl",
+    "sourceLine": 1228
+  },
+  "vaccination": {
+    "ipaAm": "/væksəˈneɪʃən/",
+    "entryId": "en:vaccination:n",
+    "sourceFile": "general-v-01.jsonl",
+    "sourceLine": 32
+  },
+  "variable": {
+    "ipaAm": "/ˈvɛɹiəbəl/",
+    "entryId": "en:variable:n",
+    "sourceFile": "general-v-01.jsonl",
+    "sourceLine": 378
+  },
+  "variation": {
+    "ipaAm": "/ˌvɛɹˈieɪʃən/",
+    "entryId": "en:variation:n",
+    "sourceFile": "general-v-01.jsonl",
+    "sourceLine": 389
+  },
+  "vegetation": {
+    "ipaAm": "/ˌvɛdʒəˈteɪʃən/",
+    "entryId": "en:vegetation:n",
+    "sourceFile": "general-v-01.jsonl",
+    "sourceLine": 593
+  },
+  "ventilation": {
+    "ipaAm": "/ˌvɛntəˈleɪʃən/",
+    "entryId": "en:ventilation:n",
+    "sourceFile": "general-v-01.jsonl",
+    "sourceLine": 901
+  },
+  "volunteer": {
+    "ipaAm": "/ˌvɑlənˈtɪɹ/",
+    "entryId": "en:volunteer:n",
+    "sourceFile": "general-v-02.jsonl",
+    "sourceLine": 226
+  },
+  "vulnerability": {
+    "ipaAm": "/ˌvʌlnɚəˈbɪlɪti/",
+    "entryId": "en:vulnerability:n",
+    "sourceFile": "general-v-02.jsonl",
+    "sourceLine": 365
+  },
+  "welfare": {
+    "ipaAm": "/ˈwɛlˌfɛɹ/",
+    "entryId": "en:welfare:n",
+    "sourceFile": "general-w-01.jsonl",
+    "sourceLine": 1219
+  },
+  "wellbeing": {
+    "ipaAm": "/ˌwɛlˈbiɪŋ/",
+    "entryId": "en:wellbeing:n",
+    "sourceFile": "general-w-01.jsonl",
+    "sourceLine": 1272
+  },
+  "wheat": {
+    "ipaAm": "/wit/",
+    "entryId": "en:wheat:n",
+    "sourceFile": "general-w-01.jsonl",
+    "sourceLine": 1541
+  },
+  "wilderness": {
+    "ipaAm": "/ˈwɪldɚnəs/",
+    "entryId": "en:wilderness:n",
+    "sourceFile": "general-w-02.jsonl",
+    "sourceLine": 323
+  }
+}

@@ -232,7 +232,10 @@ import kotlin.math.*
             }
             Text(word.lexeme.defaultDisplay, style = MaterialTheme.typography.displaySmall, fontWeight = FontWeight.SemiBold,
                 modifier = Modifier.fillMaxWidth().padding(top = 28.dp), textAlign = TextAlign.Center)
-            Text(word.pronunciation?.ipaBr.orEmpty(), Modifier.fillMaxWidth(), textAlign = TextAlign.Center, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(listOfNotNull(
+                word.pronunciation?.ipaBr?.takeIf { it.isNotBlank() }?.let { "UK $it" },
+                word.pronunciation?.ipaAm?.takeIf { it.isNotBlank() }?.let { "US $it" }
+            ).joinToString(" · "), Modifier.fillMaxWidth(), textAlign = TextAlign.Center, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Text(word.sense.partOfSpeech, Modifier.fillMaxWidth(), textAlign = TextAlign.Center, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
             IconButton(onSpeak, Modifier.align(Alignment.CenterHorizontally).size(52.dp)) { Icon(Icons.AutoMirrored.Outlined.VolumeUp, "Nghe phát âm tiếng Anh", tint = AppColors.primary) }
             AnimatedContent(revealed, transitionSpec = { fadeIn(tween(if (reduceMotion) 0 else 250)) togetherWith fadeOut(tween(if (reduceMotion) 0 else 220)) }, label = "reveal") { shown ->

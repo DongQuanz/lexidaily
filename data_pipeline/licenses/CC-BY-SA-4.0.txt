@@ -1,0 +1,13 @@
+LexiDaily IELTS 3000 vocabulary data
+
+The adapted bilingual dataset and original lexical additions are provided under
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+License: https://creativecommons.org/licenses/by-sa/4.0/
+Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Retain the accompanying attribution, source notices and modification notice.
+No endorsement by IELTS, Princeton, CMU, Wiktionary, TUFS, Octanove Labs or
+thichhoc.com is asserted. The software code retains its own licensing status.
+
+This notice incorporates the license by URL; it is not a substitute legal text.

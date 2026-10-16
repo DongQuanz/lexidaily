@@ -1,0 +1,55 @@
+LexiDaily IELTS 3000 — data attribution and modifications
+
+Dữ liệu từ điển: Từ điển Anh–Việt thichhoc.com (thichhoc-dict),
+giấy phép CC BY-SA 4.0.
+https://github.com/thichhoc-org/thichhoc-dict
+Nguồn gốc: WordNet 3.1 (Princeton), CMUdict (CMU), Wiktionary.
+Đã chỉnh sửa dữ liệu.
+
+Pinned dictionary revision: 4d6e92e8bcf8e3e762410c2b0a9f98fea8e62e5b.
+Modifications: selected a bounded study subset; normalised JSON and punctuation;
+retained paired English/Vietnamese meanings; selected a single sense and POS per
+study headword; deduplicated spelling variants; associated CEFR headword/POS
+references; added heuristic topic labels, source locators and study packs.
+Upstream translations include model-generated material. They have not all been
+independently reviewed by a qualified language expert.
+
+The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of
+Foreign Studies (Tono Laboratory). Original reference: http://www.cefr-j.org/
+Retrieved via Open Language Profiles, revision
+d4e45b75b38f27b30dfc5c44d8c571aec7e7092f:
+https://github.com/openlanguageprofiles/olp-en-cefrj
+CEFR-J permits research and commercial use without charge with attribution.
+Octanove Vocabulary Profile C1/C2 version 1.0, Octanove Labs, CC BY-SA 4.0,
+distributed through the same Open Language Profiles repository.
+These are headword/POS references, not independently verified sense annotations.
+
+WordNet 3.1 Copyright 2011 The Trustees of Princeton University.
+All rights reserved. https://wordnet.princeton.edu/
+The thichhoc dictionary uses WordNet 3.1. Separate source-linked example
+sentences in this selection come from WordNet 3.0, obtained via nltk_data:
+https://github.com/nltk/nltk_data/blob/gh-pages/packages/corpora/wordnet.zip
+WordNet 3.0 copyright and permission notice: WORDNET-3.0-LICENSE.txt.
+Example selection requires overlap with the imported English sense and the
+literal study headword; this is an automated alignment, not a full expert audit.
+
+CMU Pronouncing Dictionary, Carnegie Mellon University.
+https://github.com/cmusphinx/cmudict
+CMUdict underlies most American IPA supplied by the thichhoc dictionary.
+Full copyright, redistribution conditions and disclaimer: CMUDICT-LICENSE.txt.
+
+Wiktionary contributors: https://en.wiktionary.org/
+Wiktionary-derived content in the upstream dictionary is distributed under
+Creative Commons Attribution-ShareAlike terms. Individual imported dictionary
+IDs and source file lines are retained in the curated selection and export.
+
+LexiDaily original definitions, Vietnamese meanings, examples and collocations
+are separately identifiable as lexidaily_demo or lexidaily_ielts. These additions
+are licensed as part of this adapted dataset under CC BY-SA 4.0.
+The original 70 lexeme and sense IDs remain stable.
+
+Dataset license: https://creativecommons.org/licenses/by-sa/4.0/
+Retain this attribution and all accompanying notices when redistributing data.
+No IELTS test passages, transcripts, answer keys or claimed test occurrences
+are included. IELTS learner target 6.5–8.5 is a curriculum goal for the dataset,
+not an official band assigned to each vocabulary item.

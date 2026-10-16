@@ -1,11 +1,11 @@
 [
   {
     "id": "lexidaily_demo",
-    "name": "LexiDaily Original Demo",
+    "name": "LexiDaily Original 70",
     "sourceType": "CUSTOM",
-    "licenseType": "Original content — included with this project",
+    "licenseType": "CC BY-SA 4.0",
     "isBundled": true,
     "priority": 0.5,
-    "description": "Original definitions and examples. CEFR and IELTS relevance are editorial estimates. This is not the full NGSL or NAWL corpus."
+    "description": "70 mục từ gốc, giữ nguyên ID để cập nhật nội dung mà không mất tiến độ. Định nghĩa, ví dụ và nhãn CEFR do biên tập, không phải dữ liệu đề IELTS."
   }
 ]

@@ -1,102 +1,99 @@
 # LexiDaily
 
-**Xây dựng thói quen học từ vựng qua từng hành trình mỗi ngày.**
+[English](README.md) · [Tài liệu bộ dữ liệu](data_pipeline/README.md)
 
-[English](README.md) · [Tiếng Việt](README.vi.md)
+Ứng dụng Android học từ vựng tiếng Anh ngoại tuyến dành cho người Việt học General English và IELTS. LexiDaily kết hợp nội dung Anh–Việt, ôn tập ngắt quãng và hành trình học hằng ngày trong giao diện Kotlin và Jetpack Compose.
 
-LexiDaily là ứng dụng Android học từ vựng ngoại tuyến dành cho người Việt học General English và IELTS. Mỗi ngày, ứng dụng đưa người học qua một hành trình rõ ràng: ôn từ đến hạn, học từ mới, rồi vận dụng qua thử thách.
+Bản MVP hiện đóng gói **3.000 mục từ/cụm từ**, hướng tới người học IELTS **6.5–8.5**. Tiến độ được lưu trên thiết bị; ứng dụng hoạt động mà không cần tài khoản hay backend.
 
-Được xây dựng bằng **Kotlin · Jetpack Compose · Material 3 · Room**.
+## Trải nghiệm học
 
-> **Trạng thái:** bản MVP Android với 70 từ demo được biên soạn riêng. Hỗ trợ Android 8.0 (API 26) trở lên. Đã kiểm thử trên emulator Android API 36; chưa kiểm thử trên điện thoại thật. Giao diện hiện sử dụng tiếng Việt kết hợp nội dung học tiếng Anh.
+1. **Ôn tập** những từ đến hạn và củng cố từ còn khó nhớ.
+2. **Học từ mới** qua flashcard, nghĩa, phát âm và ví dụ sử dụng khi có dữ liệu.
+3. **Vận dụng** trong thử thách cuối ngày, mở sau khi hoàn thành 70% kế hoạch từ mới. Ứng dụng cũng hỗ trợ ngày chỉ có từ cần ôn.
 
-## Tính năng
+Phiên học lưu câu hiện tại, trạng thái lật thẻ, nội dung đang nhập và câu trả lời đã gửi để người học tiếp tục khi bị gián đoạn.
 
-- **Mục tiêu cá nhân:** chọn General English hoặc IELTS, số từ mỗi ngày, trình độ CEFR, band mục tiêu, kỹ năng và chủ đề.
-- **Daily Journey:** ôn tập → từ mới → thử thách; mở thử thách từ mức hoàn thành 70% hành trình. Phiên học lưu câu hiện tại, trạng thái lật thẻ, nội dung đang gõ và câu trả lời.
-- **Ôn tập ngắt quãng:** đánh giá Again / Hard / Good / Easy với khoảng ôn tiếp theo; bài tập nhận biết, định nghĩa, điền từ và tự gõ. Trouble Words giúp tập trung vào những từ còn yếu.
-- **Flashcard đầy đủ thông tin:** IPA, phát âm bằng Text-to-Speech hệ thống, nghĩa Anh–Việt, ví dụ, collocation, họ từ, từ gần nghĩa, đánh dấu lưu và nguồn dữ liệu.
-- **Phần thưởng gắn với tiến bộ:** XP, streak, nhiệm vụ ngày và tuần, Grace Day, checkpoint và Mastery Seal. Sổ thưởng ngăn cộng XP trùng; IELTS mastery yêu cầu nhớ chủ động và hiểu ngữ cảnh.
-- **Thư viện dễ tra cứu:** lọc theo trạng thái học, CEFR, kỹ năng, chủ đề hoặc bộ từ. Bản đồ chòm sao phản ánh tiến độ đã lưu.
-- **Trải nghiệm hằng ngày:** giao diện sáng, tối và theo hệ thống; giảm chuyển động; tùy chọn rung phản hồi và nhắc học.
+### Tính năng
 
-## Bắt đầu
+- **Mục tiêu cá nhân:** General English hoặc IELTS, số từ mỗi ngày, tham chiếu CEFR, band mục tiêu, kỹ năng và chủ đề ưu tiên.
+- **Ôn tập ngắt quãng:** đánh giá Again / Hard / Good / Easy; bài tập nhận biết, định nghĩa, điền từ và tự nhớ từ; bộ Trouble Words tập trung vào từ còn yếu.
+- **Thư viện tra cứu:** tìm bằng tiếng Anh hoặc tiếng Việt, lọc theo trạng thái học, CEFR, kỹ năng, chủ đề hoặc bộ từ; đánh dấu mục cần lưu. Danh sách lớn được phân trang 50 mục.
+- **Ngữ cảnh và phát âm:** IPA Anh–Anh hoặc Anh–Mỹ khi có dữ liệu, Text-to-Speech hệ thống, ví dụ, collocation, một số liên kết họ từ và từ gần nghĩa.
+- **Tiến độ học:** XP, streak, nhiệm vụ ngày và tuần, Grace Day, checkpoint và Mastery Seal. IELTS mastery yêu cầu hiểu ngữ cảnh và nhớ chủ động.
+- **Tùy chỉnh trải nghiệm:** giao diện sáng, tối hoặc theo hệ thống; giảm chuyển động; tùy chọn rung phản hồi và nhắc học.
+
+## Nội dung từ vựng
+
+| Thành phần | Độ phủ |
+| --- | ---: |
+| Mục từ/cụm từ duy nhất / nghĩa học chính | 3.000 / 3.000 |
+| Nhãn chủ đề | 34 |
+| Mục có IPA | 2.812 |
+| Mục có ví dụ tiếng Anh | 798 |
+| Mục có collocation | 514 |
+| Bản ghi collocation | 1.028 |
+| Mục biên soạn riêng / mục chọn lọc từ nguồn mở | 514 / 2.486 |
+
+Mỗi mục có nghĩa Anh–Việt, từ loại, tham chiếu CEFR và thông tin nguồn. Phân bố CEFR gồm **667 mục B1**, **1.333 mục B2**, **665 mục C1** và **335 mục C2**. Phần B1 củng cố các từ dùng phổ biến bên cạnh nội dung nâng cao.
+
+Khoảng IELTS thể hiện đối tượng người học, **không phải band chính thức gán cho từng từ**. CEFR-J và Octanove tham chiếu theo headword và từ loại; nội dung gốc dùng ước tính biên tập có ghi rõ nguồn. Phân loại chủ đề và gợi ý kỹ năng sử dụng heuristic.
+
+Ví dụ, IPA và các nội dung bổ sung chưa phủ toàn bộ danh sách. Phần nhập từ nguồn mở có bản dịch sinh bởi mô hình và chưa được chuyên gia thẩm định toàn bộ. Khi chưa có ví dụ phù hợp, ứng dụng chuyển bài điền từ sang tự nhớ từ qua định nghĩa.
+
+- [Tải gói dữ liệu ZIP](data_pipeline/exports/ielts_3000.zip) — JSONL, hướng dẫn ngắn, báo cáo độ phủ và giấy phép.
+- [Xem bản xuất JSONL](data_pipeline/exports/ielts_3000.jsonl).
+- [Xem báo cáo độ phủ](data_pipeline/normalized/quality_report.json).
+- [Đọc phương pháp, nguồn và giới hạn](data_pipeline/README.md).
+
+Dữ liệu được đóng gói trong APK và tự động nhập vào Room. Manifest nội dung **phiên bản 2** giữ nguyên 70 ID lexeme và sense gốc để bảo toàn tiến độ khi cập nhật nội dung.
+
+## Chạy ứng dụng
 
 ### Yêu cầu môi trường
 
-| Thành phần | Cấu hình dự án |
+| Thành phần | Cấu hình |
 | --- | --- |
-| Thiết bị | Android 8.0+ / API 26+ |
+| Thiết bị hoặc emulator | Android 8.0+ / API 26+ |
 | Android SDK | Compile SDK 37.0; target SDK 36 |
-| Java | Đã kiểm tra với JDK 25 đi kèm Android Studio; Java 11 không build được dự án |
-| Gradle | 9.6.0, sử dụng wrapper có sẵn |
-| Android Gradle Plugin | 9.4.1 |
-| Python | Python 3 cho công cụ nội dung và kiểm tra dữ liệu; đã kiểm tra với 3.14 |
+| Java | JDK đi kèm Android Studio; đã xác nhận với JDK 25 |
+| Công cụ build | Gradle wrapper 9.6.0; Android Gradle Plugin 9.4.1 |
+| Công cụ dữ liệu | Python 3; đã xác nhận với Python 3.14; chỉ dùng thư viện chuẩn |
 
-Cài Android SDK tương ứng qua SDK Manager trong Android Studio. Lần build đầu cần kết nối mạng để tải các thành phần phụ thuộc.
+Cài SDK tương ứng qua Android Studio. Lần build đầu cần kết nối mạng để tải các thành phần phụ thuộc.
 
-### Chạy bằng Android Studio
+### Android Studio
 
-1. Mở thư mục gốc của dự án trong Android Studio.
-2. Chọn JDK đi kèm Android Studio làm Gradle JDK và chờ Gradle sync.
-3. Chọn emulator hoặc điện thoại đã kết nối, sau đó chạy cấu hình `app`.
+1. Clone repository và mở thư mục gốc bằng Android Studio.
+2. Chọn JDK đi kèm làm Gradle JDK, cấu hình Android SDK và hoàn tất Gradle sync.
+3. Chọn emulator hoặc thiết bị Android đã kết nối, sau đó chạy cấu hình `app`.
+4. Trong ứng dụng, mở **Library → IELTS Packs → IELTS 3000 · 6.5–8.5** để xem bộ từ đầy đủ.
 
-Android Studio tạo tệp `local.properties` chứa cấu hình riêng của máy; tệp này không được đưa vào Git. Nếu build bằng dòng lệnh, cấu hình `ANDROID_HOME` hoặc tạo `local.properties` với đường dẫn SDK của máy đang dùng.
+### Dòng lệnh
 
-### Build bằng dòng lệnh
-
-Windows / PowerShell:
+Trên Windows, cấu hình `JAVA_HOME` trỏ tới JDK của Android Studio, sau đó chạy:
 
 ```powershell
-# Điều chỉnh đường dẫn nếu Android Studio được cài ở vị trí khác.
-$env:JAVA_HOME = 'C:\Program Files\Android\Android Studio\jbr'
 .\gradlew.bat :app:assembleDebug
 ```
 
-Lệnh tương đương trên macOS / Linux:
+Trên macOS hoặc Linux, cấu hình `JAVA_HOME` rồi chạy:
 
 ```sh
-# Cấu hình JAVA_HOME và đường dẫn Android SDK trước khi chạy.
 sh ./gradlew :app:assembleDebug
 ```
 
-APK được tạo tại `app/build/outputs/apk/debug/app-debug.apk`. Khi đã kết nối thiết bị và bật USB debugging, cài bằng lệnh:
+APK được tạo tại `app/build/outputs/apk/debug/app-debug.apk`. Khi đã bật USB debugging, dùng lệnh sau để cài hoặc cập nhật:
 
 ```sh
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
-Cũng có thể chuyển APK sang điện thoại Android rồi mở tệp để cài. Đây là bản ký bằng debug key, phục vụ phát triển và kiểm thử. APK được loại khỏi Git; hiện chưa có đường dẫn tải công khai.
+Đây là bản phát triển ký bằng debug key. APK và thông tin ký ứng dụng được loại khỏi Git. Đường dẫn SDK thuộc cấu hình riêng của máy, được đặt trong `local.properties` đã ignore hoặc trong biến môi trường.
 
-## Cấu trúc dự án
+## Duy trì bộ dữ liệu
 
-```text
-app/
-  schemas/                     Schema Room được lưu theo phiên bản
-  src/main/
-    assets/                    JSON từ vựng đã kiểm tra, đóng gói cùng app
-    java/com/lexidaily/app/
-      data/                    Entity Room, repository và seed importer
-      domain/                  Quy tắc học, lên lịch ôn và tiến trình
-      ui/                      Màn hình Compose, component và theme
-  src/test/                    Kiểm thử JVM cho bộ quy tắc học
-  src/androidTest/             Kiểm thử database, migration và giao diện
-data_pipeline/
-  scripts/                     Công cụ tạo và kiểm tra dữ liệu demo
-  normalized/                  Dữ liệu chuẩn hóa, đồng bộ với app assets
-  validation/                  Kiểm thử tính hợp lệ của dữ liệu
-scripts/verify.ps1             Điểm chạy kiểm tra tổng hợp trên Windows
-```
-
-Giao diện sử dụng ViewModel và repository với Room. Quy tắc học nằm trong lớp domain; WorkManager xử lý nhắc học tùy chọn. Tiến độ học được lưu cục bộ, không có backend ứng dụng hoặc tài khoản đám mây. TTS phụ thuộc giọng đọc đã cài trên thiết bị; nhắc học không bảo đảm chạy đúng phút.
-
-## Dữ liệu từ vựng
-
-Bộ dữ liệu đi kèm có **70 lexeme và 70 sense**, với định nghĩa và ví dụ được biên soạn riêng. Nhãn CEFR và mức liên quan IELTS là ước tính biên tập, không phải chứng nhận chính thức hoặc điểm band IELTS cho từng từ.
-
-Schema hỗ trợ truy xuất nguồn, liên kết chủ đề, bộ từ và nhiều lần xuất hiện theo nguồn. Có sẵn vị trí nguồn NGSL và NAWL nhưng **chưa đóng gói toàn bộ hai danh sách**, đồng thời không khẳng định từ demo thuộc các danh sách này. Bộ demo không chứa bài đọc Cambridge hoặc khai báo lần xuất hiện Cambridge đã xác minh.
-
-Tạo lại và kiểm tra dữ liệu demo:
+Các đầu vào được lưu trong repository cho phép tạo lại dữ liệu offline bằng thư viện chuẩn Python:
 
 ```sh
 python data_pipeline/scripts/build_seed.py
@@ -104,27 +101,62 @@ python data_pipeline/scripts/validate_seed.py
 python -m unittest discover -s data_pipeline/validation -v
 ```
 
-Công cụ tạo dữ liệu ghi đè cả `data_pipeline/normalized/` và `app/src/main/assets/` bằng bộ demo. Với bộ dữ liệu khác, chuẩn bị JSON cùng cấu trúc và kiểm tra cả hai bản trước khi build. Giữ ID ổn định, tăng phiên bản manifest nội dung ở cả hai bản, đồng thời duy trì thông tin nguồn và giấy phép. Seed importer cập nhật nội dung trong transaction, giữ tiến độ và lịch sử thưởng; migration Room giữ các bản ghi học hiện có.
+Công cụ tạo lại JSON chuẩn hóa, app assets, bản xuất JSONL và gói ZIP. Bộ kiểm tra xác nhận ID, nghĩa bắt buộc, trình độ, tham chiếu, từ mục tiêu trong ví dụ, giấy phép, bản xuất và tính đồng nhất giữa dữ liệu chuẩn hóa với app assets.
+
+Giữ ID ổn định khi sửa mục từ hiện có. Tăng phiên bản manifest nội dung khi phát hành thay đổi dữ liệu. Quy trình chọn nguồn, revision upstream, checksum và điều kiện phân phối nằm trong [tài liệu bộ dữ liệu](data_pipeline/README.md).
+
+## Kiến trúc
+
+```text
+app/
+  schemas/                       Schema Room có quản lý phiên bản
+  src/main/assets/               Từ vựng, bộ từ và thông báo nguồn đi kèm
+  src/main/java/com/lexidaily/app/
+    data/                        Entity Room, repository và công cụ nhập nội dung
+    domain/                      Quy tắc ôn tập, chọn từ và tiến trình
+    ui/                          Màn hình, component và theme Compose
+  src/test/                      Kiểm thử JVM cho bộ quy tắc học
+  src/androidTest/               Kiểm thử repository, migration và giao diện
+data_pipeline/
+  curated/                       Đầu vào biên soạn và lựa chọn nguồn có quản lý phiên bản
+  licenses/                      Ghi công và thông báo giấy phép nguồn
+  normalized/                    Dữ liệu đồng bộ với app assets
+  exports/                       Bản dữ liệu JSONL và ZIP
+  scripts/                       Công cụ tải, chọn, tạo và kiểm tra dữ liệu
+  validation/                    Kiểm thử dữ liệu
+scripts/verify.ps1               Điểm chạy kiểm tra trên Windows
+```
+
+Ứng dụng sử dụng **Kotlin, Jetpack Compose, Material 3, Room và WorkManager**. ViewModel và repository kết nối giao diện với dữ liệu cục bộ; quy tắc học nằm trong lớp domain. Nhắc học tùy chọn phụ thuộc cơ chế lập lịch Android; phát âm phụ thuộc dịch vụ và giọng TTS đã cài trên thiết bị.
 
 ## Kiểm thử
 
-Trên Windows, chạy kiểm tra dữ liệu, JVM tests, lint và build các APK debug:
+Trên Windows, chạy kiểm tra dữ liệu, JVM tests, lint và build APK ứng dụng/kiểm thử:
 
 ```powershell
 .\scripts\verify.ps1
 ```
 
-Chạy kiểm thử Android riêng trên emulator dành cho kiểm thử:
+Chạy instrumentation trên emulator hoặc thiết bị dành riêng cho kiểm thử:
 
 ```powershell
 .\gradlew.bat :app:connectedDebugAndroidTest --max-workers=1
 ```
 
-UI test đặt lại database ứng dụng để chạy lại onboarding. Dùng thiết bị thử nghiệm không có tiến độ học cần giữ.
+Bộ kiểm thử giao diện đặt lại database để chạy onboarding. Dùng thiết bị thử nghiệm không chứa tiến độ học cần giữ. Báo cáo được tạo tại `app/build/reports/`; kết quả instrumentation cũng được lưu trong `app/build/outputs/androidTest-results/` khi chạy qua Gradle.
 
-Các bộ kiểm thử bao phủ quy tắc học, lưu phiên, xử lý phần thưởng, migration database, kiểm tra dữ liệu và luồng giao diện chính. Báo cáo kiểm thử và lint được tạo trong `app/build/reports/` sau khi chạy các lệnh kiểm tra.
+Bản hiện tại đã được xác nhận với **12 kiểm thử dữ liệu**, **10 kiểm thử JVM**, các bản build APK debug và instrumentation trên Android API 36 bao phủ giao diện, migration cùng tám ca repository. Ca repository chỉ ôn tập được xác nhận bằng lượt chạy có chọn lọc sau khi cập nhật fixture dữ liệu. Lượt lint đầy đủ cho revision này chưa hoàn tất. Hành vi trên điện thoại thật chưa được xác nhận.
 
-## Phạm vi hiện tại
+## Phạm vi và hướng phát triển
 
-Bản MVP triển khai hành trình học cốt lõi. Bộ lên lịch ôn sử dụng heuristic riêng, chưa phải FSRS đã hiệu chỉnh. Widget, import dữ liệu trong app, sao lưu và khôi phục, chòm sao nâng cao, cùng hỗ trợ viết hoặc nói bằng AI thuộc các giai đoạn tiếp theo.
+LexiDaily hiện là MVP có hành trình học ngoại tuyến hoạt động hoàn chỉnh. Bộ lên lịch ôn dùng heuristic riêng, chưa phải FSRS đã hiệu chỉnh. Các hạng mục cần hoàn thiện gồm mở rộng và thẩm định nội dung, kiểm thử trên điện thoại thật và hoàn tất kiểm tra lint.
 
+Widget, nhập bộ dữ liệu trong app, sao lưu và khôi phục, tương tác chòm sao nâng cao, cùng hỗ trợ viết hoặc nói bằng AI hiện chưa được triển khai.
+
+## Giấy phép dữ liệu và ghi công
+
+Bộ dữ liệu từ vựng phái sinh và các mục từ biên soạn bổ sung được phân phối theo **[CC BY-SA 4.0](data_pipeline/licenses/CC-BY-SA-4.0.txt)**. Các nguồn gồm thichhoc-dict, CEFR-J, Octanove, Princeton WordNet, CMUdict và Wiktionary; thông báo giấy phép tương ứng được giữ lại.
+
+Đọc [phần ghi công đầy đủ](data_pipeline/licenses/ATTRIBUTION.txt) và [tài liệu nguồn](data_pipeline/README.md) trước khi phân phối lại dữ liệu. Điều khoản dữ liệu không thiết lập giấy phép riêng cho mã nguồn ứng dụng. Phần ghi công cũng có sẵn trong app tại **Library → IELTS Packs → Giấy phép và ghi công**.
+
+Bộ dữ liệu không chứa bài đọc Cambridge, transcript, answer key hay tuyên bố lần xuất hiện đã xác minh trong đề IELTS. NGSL và NAWL là vị trí nguồn chưa được đóng gói thành danh sách từ.
